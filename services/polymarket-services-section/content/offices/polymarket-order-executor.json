@@ -1,0 +1,22 @@
+{
+  "id": "polymarket-order-executor",
+  "name": "Polymarket US Order Executor",
+  "kind": "office",
+  "normative-structure": "The office answers for turning one admitted desk order request into one bounded Polymarket US API order under live credentials and policy, returning the venue's own receipt or refusal, and refusing every order while activation is refused — without ever deciding that trading happens or attesting its outcome.",
+  "deontic-profile": {
+    "executing-admitted-venue-orders": "duty"
+  },
+  "authority-scope": [
+    "./"
+  ],
+  "jurisdiction": "polymarket-venue-access-enterprise",
+  "x-provenance": {
+    "recorded-by": "union-recovery-agent session and Claude (Fable 5)",
+    "recorded-on": "2026-07-18",
+    "authority": "Leader instruction of 2026-07-18 to establish event-contract arbitrage enterprises and continue development; KYC, funding, and live activation remain Leader-reserved"
+  },
+  "theory-basis": [
+    "rendanheyi/ren-dan-chou: an order executes only under Leader-activated authority; refusal while activation is refused is the office working",
+    "predicated-governance: office-as-double-settlement — admitted request in, venue receipt out, no assertion"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "keeping-venue-account-custody",
+  "name": "keep Kalshi account custody",
+  "authority": "emsenn",
+  "work": "keeping-venue-account-custody",
+  "claim": "leader-account-and-capital-authority",
+  "delegation": false,
+  "skills": [
+    "keeping-venue-account-custody"
+  ]
+}
