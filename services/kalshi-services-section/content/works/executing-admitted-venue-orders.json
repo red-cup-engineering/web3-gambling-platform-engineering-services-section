@@ -1,8 +1,0 @@
-{
-  "id": "executing-admitted-venue-orders",
-  "name": "execute one admitted Kalshi order",
-  "from": "one ActivityStreams order request from the desk citing a qualified pair, while activation is live",
-  "to": "one bounded Kalshi API order and the venue's own receipt or refusal, appended to dated records",
-  "cost": "venue fees, API writes, and credential risk",
-  "otherwise": "no order exists; the venue relationship stays read-only"
-}
