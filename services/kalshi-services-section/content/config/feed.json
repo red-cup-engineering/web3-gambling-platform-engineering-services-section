@@ -1,7 +1,0 @@
-{
-  "base": "https://api.elections.kalshi.com/trade-api/v2",
-  "websocket": "wss://api.elections.kalshi.com/trade-api/ws/v2",
-  "demo": "https://external-api.demo.kalshi.co/trade-api/v2",
-  "auth": "API key id plus RSA private-key request signing; market data requires no credentials",
-  "demoNote": "documented demo host per docs.kalshi.com; the previously recorded demo-api.kalshi.co also responds but is undocumented"
-}
