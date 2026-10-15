@@ -7,5 +7,12 @@
   "exports": {
     "./orders": "./scripts/orders.mjs",
     "./package.json": "./package.json"
-  }
+  },
+  "private": false,
+  "files": [
+    "package.json",
+    "README*",
+    "LICENSE*",
+    "scripts"
+  ]
 }
