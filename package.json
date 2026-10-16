@@ -1,6 +1,6 @@
 {
   "name": "@red-cup-engineering/web3-gambling-platform-services-section",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Web3 gambling platform services: the venue-independent order-placement-admission mechanism shared by this section's sovereign venue-access settlements (kalshi-services-section, polymarket-services-section).",
   "license": "UNLICENSED",
