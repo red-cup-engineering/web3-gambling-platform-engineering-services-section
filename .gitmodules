@@ -1,0 +1,6 @@
+[submodule "services/web-platform-services-section/services/web3-platform-services-section/web3-gambling-platform-services-section/services/kalshi-services-section"]
+	path = services/kalshi-services-section
+	url = https://github.com/red-cup-engineering/kalshi-services-section.git
+[submodule "services/web-platform-services-section/services/web3-platform-services-section/web3-gambling-platform-services-section/services/polymarket-services-section"]
+	path = services/polymarket-services-section
+	url = https://github.com/red-cup-engineering/polymarket-services-section.git
