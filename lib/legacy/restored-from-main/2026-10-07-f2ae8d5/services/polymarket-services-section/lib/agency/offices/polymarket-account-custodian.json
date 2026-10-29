@@ -1,0 +1,22 @@
+{
+  "id": "polymarket-account-custodian",
+  "name": "Polymarket US Account Custodian",
+  "kind": "office",
+  "normative-structure": "The office answers for the Polymarket US account's credential custody, activation state, funding-rail records, and venue statements — holding activation refused until the Leader records credentials and authorizes live operation, and admitting venue statements as the only evidence of balances and fills.",
+  "deontic-profile": {
+    "keeping-venue-account-custody": "duty"
+  },
+  "authority-scope": [
+    "./"
+  ],
+  "jurisdiction": "polymarket-venue-access-enterprise",
+  "x-provenance": {
+    "recorded-by": "union-recovery-agent session and Claude (Fable 5)",
+    "recorded-on": "2026-07-18",
+    "authority": "Leader instruction of 2026-07-18 to establish event-contract arbitrage enterprises and continue development; KYC, funding, and live activation remain Leader-reserved"
+  },
+  "theory-basis": [
+    "huidu-guanli: 账实相符 — balances and fills are what the venue's statements say, never what local code asserts",
+    "predicated-governance: credential custody seats in exactly one settlement"
+  ]
+}

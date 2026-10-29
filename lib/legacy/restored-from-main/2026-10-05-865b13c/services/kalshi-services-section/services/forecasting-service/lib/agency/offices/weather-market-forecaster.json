@@ -1,0 +1,17 @@
+{
+  "id": "weather-market-forecaster",
+  "name": "Weather Market Forecaster",
+  "kind": "office",
+  "normative-structure": "The office answers for the house's forecast on every configured Kalshi weather market each day and for scoring each forecast once against the market's settled result, so the calibration record the stake path reads is current and honest.",
+  "deontic-profile": {
+    "forecasting-weather-markets": "duty"
+  },
+  "authority-scope": [
+    "./"
+  ],
+  "jurisdiction": "forecasting",
+  "x-provenance": {
+    "recorded-by": "claude-opus-5-5",
+    "recorded-on": "2026-09-26"
+  }
+}

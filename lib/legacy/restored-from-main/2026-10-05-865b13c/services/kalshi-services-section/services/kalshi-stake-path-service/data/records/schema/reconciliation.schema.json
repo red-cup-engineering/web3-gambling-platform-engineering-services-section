@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://registry.561.group/@red-cup-engineering/kalshi-stake-path-service/data/records/schema/reconciliation.schema.json",
+  "title": "KalshiStakeReconciliation",
+  "description": "One matched pair booking the venue instruction against the observed fill or Kalshi settlement result, and the realized P&L it contributes to the reference class's running total.",
+  "type": "object",
+  "required": ["type", "version", "venueInstructionId", "referenceClass", "outcome", "realizedPnlUsd", "reconciledAt"],
+  "additionalProperties": false,
+  "properties": {
+    "type": { "const": "KalshiStakeReconciliation" },
+    "version": { "const": 1 },
+    "venueInstructionId": { "type": "string", "minLength": 1 },
+    "acknowledgementId": { "type": ["string", "null"] },
+    "marketTicker": { "type": "string", "minLength": 1 },
+    "referenceClass": { "type": "string", "minLength": 1 },
+    "outcome": { "type": "string", "enum": ["yes", "no", "unresolved"], "description": "Kalshi's own settlement result; unresolved when the market has not settled yet." },
+    "side": { "type": "string", "enum": ["yes", "no"] },
+    "contracts": { "type": "integer", "minimum": 0 },
+    "priceCents": { "type": "integer", "minimum": 1, "maximum": 99 },
+    "realizedPnlUsd": { "type": "string", "pattern": "^-?[0-9]+(\\.[0-9]+)?$", "description": "Exact decimal string; 0 while outcome is unresolved." },
+    "reconciledAt": { "type": "string", "format": "date-time" }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "rosebud-sioux-tribe-president-election-2026",
+  "title": "Will the Rosebud Sioux Tribe hold an election for President in 2026?",
+  "resolutionCriteria": "Resolves YES if the Rosebud Sioux Tribe Election Commission certifies a Presidential election held in 2026, per the Commission's own announcement or Indianz.com / Native News Online reporting; NO otherwise by 2026-12-31.",
+  "openAt": "2026-09-05T00:00:00Z",
+  "closeAt": "2026-11-01T00:00:00Z",
+  "resolveAt": "2026-12-31T00:00:00Z",
+  "sourcePlatform": "indian-country.tribal-elections",
+  "falsifier": "Wrong if the Election Commission's own certification or Indianz.com/Native News Online reporting states the opposite of the recorded probability's implied side."
+}

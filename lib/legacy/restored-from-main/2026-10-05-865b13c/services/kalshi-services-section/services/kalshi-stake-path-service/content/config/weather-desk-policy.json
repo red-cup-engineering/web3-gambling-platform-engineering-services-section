@@ -1,0 +1,70 @@
+{
+  "type": "KalshiWeatherDeskPolicy",
+  "version": 2,
+  "strategy": "tail-premium",
+  "venue": "kalshi",
+  "principal": {
+    "actorId": "emsenn",
+    "role": "founder"
+  },
+  "signerHost": "bare-cedar-fog",
+  "bankrollUsd": 25,
+  "certification": {
+    "maxModelProbability": {
+      "high": 0.01,
+      "low": 0.005
+    },
+    "minYesPrice": 0.02,
+    "maxYesPrice": 0.06,
+    "minEdge": 0.015,
+    "maxGuidanceAgeHours": 8
+  },
+  "windows": {
+    "high": {
+      "dayBeforeFrom": "12:00",
+      "sameDayUntil": "11:00"
+    },
+    "low": {
+      "dayBeforeFrom": "12:00",
+      "dayBeforeUntil": "23:00"
+    }
+  },
+  "limits": {
+    "perEventFraction": 0.5,
+    "perSettlementDateFraction": 0.75,
+    "maxOpenFraction": 1.0,
+    "minCashUsd": 0
+  },
+  "halts": {
+    "equityFloorUsd": 5,
+    "maxTailLossesIn30Days": 3,
+    "basis": "The equity floor is the envelope's automatic breaker, not bankroll preservation (full Kelly drops to half its peak about half the time). The tail-loss count is the edge's falsifier: at ~150 fills a month, 3 losses in 30 days happens about 4% of the time at the measured 0.5% rate and about 72% of the time at the ~2.5% breakeven."
+  },
+  "orders": {
+    "ttlMinutes": 40,
+    "refreshWithinMinutes": 15,
+    "basis": "Every order expires on its own, so a stopped desk leaves nothing resting for long; the ten-minute cycle re-rests an order before it lapses."
+  },
+  "evidence": "Backtest 2026-08-05..10-02 on Kalshi's settled results (forecasting-service content/config/temperature-markets.json records the model and its fit): at model p <= 0.01 (high) / 0.005 (low) and ask <= 0.05, 0 of 422 high and 1 of 448 low certified tails settled yes; resting sells filled about 60% (high) and 20% (low) of the time and earned +2.6c and +3.5c a contract.",
+  "riskCapital": {
+    "source": "venue equity (cash + positions + resting collateral)",
+    "survivalCapitalUsd": 0,
+    "basis": "The whole Kalshi balance is the founder's walled-off, re-seedable risk stake (economics note 2026-09-01, agent + liquid + time). Kalshi contracts are fully collateralized, so no position can owe beyond its stake: inside that wall the desk sizes at full Kelly on the measured edge."
+  },
+  "lanes": {
+    "weather-tail-premium": {
+      "fraction": 1.0,
+      "status": "measured",
+      "evidence": "backtest 2026-08-05..10-02 (see evidence)"
+    }
+  },
+  "sizing": {
+    "rule": "full Kelly per certified tail (position-sizing-service kellyFraction) on a conservative loss rate, simultaneous bets scaled proportionally into the settlement-date budget",
+    "kellyMultiple": 1.0,
+    "lossRateFloor": {
+      "high": 0.01,
+      "low": 0.012
+    },
+    "lossRateFloorBasis": "95% upper bounds on the backtest's settled-yes rate: 0 of 422 high (rule of three 0.7%), 1 of 448 low (1.1%)."
+  }
+}

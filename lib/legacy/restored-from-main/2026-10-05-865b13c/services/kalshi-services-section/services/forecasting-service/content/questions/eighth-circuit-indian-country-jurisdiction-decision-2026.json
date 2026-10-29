@@ -1,0 +1,10 @@
+{
+  "id": "eighth-circuit-indian-country-jurisdiction-decision-2026",
+  "title": "Will the Eighth Circuit issue a published decision in an Indian Country criminal jurisdiction case before 2027-01-01?",
+  "resolutionCriteria": "Resolves YES if the U.S. Court of Appeals for the Eighth Circuit issues a published opinion deciding a case whose central question is Indian Country criminal jurisdiction (18 U.S.C. 1151-1153 or the McGirt/Castro-Huerta line), per the court's own published-opinions docket or Turtle Talk's case tracker, before 2027-01-01; NO otherwise.",
+  "openAt": "2026-09-05T00:00:00Z",
+  "closeAt": "2026-12-15T00:00:00Z",
+  "resolveAt": "2027-01-01T00:00:00Z",
+  "sourcePlatform": "indian-country.court-cases",
+  "falsifier": "Wrong if the Eighth Circuit's own published-opinions docket or Turtle Talk's tracker disagrees with the recorded probability's implied side."
+}

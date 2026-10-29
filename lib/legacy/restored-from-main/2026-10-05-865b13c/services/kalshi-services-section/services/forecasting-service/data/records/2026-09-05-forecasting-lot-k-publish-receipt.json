@@ -1,0 +1,22 @@
+{
+  "kind": "npm.publish-receipt",
+  "packageName": "@red-cup-engineering/forecasting",
+  "priorVersion": "0.1.1",
+  "publishedVersion": "0.2.0",
+  "changeKind": "additive",
+  "changeSummary": "Adds apps/forecast-weather-markets-cli.mjs (Lot K: the calibration-gated Kalshi weather-market forecasting loop, three-ways note instrument 2), content/config/weather-markets.json, and three new dependencies (observe-set-of-kalshi-weather-markets-service 0.2.0, derive-set-of-nws-temperature-forecasts-service 0.1.0, position-sizing-service 0.2.0). Also ships pre-existing, previously-unpublished source drift (scripts/*.mjs already used @red-cup-engineering/resolve-filepath-service in place of node:path resolve before this lot touched the package).",
+  "diffAgainstPublishedTarball": "diffed 0.1.1's npm-pack tarball against source: only new file was apps/forecast-weather-markets-cli.mjs plus package.json's version/deps/scripts bump; five scripts/*.mjs differed only in a pre-existing node:path->resolve-filepath-service house-hand substitution unrelated to this lot",
+  "registry": "https://registry.561.group",
+  "freshInstallVerification": {
+    "command": "npm test",
+    "registryUsed": "https://registry.561.group",
+    "testsRun": 38,
+    "testsPassed": 38,
+    "testsFailed": 0
+  },
+  "postPublishFreshInstall": {
+    "command": "npm install @red-cup-engineering/forecasting@0.2.0 --registry=https://registry.561.group",
+    "result": "added 38 packages, 0 vulnerabilities, all lockfile resolved URLs point at https://registry.561.group"
+  },
+  "recordedAt": "2026-09-05T00:00:00Z"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "forecasting-weather-markets",
+  "name": "forecast and score Kalshi weather markets",
+  "authority": "emsenn",
+  "work": "forecasting-weather-markets",
+  "from": "National Weather Service forecasts and Kalshi's open and settled weather markets",
+  "to": "a daily house forecast per market and one calibration row per settled forecast",
+  "cost": "API reads",
+  "otherwise": "the stake path has no calibration record and never finds an edge",
+  "claim": "founder",
+  "delegation": true,
+  "skills": [
+    "forecasting-weather-markets"
+  ],
+  "x-provenance": {
+    "recorded-by": "claude-opus-5-5",
+    "recorded-on": "2026-09-26"
+  }
+}

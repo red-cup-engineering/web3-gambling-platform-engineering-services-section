@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://registry.561.group/@red-cup-engineering/kalshi-stake-path-service/data/records/schema/authority-envelope.schema.json",
+  "title": "KalshiStakeAuthorityEnvelope",
+  "description": "The deterministic authority envelope for the Kalshi stake path, held outside the model: venue, admitted series, per-order and cumulative caps, drawdown floor, expiry, kill path, and signer, armed false by default. The founder is named as principal by actor id only, never by credential.",
+  "type": "object",
+  "required": ["type", "version", "venue", "admittedSeries", "perOrderCapUsd", "cumulativeCapUsd", "drawdownFloorFraction", "sleeve", "expiry", "killPath", "signer", "principal", "armed"],
+  "additionalProperties": false,
+  "properties": {
+    "type": { "const": "KalshiStakeAuthorityEnvelope" },
+    "version": { "const": 1 },
+    "venue": { "const": "kalshi" },
+    "admittedSeries": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Kalshi series tickers this envelope admits (e.g. KXHIGHNY). A market whose series is not in this list is refused regardless of every other bound."
+    },
+    "perOrderCapUsd": { "type": "string", "pattern": "^[0-9]+(\\.[0-9]+)?$", "description": "Exact decimal string: the maximum USD stake any single order may place." },
+    "cumulativeCapUsd": { "type": "string", "pattern": "^[0-9]+(\\.[0-9]+)?$", "description": "Exact decimal string: the maximum total USD stake this envelope may place across its whole armed lifetime." },
+    "drawdownFloorFraction": { "type": "number", "exclusiveMinimum": 0, "maximum": 1, "description": "Fraction of the sleeve's riskCapital that, lost cumulatively (a fall from the sleeve equity high-water mark), trips the circuit breaker." },
+    "sleeve": {
+      "type": "object",
+      "required": ["riskCapital", "survivalCapital"],
+      "additionalProperties": true,
+      "properties": {
+        "riskCapital": { "type": "string", "pattern": "^[0-9]+(\\.[0-9]+)?$" },
+        "survivalCapital": { "type": "string", "pattern": "^[0-9]+(\\.[0-9]+)?$" },
+        "stage": { "type": ["integer", "null"], "minimum": 1, "maximum": 5 },
+        "barrierJoules": { "type": ["object", "null"] }
+      },
+      "description": "The bounded-stake sleeve, in the position-sizing-service sleeve shape (@red-cup-engineering/position-sizing-service 0.3.1): riskCapital is walled, losable-to-zero, re-seedable capital; survivalCapital is never risked."
+    },
+    "expiry": { "type": "string", "format": "date-time", "description": "ISO 8601 instant after which this envelope refuses every stake regardless of every other bound, until re-armed with a new expiry." },
+    "killPath": { "type": "string", "minLength": 1, "description": "Names the automatic circuit breaker that unarms this envelope (halt-stake-envelope.mjs, run by a timer) -- never a request for permission." },
+    "signer": {
+      "type": "object",
+      "required": ["host"],
+      "additionalProperties": true,
+      "properties": {
+        "host": { "type": "string", "minLength": 1, "description": "The machine holding the Kalshi signing credential (KALSHI_API_KEY_ID / KALSHI_PRIVATE_KEY_PATH), independent of the model." }
+      }
+    },
+    "principal": {
+      "type": "object",
+      "required": ["actorId"],
+      "additionalProperties": true,
+      "properties": {
+        "actorId": { "type": "string", "minLength": 1, "description": "The founder named by actor id (house convention: \"emsenn\"), never by credential or key material." },
+        "role": { "type": "string" }
+      }
+    },
+    "armed": { "type": "boolean", "description": "False by default and after any halt. True only after the founder's one arming act (KYC complete, credentials placed on the signer host, this field set true)." },
+    "armedAt": { "type": ["string", "null"], "format": "date-time" },
+    "haltedAt": { "type": ["string", "null"], "format": "date-time" },
+    "haltReason": { "type": ["string", "null"] }
+  }
+}

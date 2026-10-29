@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://registry.561.group/@red-cup-engineering/kalshi-stake-path-service/data/records/schema/venue-instruction.schema.json",
+  "title": "KalshiStakeVenueInstruction",
+  "description": "The Kalshi order shape built from one mandate-admitted stake intent (ticker/action/side/count/type/priceCents/clientOrderId, the exact createOrder body @red-cup-engineering/kalshi-services-section's src/client.mjs already sends), plus the placement disposition (paper, unarmed, no-credential, or live) and the acknowledgement/reconciliation this instruction resolved to.",
+  "type": "object",
+  "required": ["type", "version", "intentId", "envelopeSnapshot", "order", "mode", "recordedAt"],
+  "additionalProperties": false,
+  "properties": {
+    "type": { "const": "KalshiStakeVenueInstruction" },
+    "version": { "const": 1 },
+    "intentId": { "type": "string", "minLength": 1 },
+    "mandateCheckId": { "type": ["string", "null"] },
+    "envelopeSnapshot": {
+      "type": "object",
+      "description": "The envelope fields relevant to this instruction, captured at build time (never the live mutable file) so the receipt is self-contained.",
+      "required": ["armed", "expiry"],
+      "properties": {
+        "armed": { "type": "boolean" },
+        "expiry": { "type": "string" }
+      }
+    },
+    "order": {
+      "type": "object",
+      "required": ["ticker", "action", "side", "count", "type", "priceCents", "clientOrderId"],
+      "additionalProperties": false,
+      "properties": {
+        "ticker": { "type": "string", "minLength": 1 },
+        "action": { "const": "buy" },
+        "side": { "type": "string", "enum": ["yes", "no"] },
+        "count": { "type": "integer", "minimum": 1 },
+        "type": { "const": "limit" },
+        "priceCents": { "type": "integer", "minimum": 1, "maximum": 99 },
+        "clientOrderId": { "type": "string", "minLength": 1, "maxLength": 64 }
+      }
+    },
+    "mode": { "type": "string", "enum": ["paper", "unarmed", "no-credential", "live"], "description": "paper: --paper requested. unarmed: envelope.armed !== true. no-credential: KALSHI_API_KEY_ID/KALSHI_PRIVATE_KEY_PATH absent. live: the venue was actually called." },
+    "placed": { "type": "boolean" },
+    "acknowledgementId": { "type": ["string", "null"], "description": "This instruction's acknowledgement record id, present only when mode is live." },
+    "venueResponseType": { "type": ["string", "null"], "enum": ["Accept", "Reject", null] },
+    "venueResponseCode": { "type": ["string", "null"] },
+    "recordedAt": { "type": "string", "format": "date-time" }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "jsnode.fabrication-receipt",
+  "packageName": "@red-cup-engineering/observe-set-of-kalshi-weather-markets-service",
+  "packageVersion": "0.1.0",
+  "sourceDigest": "sha256:99d3ae606bd09bd4945867b60f68f5e5b4a389c15dacb9a113b692bb66d9b698",
+  "specificationDigest": "sha256:4247c299ad89812d8b33e22176445a926a45e0b45c1f56527fc250d201a2e044",
+  "destination": "lib/emsenn/services/561-group/services/engineering-services-section/services/computer-engineering-services-section/services/computer-systems-engineering-services-section/services/web-services-section/services/web-platform-services-section/services/web3-platform-services-section/web3-gambling-platform-services-section/services/kalshi-services-section/services/observe-set-of-kalshi-weather-markets-service",
+  "workOrder": "content/text/documents/specifications/observe-set-of-kalshi-weather-markets-work-order.md",
+  "assays": [
+    {"name": "syntax", "status": "passed"},
+    {"name": "the-rule", "status": "passed", "scripts": 1, "lines": 123},
+    {"name": "tests", "status": "passed", "paths": ["test/observe-set-of-kalshi-weather-markets-faces.test.mjs", "test/observe-set-of-kalshi-weather-markets.test.mjs"]},
+    {"name": "pack", "status": "passed", "filename": "red-cup-engineering-observe-set-of-kalshi-weather-markets-service-0.1.0.tgz", "digest": "sha256:433c49b3155aa4dbb5b0355d731692bb68f73f0386c61fd9c4aa08bd13349173"},
+    {"name": "clean-installation", "status": "passed", "javascriptFiles": 1, "reachableJavascriptFiles": 1},
+    {"name": "import-face", "status": "passed", "examples": 2},
+    {"name": "command-face", "status": "passed", "examples": 2},
+    {"name": "help", "status": "passed"}
+  ],
+  "registryPublication": {
+    "registry": "https://registry.561.group",
+    "tarballDiffClassification": "first-publish",
+    "journalReceiptId": "ni:///sha-256;8PhprhWSRTVzcOJ4oaKnxQqj0P1v13t4eD9hFUzZcac"
+  },
+  "freshInstallVerification": {
+    "command": "npm test",
+    "registryUsed": "https://registry.561.group",
+    "testsRun": 8,
+    "testsPassed": 8,
+    "testsFailed": 0
+  },
+  "recordedAt": "2026-09-05T00:00:00Z"
+}

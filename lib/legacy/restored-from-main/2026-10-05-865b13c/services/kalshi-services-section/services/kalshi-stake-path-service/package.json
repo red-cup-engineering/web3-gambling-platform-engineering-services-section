@@ -1,0 +1,50 @@
+{
+  "name": "@red-cup-engineering/kalshi-stake-path-service",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "The Kalshi stake path (three-ways note, instrument 2): a calibration-earned forecast becomes a sleeve-sized stake intent, a mandate check against a deterministic authority envelope held outside the model, and (only when armed and credentialed) a Kalshi order through the venue's own existing order client -- paper until the founder arms it, and never a second Kalshi execution path.",
+  "exports": {
+    "./authority-envelope": "./src/authority-envelope.mjs",
+    "./stake-intent": "./src/stake-intent.mjs",
+    "./venue-instruction": "./src/venue-instruction.mjs",
+    "./derive-stake-intent": "./scripts/derive-stake-intent.mjs",
+    "./check-stake-mandate": "./scripts/check-stake-mandate.mjs",
+    "./place-stake-order": "./scripts/place-stake-order.mjs",
+    "./reconcile-stake-fill": "./scripts/reconcile-stake-fill.mjs",
+    "./halt-stake-envelope": "./scripts/halt-stake-envelope.mjs",
+    "./package.json": "./package.json",
+    "./tail-premium-policy": "./src/tail-premium-policy.mjs"
+  },
+  "bin": {
+    "kalshi-stake-cli": "./apps/kalshi-stake-cli.mjs",
+    "kalshi-weather-desk": "./apps/kalshi-weather-desk.mjs"
+  },
+  "scripts": {
+    "check": "node --check src/authority-envelope.mjs && node --check src/stake-intent.mjs && node --check src/venue-instruction.mjs && node --check src/journal.mjs && node --check scripts/derive-stake-intent.mjs && node --check scripts/check-stake-mandate.mjs && node --check scripts/place-stake-order.mjs && node --check scripts/reconcile-stake-fill.mjs && node --check scripts/halt-stake-envelope.mjs && node --check apps/kalshi-stake-cli.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/semiotic-eavt-services-section": "workspace:*",
+    "@red-cup-engineering/cryptographic-computer-data-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/eavt": "workspace:*",
+    "@red-cup-engineering/energy-bank": "workspace:*",
+    "@red-cup-engineering/forecasting": "workspace:*",
+    "@red-cup-engineering/javascript-file-services-section": "workspace:*",
+    "@red-cup-engineering/kalshi-services-section": "workspace:*",
+    "@red-cup-engineering/position-sizing-service": "workspace:*",
+    "@red-cup-engineering/witness-journal-document-service": "workspace:*"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "files": [
+    "src/",
+    "scripts/",
+    "apps/",
+    "content/",
+    "data/records/schema/",
+    "README.md",
+    "package.json"
+  ],
+  "license": "UNLICENSED"
+}

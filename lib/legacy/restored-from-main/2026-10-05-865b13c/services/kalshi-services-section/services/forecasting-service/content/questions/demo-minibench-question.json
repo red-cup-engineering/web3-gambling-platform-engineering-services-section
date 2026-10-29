@@ -1,0 +1,9 @@
+{
+  "id": "synthetic-demo-fed-rate-cut-september-2026",
+  "title": "[SYNTHETIC DEMO QUESTION -- NOT a real Metaculus question] Will the U.S. Federal Reserve announce a federal funds rate cut at its next scheduled FOMC meeting?",
+  "resolutionCriteria": "This is a synthetic demo question authored for this package's pipeline demo run, modeled on Metaculus AIB/MiniBench's question format (short title, explicit binary resolution rule, near-term close/resolve dates). It is NOT a live question pulled from metaculus.com and must never be treated as one. Were it real, it would resolve YES if the FOMC's post-meeting statement announces any decrease to the target federal funds rate range, and NO otherwise.",
+  "openAt": "2026-08-31T00:00:00.000Z",
+  "closeAt": "2026-09-14T00:00:00.000Z",
+  "resolveAt": "2026-09-17T00:00:00.000Z",
+  "sourcePlatform": "metaculus-aib-minibench"
+}

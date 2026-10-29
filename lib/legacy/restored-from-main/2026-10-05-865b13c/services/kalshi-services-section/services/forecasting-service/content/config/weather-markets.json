@@ -1,0 +1,15 @@
+{
+  "citySeries": [
+    { "seriesTicker": "KXHIGHNY", "gridId": "OKX", "gridX": 33, "gridY": 42 },
+    { "seriesTicker": "KXHIGHCHI", "gridId": "LOT", "gridX": 76, "gridY": 73 },
+    { "seriesTicker": "KXHIGHTHOU", "gridId": "HGX", "gridX": 63, "gridY": 95 },
+    { "seriesTicker": "KXDENHIGH", "gridId": "BOU", "gridX": 63, "gridY": 62 }
+  ],
+  "errorModel": {
+    "stdDevByLeadDays": { "0": 2, "1": 2.5, "2": 3, "3": 3.5, "4": 4 },
+    "stdDevFallback": 5
+  },
+  "minResolvedForecasts": 30,
+  "paperRiskCapital": "100",
+  "kellyMultiple": 1
+}

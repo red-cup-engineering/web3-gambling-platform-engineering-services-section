@@ -1,0 +1,29 @@
+{
+  "name": "@red-cup-engineering/read-kalshi-market-service",
+  "version": "0.1.0",
+  "description": "Reads Kalshi's public trade-api v2 GET /markets/{ticker} and GET /markets/{ticker}/orderbook endpoints (no credentials required for market data) for one declared market ticker, and returns one normalized KalshiMarketRead record with the market's current price fields, its orderbook, and fetch-time/source witnesses.",
+  "type": "module",
+  "private": false,
+  "license": "UNLICENSED",
+  "exports": "./scripts/read-kalshi-market.mjs",
+  "bin": {
+    "read-kalshi-market": "scripts/read-kalshi-market.mjs"
+  },
+  "files": [
+    "scripts",
+    "README.md",
+    "package.json"
+  ],
+  "dependencies": {
+    "@red-cup-engineering/javascript-node-services-section": "0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "check": "node --check scripts/read-kalshi-market.mjs",
+    "test": "node --test test/*.test.mjs",
+    "pack:dry-run": "npm pack --dry-run --ignore-scripts"
+  },
+  "engines": {
+    "node": ">=24.2.0"
+  }
+}

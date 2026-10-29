@@ -1,0 +1,29 @@
+{
+  "name": "@red-cup-engineering/place-kalshi-order-service",
+  "version": "0.1.0",
+  "description": "Places one order on Kalshi's trade-api v2, behind the venue's activation gate -- or refuses with venue-not-activated when no live, credentialed activation exists.",
+  "type": "module",
+  "private": false,
+  "license": "UNLICENSED",
+  "exports": "./scripts/place-kalshi-order.mjs",
+  "bin": {
+    "place-kalshi-order": "scripts/place-kalshi-order.mjs"
+  },
+  "files": [
+    "scripts",
+    "README.md",
+    "package.json"
+  ],
+  "dependencies": {
+    "@red-cup-engineering/javascript-node-services-section": "0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "check": "node --check scripts/place-kalshi-order.mjs",
+    "test": "node --test test/*.test.mjs",
+    "pack:dry-run": "npm pack --dry-run --ignore-scripts"
+  },
+  "engines": {
+    "node": ">=24.2.0"
+  }
+}

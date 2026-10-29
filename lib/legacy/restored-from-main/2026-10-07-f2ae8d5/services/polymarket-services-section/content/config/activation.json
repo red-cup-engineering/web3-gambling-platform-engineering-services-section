@@ -1,0 +1,14 @@
+{
+  "status": "open-when-credentialed",
+  "orderExecution": "live",
+  "requiredEnvironment": [
+    "POLYMARKET_US_API_KEY_ID",
+    "POLYMARKET_US_PRIVATE_KEY_PATH"
+  ],
+  "neverEvidence": "The presence of code or an environment variable is not evidence of an account, balance, fill, or profit; only venue-issued statements are.",
+  "accountSetup": [
+    "Open and verify a Polymarket US account (photo ID, SSN, residency proof, selfie in the iOS app)",
+    "Fund it by ACH or USDC",
+    "Generate a developer-portal API key and put POLYMARKET_US_API_KEY_ID and POLYMARKET_US_PRIVATE_KEY_PATH in the signer host's environment file"
+  ]
+}

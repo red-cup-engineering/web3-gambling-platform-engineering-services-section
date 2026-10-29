@@ -1,0 +1,49 @@
+{
+  "name": "@red-cup-engineering/forecasting",
+  "version": "0.5.2",
+  "type": "module",
+  "description": "Forecasting as skill-for-fee: calibrated-judgment forecasting sold as a service, the explicit inversion of capital-at-risk trading -- question ingestion, metrologic bilattice evidence fusion, proper scoring rules, and calibration tracking, with no capital ever placed at risk. Also composes the calibration-gated Kalshi weather-market forecasting loop (forecast-weather-markets-cli.mjs).",
+  "exports": {
+    "./forecasting": "./src/forecasting.mjs",
+    "./evidence-fusion": "./src/evidence-fusion.mjs",
+    "./forecast-weather-markets-cli": "./apps/forecast-weather-markets-cli.mjs",
+    "./forecasting-daily-cycle": "./apps/forecasting-daily-cycle.mjs",
+    "./record-forecast": "./scripts/record-forecast.mjs",
+    "./derive-calibration-record": "./scripts/derive-calibration-record.mjs",
+    "./resolve-set-of-forecast-questions": "./scripts/resolve-set-of-forecast-questions.mjs",
+    "./package.json": "./package.json",
+    "./temperature-distribution": "./src/temperature-distribution.mjs",
+    "./temperature-market-model": "./src/temperature-market-model.mjs",
+    "./nbm-station-guidance": "./src/nbm-station-guidance.mjs",
+    "./station-observations": "./src/station-observations.mjs"
+  },
+  "scripts": {
+    "check": "node --check src/forecasting.mjs && node --check src/evidence-fusion.mjs && node --check scripts/ingest-forecasting-question.mjs && node --check scripts/fuse-forecast.mjs && node --check scripts/record-forecast.mjs && node --check scripts/score-forecast.mjs && node --check scripts/derive-calibration-record.mjs && node --check scripts/resolve-set-of-forecast-questions.mjs && node --check apps/forecasting-cli.mjs && node --check apps/forecast-weather-markets-cli.mjs && node --check apps/forecasting-daily-cycle.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@red-cup-engineering/metrologic": "workspace:*",
+    "@red-cup-engineering/semiotic-eavt-services-section": "workspace:*",
+    "@red-cup-engineering/computer-data-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/computer-text-content-engineering-services-section": "workspace:*",
+    "@red-cup-engineering/javascript-file-services-section": "workspace:*",
+    "@red-cup-engineering/javascript-node-services-section": "workspace:*",
+    "@red-cup-engineering/kalshi-services-section": "workspace:*",
+    "@red-cup-engineering/position-sizing-service": "workspace:*",
+    "@red-cup-engineering/witness-journal-document-service": "workspace:*",
+    "@red-cup-engineering/signcell": "workspace:*",
+    "@red-cup-engineering/signchain": "workspace:*"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "files": [
+    "src/",
+    "scripts/",
+    "apps/",
+    "content/",
+    "test/",
+    "package.json"
+  ],
+  "license": "UNLICENSED"
+}

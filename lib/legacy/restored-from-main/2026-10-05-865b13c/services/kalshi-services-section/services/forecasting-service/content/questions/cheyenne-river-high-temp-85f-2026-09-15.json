@@ -1,0 +1,18 @@
+{
+  "id": "cheyenne-river-high-temp-85f-2026-09-15",
+  "title": "Will NWS report a high of 85F or higher near Eagle Butte, SD (Cheyenne River) on 2026-09-15?",
+  "resolutionCriteria": "Resolves YES if NWS (forecast office Aberdeen, gridpoint nearest Eagle Butte SD at approx 44.99N -101.24W) reports a high of 85F or higher for 2026-09-15 via api.weather.gov climate/forecast data; NO otherwise.",
+  "openAt": "2026-09-05T00:00:00Z",
+  "closeAt": "2026-09-14T00:00:00Z",
+  "resolveAt": "2026-09-16T00:00:00Z",
+  "sourcePlatform": "indian-country.plains-weather",
+  "falsifier": "Wrong if the NWS-reported high for that date/gridpoint disagrees with the stated probability's implied side.",
+  "resolutionParameters": {
+    "lat": 44.99,
+    "lon": -101.24,
+    "targetDate": "2026-09-15",
+    "metric": "maxTemperature",
+    "comparison": "gte",
+    "thresholdF": 85
+  }
+}
