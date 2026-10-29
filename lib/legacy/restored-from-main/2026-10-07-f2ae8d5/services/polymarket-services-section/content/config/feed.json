@@ -1,0 +1,7 @@
+{
+  "base": "https://gamma-api.polymarket.com",
+  "tradeApi": "per docs.polymarket.us after KYC",
+  "websocket": "/v1/ws/markets and /v1/ws/private per docs.polymarket.us",
+  "auth": "Ed25519 API keys from the developer portal after KYC; gamma market data requires no credentials",
+  "note": "gamma reflects the offshore book: research data only for a US person until the April 2026 CFTC filing is approved"
+}

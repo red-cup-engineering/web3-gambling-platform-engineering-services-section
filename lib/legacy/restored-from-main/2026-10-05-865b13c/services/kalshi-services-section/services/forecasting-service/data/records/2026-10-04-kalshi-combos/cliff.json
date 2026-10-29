@@ -1,0 +1,3070 @@
+{
+ "report": {
+  "generatedAt": "2026-10-04T15:39:13.043Z",
+  "windowHours": 11.3147,
+  "sample": 10,
+  "rules": "pool = 0.25 * combo fees * eligible/legs; S = prod(1+F)-1; payout prop. to S over S>=0.01; combo fees taker 0.07CP(1-P) + maker 0.035CP(1-P) (uncorrelated NFL: no maker fee)",
+  "rfqMix": {
+   "rfqs": 518546,
+   "anyProp": 208229,
+   "allProp": 107963,
+   "legs": 4442619,
+   "propLegs": 1536579,
+   "anyPropFrac": 0.4016,
+   "allPropFrac": 0.2082,
+   "propLegFrac": 0.3459
+  },
+  "tape": {
+   "prints": 87988,
+   "matchedToLegs": 77253
+  },
+  "perDayExchange": {
+   "notional": 51528009,
+   "fees": 3240447,
+   "makerFees": 808654,
+   "pool": 210916,
+   "poolFracOfFees": 0.0651
+  },
+  "poolPerDayBySport": {
+   "NFL": 195042,
+   "ATP": 5671,
+   "MLB": 4452,
+   "WTA": 3251,
+   "WNBA": 825,
+   "NHL": 508,
+   "NASCARRACE": 286,
+   "PGATOP10": 259,
+   "F1RACE": 189,
+   "PGATOP20": 112,
+   "PGATOUR": 84,
+   "NCAAF": 79,
+   "UFC": 73,
+   "BOXING": 46,
+   "PGATOP5": 28,
+   "PGAR1LEAD": 11
+  },
+  "eligibleLegs": 4311,
+  "rebatePerContractQuantiles": {
+   "hi": {
+    "0.25": 0.007,
+    "0.5": 0.0311,
+    "0.75": 0.152,
+    "0.9": 0.8968
+   },
+   "k3": {
+    "0.25": 0.0045,
+    "0.5": 0.0146,
+    "0.75": 0.0608,
+    "0.9": 0.3138
+   },
+   "lo": {
+    "0.25": 0.0024,
+    "0.5": 0.0071,
+    "0.75": 0.0283,
+    "0.9": 0.1246
+   }
+  }
+ },
+ "legs": [
+  {
+   "ticker": "KXNFLTD-26OCT04INDWAS-INDJTAYLOR28-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 1572,
+   "poolParity": 2394.6761,
+   "volume": 253021.09,
+   "spread": 1,
+   "status": "finalized",
+   "rebatePerContract": {
+    "hi": 0.0095,
+    "k3": 0.0068,
+    "lo": 0.0047
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04TENBAL-BALDHENRY22-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 2737,
+   "poolParity": 2358.4816,
+   "volume": 302117.12,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0078,
+    "k3": 0.0049,
+    "lo": 0.003
+   }
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT04INDWAS-INDDJONES17-1",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "combos": 556,
+   "poolParity": 2185.8243,
+   "volume": 10483.52,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.2085,
+    "k3": 0.167,
+    "lo": 0.1246
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04INDWAS-INDJDOWNS2-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 334,
+   "poolParity": 2183.3383,
+   "volume": 244402.92,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0089,
+    "k3": 0.0074,
+    "lo": 0.0056
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04DALHOU-HOUDMONTGOMERY32-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 421,
+   "poolParity": 1737.897,
+   "volume": 54371.63,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.032,
+    "k3": 0.0258,
+    "lo": 0.0192
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04INDWAS-INDDJONES17-250",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 22,
+   "poolParity": 1596.0157,
+   "volume": 18335.35,
+   "spread": 0.03,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.087,
+    "k3": 0.0868,
+    "lo": 0.0867
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04JACCIN-CINJBURROW9-275",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 58,
+   "poolParity": 1564.677,
+   "volume": 9407.07,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.1663,
+    "k3": 0.1417,
+    "lo": 0.1099
+   }
+  },
+  {
+   "ticker": "KXNFLREC-26OCT04INDWAS-WASJCROSKEYMERRITT22-3",
+   "sport": "NFL",
+   "kind": "REC",
+   "combos": 5,
+   "poolParity": 1543.6445,
+   "volume": 1538.1,
+   "spread": 0.08,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 1.0036,
+    "k3": 0.86,
+    "lo": 0.6687
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04GBTB-GBCWATSON9-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 514,
+   "poolParity": 1320.7875,
+   "volume": 27747.85,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0476,
+    "k3": 0.0373,
+    "lo": 0.027
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04NEBUF-BUFJALLEN17-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 1053,
+   "poolParity": 1259.9746,
+   "volume": 80267.65,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0157,
+    "k3": 0.0118,
+    "lo": 0.0093
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04INDWAS-INDTWARREN84-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 461,
+   "poolParity": 890.6398,
+   "volume": 271183.74,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0033,
+    "k3": 0.0024,
+    "lo": 0.0016
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04DALHOU-DALGPICKENS3-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 228,
+   "poolParity": 840.8888,
+   "volume": 28395.18,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0296,
+    "k3": 0.0212,
+    "lo": 0.0142
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04INDWAS-INDJTAYLOR28-50",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 569,
+   "poolParity": 804.3436,
+   "volume": 20449.93,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0393,
+    "k3": 0.024,
+    "lo": 0.0135
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04KCLV-KCKWALKER9-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 1155,
+   "poolParity": 798.4793,
+   "volume": 79715.78,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.01,
+    "k3": 0.0053,
+    "lo": 0.0024
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04GBTB-GBTKRAFT85-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 186,
+   "poolParity": 774.243,
+   "volume": 17244.57,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0449,
+    "k3": 0.0358,
+    "lo": 0.0258
+   }
+  },
+  {
+   "ticker": "KXNFLREC-26OCT04INDWAS-WASJCROSKEYMERRITT22-2",
+   "sport": "NFL",
+   "kind": "REC",
+   "combos": 32,
+   "poolParity": 711.7672,
+   "volume": 37229.29,
+   "spread": 0.06,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0191,
+    "k3": 0.0189,
+    "lo": 0.0188
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04NEBUF-BUFJCOOK4-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 869,
+   "poolParity": 709.9654,
+   "volume": 43952.78,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0162,
+    "k3": 0.0102,
+    "lo": 0.006
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04JACCIN-CINMGESICKI88-15",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 34,
+   "poolParity": 699.3243,
+   "volume": 100.46,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 6.9612,
+    "k3": 5.9273,
+    "lo": 4.6023
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04ARINYG-ARITALLGEIER22-15",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 6,
+   "poolParity": 694.2168,
+   "volume": 1893.01,
+   "spread": 0.03,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.3667,
+    "k3": 0.3142,
+    "lo": 0.2443
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04DETCAR-DETJGIBBS0-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 877,
+   "poolParity": 682.3,
+   "volume": 5387.36,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.1266,
+    "k3": 0.0743,
+    "lo": 0.0403
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04LACSEA-SEAJSMITHNJIGBA11-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 1048,
+   "poolParity": 670.2003,
+   "volume": 85178.82,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0079,
+    "k3": 0.0044,
+    "lo": 0.0023
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04DENSF-SFGKITTLE85-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 237,
+   "poolParity": 600.4939,
+   "volume": 16172.03,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0371,
+    "k3": 0.0297,
+    "lo": 0.0217
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04TENBAL-BALDHENRY22-60",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 707,
+   "poolParity": 591.7081,
+   "volume": 2014.91,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.2937,
+    "k3": 0.1289,
+    "lo": 0.057
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04INDWAS-INDJTAYLOR28-60",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 492,
+   "poolParity": 591.0271,
+   "volume": 17085.87,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0346,
+    "k3": 0.0224,
+    "lo": 0.0138
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04TENBAL-BALDHENRY22-2",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 354,
+   "poolParity": 584.4161,
+   "volume": 128813.94,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0045,
+    "k3": 0.0034,
+    "lo": 0.0023
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04JACCIN-CINJCHASE1-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 865,
+   "poolParity": 565.1474,
+   "volume": 14776.08,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0382,
+    "k3": 0.0217,
+    "lo": 0.0108
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04INDWAS-INDDJONES17-150",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 617,
+   "poolParity": 557.0479,
+   "volume": 33509.84,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0166,
+    "k3": 0.0078,
+    "lo": 0.0037
+   }
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT04NEBUF-BUFJALLEN17-1",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "combos": 575,
+   "poolParity": 533.047,
+   "volume": 1943.95,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.2742,
+    "k3": 0.1354,
+    "lo": 0.0718
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04MIAMIN-MINJADDISON3-60",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 33,
+   "poolParity": 532.1632,
+   "volume": 6209.12,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0857,
+    "k3": 0.0604,
+    "lo": 0.0344
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04INDWAS-INDJTAYLOR28-70",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 351,
+   "poolParity": 523.0879,
+   "volume": 44680.08,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0117,
+    "k3": 0.0089,
+    "lo": 0.0069
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04INDWAS-WASMMARIOTA8-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 58,
+   "poolParity": 521.4248,
+   "volume": 74443.71,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.007,
+    "k3": 0.0059,
+    "lo": 0.0045
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04DENSF-SFCMCCAFFREY23-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 865,
+   "poolParity": 521.2529,
+   "volume": 9794.87,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0532,
+    "k3": 0.026,
+    "lo": 0.0118
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04INDWAS-INDDJONES17-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 34,
+   "poolParity": 511.7881,
+   "volume": 44045.85,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0116,
+    "k3": 0.0099,
+    "lo": 0.0076
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04LACSEA-SEAJSMITHNJIGBA11-100",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 45,
+   "poolParity": 508.3268,
+   "volume": 4110.21,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.1237,
+    "k3": 0.0893,
+    "lo": 0.052
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04INDWAS-WASMMARIOTA8-150",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 444,
+   "poolParity": 504.3745,
+   "volume": 58400.45,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0086,
+    "k3": 0.0042,
+    "lo": 0.0021
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04INDWAS-INDDJONES17-175",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 426,
+   "poolParity": 487.5045,
+   "volume": 66097.18,
+   "spread": 0.03,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0074,
+    "k3": 0.0046,
+    "lo": 0.0028
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04DENSF-SFGKITTLE85-60",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 20,
+   "poolParity": 487.0713,
+   "volume": 3204.34,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.152,
+    "k3": 0.11,
+    "lo": 0.0643
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04INDWAS-INDJDOWNS2-50",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 317,
+   "poolParity": 486.5832,
+   "volume": 7470.9,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0651,
+    "k3": 0.0457,
+    "lo": 0.0302
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04LARPHI-LARKWILLIAMS23-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 542,
+   "poolParity": 450.0271,
+   "volume": 11878.99,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0379,
+    "k3": 0.0224,
+    "lo": 0.0118
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04INDWAS-INDJDOWNS2-40",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 337,
+   "poolParity": 425.9737,
+   "volume": 11436.72,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0372,
+    "k3": 0.0225,
+    "lo": 0.013
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04JACCIN-JACCRODRIGUEZ24-20",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 18,
+   "poolParity": 422.8055,
+   "volume": 17354.85,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0244,
+    "k3": 0.0238,
+    "lo": 0.023
+   }
+  },
+  {
+   "ticker": "KXNFL1H-26OCT04INDWAS-IND",
+   "sport": "NFL",
+   "kind": "1H",
+   "combos": 65,
+   "poolParity": 419.8988,
+   "volume": 259718.35,
+   "spread": 1,
+   "status": "finalized",
+   "rebatePerContract": {
+    "hi": 0.0016,
+    "k3": 0.0016,
+    "lo": 0.0015
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04INDWAS-INDJTAYLOR28-100",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 84,
+   "poolParity": 419.5329,
+   "volume": 40166.42,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0104,
+    "k3": 0.0085,
+    "lo": 0.0062
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04TENBAL-BALLJACKSON8-150",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 527,
+   "poolParity": 407.105,
+   "volume": 312.21,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 1.3039,
+    "k3": 0.4874,
+    "lo": 0.1986
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04INDWAS-INDDJONES17-200",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 371,
+   "poolParity": 390.8901,
+   "volume": 33079.57,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0118,
+    "k3": 0.0077,
+    "lo": 0.0046
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04INDWAS-WASSDIGGS3-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 267,
+   "poolParity": 375.7129,
+   "volume": 289553.86,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0013,
+    "k3": 0.001,
+    "lo": 0.0007
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04NYJCHI-CHIDSWIFT4-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 423,
+   "poolParity": 375.6114,
+   "volume": 33536.1,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0112,
+    "k3": 0.0076,
+    "lo": 0.005
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04INDWAS-INDJTAYLOR28-80",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 213,
+   "poolParity": 374.9872,
+   "volume": 35407.52,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0106,
+    "k3": 0.0072,
+    "lo": 0.0047
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04INDWAS-INDTWARREN84-40",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 227,
+   "poolParity": 360.8672,
+   "volume": 9969.25,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0362,
+    "k3": 0.0261,
+    "lo": 0.0176
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04INDWAS-WASSDIGGS3-40",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 263,
+   "poolParity": 353.6182,
+   "volume": 9554.64,
+   "spread": 0.06,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.037,
+    "k3": 0.0252,
+    "lo": 0.0164
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04ARINYG-ARITMCBRIDE85-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 416,
+   "poolParity": 353.4781,
+   "volume": 23994.93,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0147,
+    "k3": 0.0093,
+    "lo": 0.0051
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04NEBUF-BUFJALLEN17-200",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 475,
+   "poolParity": 347.0219,
+   "volume": 2114.05,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.1642,
+    "k3": 0.0823,
+    "lo": 0.0379
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04LARPHI-LARMSTAFFORD9-175",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 554,
+   "poolParity": 337.9507,
+   "volume": 691.42,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.4888,
+    "k3": 0.1635,
+    "lo": 0.0848
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04JACCIN-CINJBURROW9-200",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 710,
+   "poolParity": 337.618,
+   "volume": 3247.12,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.104,
+    "k3": 0.0328,
+    "lo": 0.0151
+   }
+  },
+  {
+   "ticker": "KXMLBOUTS-26OCT052000NYYTB-TBFPERALTA51-15",
+   "sport": "MLB",
+   "kind": "OUTS",
+   "combos": 1,
+   "poolParity": 323.1463,
+   "volume": 1506.79,
+   "spread": 0.04,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.2145,
+    "k3": 0.2145,
+    "lo": 0.2145
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04DALHOU-DALCLAMB88-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 389,
+   "poolParity": 322.6331,
+   "volume": 23636.8,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0136,
+    "k3": 0.0084,
+    "lo": 0.0046
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04INDWAS-WASJCROSKEYMERRITT22-50",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 151,
+   "poolParity": 318.019,
+   "volume": 11062.57,
+   "spread": 0.06,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0287,
+    "k3": 0.0201,
+    "lo": 0.0123
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04NEBUF-BUFJALLEN17-150",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 445,
+   "poolParity": 317.8576,
+   "volume": 1575.22,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.2018,
+    "k3": 0.0581,
+    "lo": 0.0226
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04INDWAS-INDJDOWNS2-60",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 230,
+   "poolParity": 310.9413,
+   "volume": 40805.06,
+   "spread": 0.03,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0076,
+    "k3": 0.0045,
+    "lo": 0.0023
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04KCLV-KCTKELCE87-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 146,
+   "poolParity": 307.6889,
+   "volume": 15439.27,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0199,
+    "k3": 0.016,
+    "lo": 0.0118
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04NEBUF-BUFJCOOK4-50",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 440,
+   "poolParity": 303.205,
+   "volume": 2651.43,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.1144,
+    "k3": 0.0432,
+    "lo": 0.0218
+   }
+  },
+  {
+   "ticker": "KXNFLREC-26OCT04GBTB-GBSMOORE23-2",
+   "sport": "NFL",
+   "kind": "REC",
+   "combos": 16,
+   "poolParity": 296.4934,
+   "volume": 23590.55,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0126,
+    "k3": 0.0074,
+    "lo": 0.0043
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04INDWAS-WASJCROSKEYMERRITT22-25",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 7,
+   "poolParity": 290.9169,
+   "volume": 700.87,
+   "spread": 0.11,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.4151,
+    "k3": 0.355,
+    "lo": 0.2759
+   }
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT04JACCIN-CINJBURROW9-1",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "combos": 483,
+   "poolParity": 283.4486,
+   "volume": 554.11,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.5115,
+    "k3": 0.1947,
+    "lo": 0.0633
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04TENBAL-TENCWARD1-125",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 275,
+   "poolParity": 278.9565,
+   "volume": 212.35,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 1.3137,
+    "k3": 0.5008,
+    "lo": 0.2213
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04GBTB-TBJDANIELS10-125",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 194,
+   "poolParity": 277.8099,
+   "volume": 5460.16,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0509,
+    "k3": 0.0251,
+    "lo": 0.0146
+   }
+  },
+  {
+   "ticker": "KXNFLREC-26OCT04INDWAS-INDJTAYLOR28-2",
+   "sport": "NFL",
+   "kind": "REC",
+   "combos": 245,
+   "poolParity": 273.0967,
+   "volume": 4943.78,
+   "spread": 0.05,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0552,
+    "k3": 0.0275,
+    "lo": 0.0107
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04KCLV-LVBBOWERS89-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 196,
+   "poolParity": 269.073,
+   "volume": 288528.16,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0009,
+    "k3": 0.0006,
+    "lo": 0.0004
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04LARPHI-PHISBARKLEY26-50",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 418,
+   "poolParity": 267.5526,
+   "volume": 1169.82,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.2287,
+    "k3": 0.0616,
+    "lo": 0.0257
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04KCLV-KCKWALKER9-50",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 401,
+   "poolParity": 260.1461,
+   "volume": 316.89,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.8209,
+    "k3": 0.199,
+    "lo": 0.0773
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04INDWAS-WASJCROSKEYMERRITT22-40",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 237,
+   "poolParity": 259.1718,
+   "volume": 7244.34,
+   "spread": 0.04,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0358,
+    "k3": 0.0198,
+    "lo": 0.0093
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04LARPHI-LARPNACUA12-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 302,
+   "poolParity": 257.175,
+   "volume": 78097.78,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0033,
+    "k3": 0.002,
+    "lo": 0.0012
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04INDWAS-WASJCROSKEYMERRITT22-30",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 306,
+   "poolParity": 254.3193,
+   "volume": 11435.5,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0222,
+    "k3": 0.0112,
+    "lo": 0.0055
+   }
+  },
+  {
+   "ticker": "KXNFLREC-26OCT04INDWAS-INDJTAYLOR28-3",
+   "sport": "NFL",
+   "kind": "REC",
+   "combos": 84,
+   "poolParity": 253.8764,
+   "volume": 9223.13,
+   "spread": 0.06,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0275,
+    "k3": 0.0133,
+    "lo": 0.0053
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04NEBUF-BUFJALLEN17-175",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 331,
+   "poolParity": 253.0205,
+   "volume": 1383.69,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.1829,
+    "k3": 0.082,
+    "lo": 0.0417
+   }
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT04JACCIN-JACTLAWRENCE16-1",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "combos": 425,
+   "poolParity": 242.2112,
+   "volume": 587.8,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.4121,
+    "k3": 0.1642,
+    "lo": 0.0553
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04KCLV-KCPMAHOMES15-150",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 348,
+   "poolParity": 236.796,
+   "volume": 3244.36,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.073,
+    "k3": 0.0169,
+    "lo": 0.0053
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04INDWAS-WASJCROSKEYMERRITT22-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 262,
+   "poolParity": 230.7563,
+   "volume": 44961.23,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0051,
+    "k3": 0.0034,
+    "lo": 0.0019
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04INDWAS-INDTWARREN84-50",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 118,
+   "poolParity": 229.7232,
+   "volume": 52547.7,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0044,
+    "k3": 0.0033,
+    "lo": 0.0023
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04DETCAR-CARBYOUNG9-200",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 189,
+   "poolParity": 228.9597,
+   "volume": 1345.39,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.1702,
+    "k3": 0.0931,
+    "lo": 0.0473
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04INDWAS-WASSDIGGS3-25",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 222,
+   "poolParity": 222.6594,
+   "volume": 2181.97,
+   "spread": 0.09,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.102,
+    "k3": 0.0522,
+    "lo": 0.0226
+   }
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT04JACCIN-JACTLAWRENCE16-2",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "combos": 163,
+   "poolParity": 222.4797,
+   "volume": 15157.9,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0147,
+    "k3": 0.0107,
+    "lo": 0.0074
+   }
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT04DENSF-SFBPURDY13-1",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "combos": 349,
+   "poolParity": 220.7563,
+   "volume": 4863.2,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0454,
+    "k3": 0.019,
+    "lo": 0.0085
+   }
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT04INDWAS-WASMMARIOTA8-1",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "combos": 340,
+   "poolParity": 219.6163,
+   "volume": 8894.69,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0247,
+    "k3": 0.0132,
+    "lo": 0.0068
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04DETCAR-DETASTBROWN14-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 448,
+   "poolParity": 218.9408,
+   "volume": 7179.77,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0305,
+    "k3": 0.0144,
+    "lo": 0.0067
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04INDWAS-INDJDOWNS2-70",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 129,
+   "poolParity": 217.3699,
+   "volume": 56470.16,
+   "spread": 0.03,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0038,
+    "k3": 0.0026,
+    "lo": 0.0016
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04LARPHI-PHISBARKLEY26-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 451,
+   "poolParity": 214.7478,
+   "volume": 41568.42,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0052,
+    "k3": 0.0028,
+    "lo": 0.0013
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04JACCIN-CINCBROWN30-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 364,
+   "poolParity": 212.3668,
+   "volume": 3761.35,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0565,
+    "k3": 0.0332,
+    "lo": 0.018
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04TENBAL-BALJHILL43-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 5,
+   "poolParity": 212.2299,
+   "volume": 58059.67,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0037,
+    "k3": 0.0037,
+    "lo": 0.0037
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04INDWAS-INDJTAYLOR28-90",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 148,
+   "poolParity": 209.2112,
+   "volume": 57947.21,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0036,
+    "k3": 0.0028,
+    "lo": 0.0021
+   }
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT04KCLV-KCPMAHOMES15-1",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "combos": 495,
+   "poolParity": 208.967,
+   "volume": 596.04,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.3506,
+    "k3": 0.1107,
+    "lo": 0.0342
+   }
+  },
+  {
+   "ticker": "KXATPDOUBLES-26OCT03HIJUESARROLI-HIJUES",
+   "sport": "ATP",
+   "kind": "DOUBLES",
+   "combos": 123,
+   "poolParity": 207.2737,
+   "volume": 72410.72,
+   "spread": 1,
+   "status": "finalized",
+   "rebatePerContract": {
+    "hi": 0.0029,
+    "k3": 0.0027,
+    "lo": 0.0024
+   }
+  },
+  {
+   "ticker": "KXWTADOUBLES-26OCT03MERSHNLUMPAN-MERSHN",
+   "sport": "WTA",
+   "kind": "DOUBLES",
+   "combos": 265,
+   "poolParity": 202.7107,
+   "volume": 10516.18,
+   "spread": 1,
+   "status": "finalized",
+   "rebatePerContract": {
+    "hi": 0.0193,
+    "k3": 0.0174,
+    "lo": 0.0154
+   }
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT04JACCIN-CINJBURROW9-2",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "combos": 282,
+   "poolParity": 201.9114,
+   "volume": 1236.57,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.1633,
+    "k3": 0.1029,
+    "lo": 0.0629
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04DETCAR-DETJGOFF16-175",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 283,
+   "poolParity": 200.7713,
+   "volume": 20.03,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 10.0235,
+    "k3": 1.7182,
+    "lo": 0.308
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04DENSF-SFBPURDY13-150",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 333,
+   "poolParity": 197.4518,
+   "volume": 3417.78,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0578,
+    "k3": 0.0113,
+    "lo": 0.0033
+   }
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT04DALHOU-DALDPRESCOTT4-1",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "combos": 448,
+   "poolParity": 197.2533,
+   "volume": 910.27,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.2167,
+    "k3": 0.0746,
+    "lo": 0.0224
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04TENBAL-BALZFLOWERS4-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 276,
+   "poolParity": 197.1898,
+   "volume": 11049.99,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0178,
+    "k3": 0.0093,
+    "lo": 0.0041
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04DALHOU-DALJWILLIAMS33-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 333,
+   "poolParity": 196.2742,
+   "volume": 14506.13,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0135,
+    "k3": 0.0084,
+    "lo": 0.0052
+   }
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT04LARPHI-LARMSTAFFORD9-1",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "combos": 459,
+   "poolParity": 193.2967,
+   "volume": 157.88,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 1.2243,
+    "k3": 0.4736,
+    "lo": 0.2133
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04LARPHI-PHIJHURTS1-125",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 383,
+   "poolParity": 192.2566,
+   "volume": 13828.36,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0139,
+    "k3": 0.0028,
+    "lo": 0.0013
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04INDWAS-WASSDIGGS3-15",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 92,
+   "poolParity": 190.5659,
+   "volume": 2004.6,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0951,
+    "k3": 0.0619,
+    "lo": 0.0377
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04INDWAS-INDJTAYLOR28-2",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 201,
+   "poolParity": 188.69,
+   "volume": 144776.13,
+   "spread": 1,
+   "status": "finalized",
+   "rebatePerContract": {
+    "hi": 0.0013,
+    "k3": 0.0009,
+    "lo": 0.0006
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04GBTB-GBSMOORE23-15",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 9,
+   "poolParity": 187.0269,
+   "volume": 1084.58,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.1724,
+    "k3": 0.1537,
+    "lo": 0.1293
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04JACCIN-JACTLAWRENCE16-175",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 443,
+   "poolParity": 186.9669,
+   "volume": 289.46,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.6459,
+    "k3": 0.1327,
+    "lo": 0.0595
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04DETCAR-DETJGIBBS0-60",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 346,
+   "poolParity": 186.0656,
+   "volume": 63.08,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 2.9497,
+    "k3": 0.6298,
+    "lo": 0.24
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04DALHOU-DALDPRESCOTT4-200",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 465,
+   "poolParity": 184.9447,
+   "volume": 4125.09,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0448,
+    "k3": 0.0152,
+    "lo": 0.006
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04JACCIN-JACPWASHINGTON11-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 209,
+   "poolParity": 183.0692,
+   "volume": 9534.35,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0192,
+    "k3": 0.012,
+    "lo": 0.0064
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04LARPHI-LARMSTAFFORD9-200",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 370,
+   "poolParity": 182.1121,
+   "volume": 9442.4,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0193,
+    "k3": 0.009,
+    "lo": 0.0045
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04LARPHI-PHIDWICKS13-15",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 60,
+   "poolParity": 180.7497,
+   "volume": 211.62,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.8541,
+    "k3": 0.7951,
+    "lo": 0.7922
+   }
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT04LEHVAL-1-LEH",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "combos": 17,
+   "poolParity": 179.6656,
+   "volume": 2301.68,
+   "spread": 1,
+   "status": "finalized",
+   "rebatePerContract": {
+    "hi": 0.0781,
+    "k3": 0.0608,
+    "lo": 0.0431
+   }
+  },
+  {
+   "ticker": "KXNFLREC-26OCT04INDWAS-INDTWARREN84-4",
+   "sport": "NFL",
+   "kind": "REC",
+   "combos": 178,
+   "poolParity": 178.6435,
+   "volume": 168.59,
+   "spread": 0.03,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 1.0596,
+    "k3": 0.543,
+    "lo": 0.2348
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04TENBAL-BALLJACKSON8-175",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 300,
+   "poolParity": 176.3592,
+   "volume": 965.52,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.1827,
+    "k3": 0.1117,
+    "lo": 0.084
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04LARPHI-LARKWILLIAMS23-40",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 279,
+   "poolParity": 175.8277,
+   "volume": 3424.07,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0514,
+    "k3": 0.0211,
+    "lo": 0.0082
+   }
+  },
+  {
+   "ticker": "KXATPDOUBLES-26OCT02MELZVECASGLA-CASGLA",
+   "sport": "ATP",
+   "kind": "DOUBLES",
+   "combos": 364,
+   "poolParity": 175.2491,
+   "volume": 12257.22,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0143,
+    "k3": 0.0132,
+    "lo": 0.012
+   }
+  },
+  {
+   "ticker": "KXWTADOUBLES-26OCT03BOUANNHUNMLA-HUNMLA",
+   "sport": "WTA",
+   "kind": "DOUBLES",
+   "combos": 169,
+   "poolParity": 174.5956,
+   "volume": 26673.75,
+   "spread": 1,
+   "status": "finalized",
+   "rebatePerContract": {
+    "hi": 0.0065,
+    "k3": 0.0056,
+    "lo": 0.0045
+   }
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT04INDWAS-INDDJONES17-2",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "combos": 140,
+   "poolParity": 172.4503,
+   "volume": 31139.75,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0055,
+    "k3": 0.0038,
+    "lo": 0.0026
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04NEBUF-BUFJALLEN17-2",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 67,
+   "poolParity": 170.166,
+   "volume": 48963.72,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0035,
+    "k3": 0.0028,
+    "lo": 0.002
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04NEBUF-BUFJCOOK4-60",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 230,
+   "poolParity": 169.6455,
+   "volume": 1857.41,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0913,
+    "k3": 0.0352,
+    "lo": 0.0098
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04MIAMIN-MINAJONES33-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 331,
+   "poolParity": 168.612,
+   "volume": 4120.35,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0409,
+    "k3": 0.0197,
+    "lo": 0.0077
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04INDWAS-INDDJONES17-225",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 148,
+   "poolParity": 167.9053,
+   "volume": 30057.18,
+   "spread": 0.03,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0056,
+    "k3": 0.0039,
+    "lo": 0.0026
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04TENBAL-BALDHENRY22-70",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 303,
+   "poolParity": 167.896,
+   "volume": 522.57,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.3213,
+    "k3": 0.1511,
+    "lo": 0.0672
+   }
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT04GBTB-TBJDANIELS10-1",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "combos": 62,
+   "poolParity": 167.5714,
+   "volume": 334.11,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.5015,
+    "k3": 0.3482,
+    "lo": 0.1998
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04LARPHI-LARDADAMS17-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 303,
+   "poolParity": 166.0015,
+   "volume": 43771.57,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0038,
+    "k3": 0.0022,
+    "lo": 0.0011
+   }
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT04TENBAL-BALLJACKSON8-1",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "combos": 389,
+   "poolParity": 165.8338,
+   "volume": 1706.77,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0972,
+    "k3": 0.0349,
+    "lo": 0.015
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04ARINYG-ARIJLOVE4-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 322,
+   "poolParity": 165.4373,
+   "volume": 28580.74,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0058,
+    "k3": 0.003,
+    "lo": 0.0013
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04DALHOU-HOUCSTROUD7-175",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 354,
+   "poolParity": 165.1878,
+   "volume": 2404.73,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0687,
+    "k3": 0.0074,
+    "lo": 0.002
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04JACCIN-JACTLAWRENCE16-200",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 262,
+   "poolParity": 164.4977,
+   "volume": 3405.01,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0483,
+    "k3": 0.0188,
+    "lo": 0.0097
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04NEBUF-NEDMAYE10-150",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 359,
+   "poolParity": 163.5812,
+   "volume": 601.22,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.2721,
+    "k3": 0.0272,
+    "lo": 0.0054
+   }
+  },
+  {
+   "ticker": "KXNFLREC-26OCT04DALHOU-HOUKBOUTTE14-2",
+   "sport": "NFL",
+   "kind": "REC",
+   "combos": 13,
+   "poolParity": 160.1481,
+   "volume": 803.41,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.1993,
+    "k3": 0.0725,
+    "lo": 0.0118
+   }
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT04MEDCER-1-MED",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "combos": 23,
+   "poolParity": 159.9772,
+   "volume": 128070.9,
+   "spread": 1,
+   "status": "finalized",
+   "rebatePerContract": {
+    "hi": 0.0012,
+    "k3": 0.001,
+    "lo": 0.0009
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04JACCIN-CINJBURROW9-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 17,
+   "poolParity": 159.5917,
+   "volume": 98201.13,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0016,
+    "k3": 0.0006,
+    "lo": 0.0001
+   }
+  },
+  {
+   "ticker": "KXNFLREC-26OCT04JACCIN-CINMGESICKI88-3",
+   "sport": "NFL",
+   "kind": "REC",
+   "combos": 18,
+   "poolParity": 158.9232,
+   "volume": 353.87,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.4491,
+    "k3": 0.161,
+    "lo": 0.0249
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04ARINYG-NYGCSKATTEBO44-40",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 277,
+   "poolParity": 158.7698,
+   "volume": 2106.73,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0754,
+    "k3": 0.0195,
+    "lo": 0.0125
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04INDWAS-INDTWARREN84-25",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 232,
+   "poolParity": 158.2989,
+   "volume": 3237.38,
+   "spread": 0.05,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0489,
+    "k3": 0.0239,
+    "lo": 0.0101
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04KCLV-LVAJEANTY2-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 199,
+   "poolParity": 156.9103,
+   "volume": 4691.12,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0334,
+    "k3": 0.0187,
+    "lo": 0.0088
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04INDWAS-WASMMARIOTA8-200",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 191,
+   "poolParity": 156.6996,
+   "volume": 27371.56,
+   "spread": 0.04,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0057,
+    "k3": 0.0036,
+    "lo": 0.0021
+   }
+  },
+  {
+   "ticker": "KXNFLREC-26OCT04KCLV-KCRRICE4-4",
+   "sport": "NFL",
+   "kind": "REC",
+   "combos": 20,
+   "poolParity": 156.3099,
+   "volume": 113.58,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 1.3762,
+    "k3": 1.1623,
+    "lo": 0.8998
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04KCLV-KCPMAHOMES15-200",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 296,
+   "poolParity": 156.2993,
+   "volume": 435.34,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.359,
+    "k3": 0.1926,
+    "lo": 0.1196
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04TENBAL-TENTPOLLARD20-30",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 57,
+   "poolParity": 156.1458,
+   "volume": 1618.85,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0965,
+    "k3": 0.0562,
+    "lo": 0.024
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04TENBAL-BALDHENRY22-100",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 133,
+   "poolParity": 155.7646,
+   "volume": 24983.5,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0062,
+    "k3": 0.0045,
+    "lo": 0.0029
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04GBTB-GBJLOVE10-150",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 334,
+   "poolParity": 152.1537,
+   "volume": 1383.23,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.11,
+    "k3": 0.0109,
+    "lo": 0.0033
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04INDWAS-INDJDOWNS2-2",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 12,
+   "poolParity": 150.8437,
+   "volume": 47640.62,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0032,
+    "k3": 0.0027,
+    "lo": 0.0021
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04KCLV-LVKCOUSINS8-150",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 316,
+   "poolParity": 150.5426,
+   "volume": 3701.15,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0407,
+    "k3": 0.0041,
+    "lo": 0.0007
+   }
+  },
+  {
+   "ticker": "KXNFLREC-26OCT04INDWAS-WASTMCLAURIN17-3",
+   "sport": "NFL",
+   "kind": "REC",
+   "combos": 26,
+   "poolParity": 149.6734,
+   "volume": 2852.71,
+   "spread": 0.17,
+   "status": "inactive",
+   "rebatePerContract": {
+    "hi": 0.0525,
+    "k3": 0.0188,
+    "lo": 0.003
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04INDWAS-WASTMCLAURIN17-25",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 92,
+   "poolParity": 148.6174,
+   "volume": 21375.04,
+   "spread": 0.12,
+   "status": "inactive",
+   "rebatePerContract": {
+    "hi": 0.007,
+    "k3": 0.0048,
+    "lo": 0.0032
+   }
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT04MEDCER-2-MED",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "combos": 18,
+   "poolParity": 148.0178,
+   "volume": 26988.17,
+   "spread": 1,
+   "status": "finalized",
+   "rebatePerContract": {
+    "hi": 0.0055,
+    "k3": 0.0047,
+    "lo": 0.0038
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04TENBAL-BALLJACKSON8-15",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 226,
+   "poolParity": 147.3453,
+   "volume": 108.73,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 1.3551,
+    "k3": 0.4722,
+    "lo": 0.1363
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04NEBUF-BUFJALLEN17-20",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 169,
+   "poolParity": 146.6885,
+   "volume": 641.93,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.2285,
+    "k3": 0.0557,
+    "lo": 0.025
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04NEBUF-BUFJALLEN17-225",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 196,
+   "poolParity": 146.0513,
+   "volume": 2878.86,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0507,
+    "k3": 0.0262,
+    "lo": 0.0114
+   }
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT04NEBUF-BUFJALLEN17-2",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "combos": 239,
+   "poolParity": 145.5649,
+   "volume": 5656.9,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0257,
+    "k3": 0.0148,
+    "lo": 0.0077
+   }
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT04KCLV-KCPMAHOMES15-2",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "combos": 200,
+   "poolParity": 145.5032,
+   "volume": 12786.49,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0114,
+    "k3": 0.0063,
+    "lo": 0.0034
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04JACCIN-CINJBURROW9-225",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 311,
+   "poolParity": 143.58,
+   "volume": 3229.24,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0445,
+    "k3": 0.0184,
+    "lo": 0.0071
+   }
+  },
+  {
+   "ticker": "KXWTADOUBLES-26OCT03MCCTJEBARCHW-BARCHW",
+   "sport": "WTA",
+   "kind": "DOUBLES",
+   "combos": 90,
+   "poolParity": 142.5488,
+   "volume": 23789.12,
+   "spread": 1,
+   "status": "finalized",
+   "rebatePerContract": {
+    "hi": 0.006,
+    "k3": 0.0053,
+    "lo": 0.0046
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04INDWAS-WASMMARIOTA8-175",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 224,
+   "poolParity": 142.2324,
+   "volume": 22949.62,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0062,
+    "k3": 0.0033,
+    "lo": 0.0017
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04LARPHI-LARKWILLIAMS23-30",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 309,
+   "poolParity": 140.0319,
+   "volume": 1094.91,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.1279,
+    "k3": 0.05,
+    "lo": 0.0283
+   }
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT03DERUB-2-DE",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "combos": 14,
+   "poolParity": 138.4098,
+   "volume": 169989.07,
+   "spread": 1,
+   "status": "finalized",
+   "rebatePerContract": {
+    "hi": 0.0008,
+    "k3": 0.0007,
+    "lo": 0.0005
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04ARINYG-ARIJBRISSETT7-150",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 284,
+   "poolParity": 138.08,
+   "volume": 102.15,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 1.3517,
+    "k3": 0.1523,
+    "lo": 0.0459
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04DETCAR-CARBYOUNG9-150",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 212,
+   "poolParity": 137.3208,
+   "volume": 1178.43,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.1165,
+    "k3": 0.012,
+    "lo": 0.0024
+   }
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT03VACFIL-2-FIL",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "combos": 11,
+   "poolParity": 136.5976,
+   "volume": 31002.44,
+   "spread": 1,
+   "status": "finalized",
+   "rebatePerContract": {
+    "hi": 0.0044,
+    "k3": 0.0038,
+    "lo": 0.0029
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04ARINYG-NYGCSKATTEBO44-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 367,
+   "poolParity": 136.5723,
+   "volume": 4640.88,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0294,
+    "k3": 0.0146,
+    "lo": 0.0063
+   }
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT04DALHOU-DALDPRESCOTT4-2",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "combos": 192,
+   "poolParity": 136.5677,
+   "volume": 20089.51,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0068,
+    "k3": 0.0039,
+    "lo": 0.0022
+   }
+  },
+  {
+   "ticker": "KXNFLREC-26OCT04INDWAS-INDTWARREN84-3",
+   "sport": "NFL",
+   "kind": "REC",
+   "combos": 154,
+   "poolParity": 135.7437,
+   "volume": 2382.28,
+   "spread": 0.06,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.057,
+    "k3": 0.0237,
+    "lo": 0.0094
+   }
+  },
+  {
+   "ticker": "KXMLBKS-26OCT042000ATLLAD-LADBSNELL7-4",
+   "sport": "MLB",
+   "kind": "KS",
+   "combos": 45,
+   "poolParity": 134.1358,
+   "volume": 488.29,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.2747,
+    "k3": 0.1697,
+    "lo": 0.0768
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04TENBAL-BALLJACKSON8-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 99,
+   "poolParity": 133.8314,
+   "volume": 13544.37,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0099,
+    "k3": 0.0069,
+    "lo": 0.0041
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04MIAMIN-MINAJONES33-40",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 179,
+   "poolParity": 133.5523,
+   "volume": 1156.14,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.1155,
+    "k3": 0.0184,
+    "lo": 0.0042
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04DENSF-SFCMCCAFFREY23-40",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 247,
+   "poolParity": 132.5535,
+   "volume": 220.87,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.6001,
+    "k3": 0.0928,
+    "lo": 0.0334
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04DENSF-SFBPURDY13-175",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 193,
+   "poolParity": 130.5287,
+   "volume": 3292.31,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0396,
+    "k3": 0.0179,
+    "lo": 0.0089
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04NYJCHI-CHICLOVELAND84-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 64,
+   "poolParity": 130.4273,
+   "volume": 12997.07,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.01,
+    "k3": 0.008,
+    "lo": 0.0057
+   }
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT04LARPHI-LARMSTAFFORD9-2",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "combos": 194,
+   "poolParity": 130.1929,
+   "volume": 5867.22,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0222,
+    "k3": 0.0129,
+    "lo": 0.0074
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04INDWAS-INDJTAYLOR28-15",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 116,
+   "poolParity": 127.8688,
+   "volume": 8788.72,
+   "spread": 0.04,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0145,
+    "k3": 0.0096,
+    "lo": 0.0059
+   }
+  },
+  {
+   "ticker": "KXNFLREC-26OCT04INDWAS-WASSDIGGS3-4",
+   "sport": "NFL",
+   "kind": "REC",
+   "combos": 150,
+   "poolParity": 127.8069,
+   "volume": 5925.52,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0216,
+    "k3": 0.0116,
+    "lo": 0.0059
+   }
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT04INDWAS-WASMMARIOTA8-2",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "combos": 106,
+   "poolParity": 126.6321,
+   "volume": 11223.21,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0113,
+    "k3": 0.007,
+    "lo": 0.0044
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04JACCIN-CINJCHASE1-50",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 163,
+   "poolParity": 124.4747,
+   "volume": 2478.76,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0502,
+    "k3": 0.0212,
+    "lo": 0.0097
+   }
+  },
+  {
+   "ticker": "KXNFLREC-26OCT04INDWAS-INDJDOWNS2-5",
+   "sport": "NFL",
+   "kind": "REC",
+   "combos": 119,
+   "poolParity": 123.703,
+   "volume": 2904.19,
+   "spread": 0.06,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0426,
+    "k3": 0.0271,
+    "lo": 0.0171
+   }
+  },
+  {
+   "ticker": "KXMLBKS-26OCT041600SDMIL-MILLHENDERSON43-3",
+   "sport": "MLB",
+   "kind": "KS",
+   "combos": 31,
+   "poolParity": 123.2048,
+   "volume": 51.39,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 2.3974,
+    "k3": 1.462,
+    "lo": 0.6317
+   }
+  },
+  {
+   "ticker": "KXNFLREC-26OCT04INDWAS-INDTWARREN84-5",
+   "sport": "NFL",
+   "kind": "REC",
+   "combos": 135,
+   "poolParity": 122.0448,
+   "volume": 2993.99,
+   "spread": 0.06,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0408,
+    "k3": 0.0241,
+    "lo": 0.0128
+   }
+  },
+  {
+   "ticker": "KXATPDOUBLES-26OCT03AREPELBUBSHA-AREPEL",
+   "sport": "ATP",
+   "kind": "DOUBLES",
+   "combos": 222,
+   "poolParity": 119.9241,
+   "volume": 10239.48,
+   "spread": 1,
+   "status": "finalized",
+   "rebatePerContract": {
+    "hi": 0.0117,
+    "k3": 0.0103,
+    "lo": 0.0087
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04NYJCHI-NYJGSMITH7-150",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 252,
+   "poolParity": 118.6613,
+   "volume": 897.25,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.1323,
+    "k3": 0.0102,
+    "lo": 0.0042
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04KCLV-KCPMAHOMES15-175",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 286,
+   "poolParity": 117.9024,
+   "volume": 1047.97,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.1125,
+    "k3": 0.0395,
+    "lo": 0.0153
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04DENSF-DENBNIX10-150",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 287,
+   "poolParity": 117.2589,
+   "volume": 4779.18,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0245,
+    "k3": 0.0013,
+    "lo": 0.0002
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04INDWAS-WASAWILLIAMS14-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 29,
+   "poolParity": 116.8926,
+   "volume": 129129.68,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0009,
+    "k3": 0.0007,
+    "lo": 0.0005
+   }
+  },
+  {
+   "ticker": "KXMLBKS-26OCT051700CWSCLE-CLEGWILLIAMS32-4",
+   "sport": "MLB",
+   "kind": "KS",
+   "combos": 14,
+   "poolParity": 116.3259,
+   "volume": 69.42,
+   "spread": 0.03,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 1.6757,
+    "k3": 1.0226,
+    "lo": 0.4398
+   }
+  },
+  {
+   "ticker": "KXMLBKS-26OCT041600SDMIL-SDMKING34-2",
+   "sport": "MLB",
+   "kind": "KS",
+   "combos": 19,
+   "poolParity": 116.3247,
+   "volume": 32.43,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 3.5869,
+    "k3": 2.1907,
+    "lo": 0.9434
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04MIAMIN-MINKMURRAY1-125",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 181,
+   "poolParity": 113.6061,
+   "volume": 157.41,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.7217,
+    "k3": 0.1134,
+    "lo": 0.0515
+   }
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT03ALCSHA-1-ALC",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "combos": 33,
+   "poolParity": 112.6159,
+   "volume": 449834.83,
+   "spread": 1,
+   "status": "finalized",
+   "rebatePerContract": {
+    "hi": 0.0003,
+    "k3": 0.0002,
+    "lo": 0.0002
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04INDWAS-WASAWILLIAMS14-15",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 88,
+   "poolParity": 112.5377,
+   "volume": 17509.86,
+   "spread": 0.03,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0064,
+    "k3": 0.0039,
+    "lo": 0.0021
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04TENBAL-BALLJACKSON8-20",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 168,
+   "poolParity": 111.0032,
+   "volume": 399.21,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.2781,
+    "k3": 0.0478,
+    "lo": 0.0253
+   }
+  },
+  {
+   "ticker": "KXNFLREC-26OCT04INDWAS-INDJDOWNS2-4",
+   "sport": "NFL",
+   "kind": "REC",
+   "combos": 135,
+   "poolParity": 108.7298,
+   "volume": 1163.89,
+   "spread": 0.06,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0934,
+    "k3": 0.0526,
+    "lo": 0.0354
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04DETCAR-DETJGIBBS0-2",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 196,
+   "poolParity": 106.9338,
+   "volume": 14012.39,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0076,
+    "k3": 0.0045,
+    "lo": 0.0021
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04MIAMIN-MINJADDISON3-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 114,
+   "poolParity": 106.4189,
+   "volume": 5613.08,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.019,
+    "k3": 0.015,
+    "lo": 0.012
+   }
+  },
+  {
+   "ticker": "KXNFLREC-26OCT04INDWAS-INDTWARREN84-6",
+   "sport": "NFL",
+   "kind": "REC",
+   "combos": 60,
+   "poolParity": 106.336,
+   "volume": 14934.83,
+   "spread": 0.06,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0071,
+    "k3": 0.0041,
+    "lo": 0.0021
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04NEBUF-BUFDKINCAID86-25",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 251,
+   "poolParity": 106.0025,
+   "volume": 151.07,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.7017,
+    "k3": 0.1724,
+    "lo": 0.0483
+   }
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04JACCIN-JACBTUTEN33-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "combos": 215,
+   "poolParity": 104.903,
+   "volume": 16375.44,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0064,
+    "k3": 0.0031,
+    "lo": 0.0012
+   }
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT04LACSEA-SEASDARNOLD14-150",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "combos": 232,
+   "poolParity": 103.4664,
+   "volume": 2476.99,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0418,
+    "k3": 0.0128,
+    "lo": 0.004
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04INDWAS-WASJCROSKEYMERRITT22-60",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 102,
+   "poolParity": 103.4289,
+   "volume": 14093.9,
+   "spread": 0.02,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0073,
+    "k3": 0.0052,
+    "lo": 0.0032
+   }
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT04GBTB-TBBIRVING7-40",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "combos": 229,
+   "poolParity": 103.3734,
+   "volume": 950.04,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.1088,
+    "k3": 0.0467,
+    "lo": 0.0242
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04NEBUF-BUFDMOORE2-50",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 90,
+   "poolParity": 103.352,
+   "volume": 11293.71,
+   "spread": 0.01,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.0092,
+    "k3": 0.0062,
+    "lo": 0.004
+   }
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT04INDWAS-WASSDIGGS3-50",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "combos": 153,
+   "poolParity": 103.265,
+   "volume": 25684.6,
+   "spread": 0.04,
+   "status": "active",
+   "rebatePerContract": {
+    "hi": 0.004,
+    "k3": 0.0022,
+    "lo": 0.001
+   }
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT03ALCSHA-2-ALC",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "combos": 16,
+   "poolParity": 102.1934,
+   "volume": 37020.07,
+   "spread": 1,
+   "status": "finalized",
+   "rebatePerContract": {
+    "hi": 0.0028,
+    "k3": 0.0024,
+    "lo": 0.0019
+   }
+  }
+ ]
+}

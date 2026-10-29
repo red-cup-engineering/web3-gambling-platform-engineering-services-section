@@ -1,0 +1,22 @@
+{
+  "node": "polymarket-venue-access-enterprise",
+  "offices": [
+    "lib/agency/offices/polymarket-account-custodian.json",
+    "lib/agency/offices/polymarket-order-executor.json"
+  ],
+  "duties": [
+    "lib/agency/duties/keeping-venue-account-custody.json",
+    "lib/agency/duties/executing-admitted-venue-orders.json"
+  ],
+  "works": [
+    "lib/agency/works/keeping-venue-account-custody.json",
+    "lib/agency/works/executing-admitted-venue-orders.json"
+  ],
+  "contracts": [
+    "content/contracts/market-data-provision.json",
+    "content/contracts/order-placement-admission.json"
+  ],
+  "policies": [
+    "content/policies/venue-authority-policy.json"
+  ]
+}

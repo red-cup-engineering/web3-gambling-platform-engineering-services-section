@@ -1,0 +1,31 @@
+{
+  "kind": "polymarket-venue-access-enterprise.policy",
+  "id": "venue-authority-and-credentials",
+  "status": "active",
+  "legalTrader": "emsenn",
+  "credentialAdmission": {
+    "source": "Leader-provided ignored environment file",
+    "acceptedNames": [
+      "POLYMARKET_US_API_KEY_ID",
+      "POLYMARKET_US_PRIVATE_KEY_PATH"
+    ],
+    "forbidden": [
+      "source code",
+      "tracked configuration",
+      "logs",
+      "records",
+      "responses"
+    ]
+  },
+  "refusals": [
+    "credential disclosure",
+    "orders for a settlement other than the contracted desk",
+    "self-matching",
+    "non-Leader-authorized withdrawals"
+  ],
+  "accountSetup": [
+    "Polymarket US KYC (photo ID, SSN, residency proof, selfie via the iOS app)",
+    "developer-portal API key generation",
+    "initial funding via ACH or USDC"
+  ]
+}

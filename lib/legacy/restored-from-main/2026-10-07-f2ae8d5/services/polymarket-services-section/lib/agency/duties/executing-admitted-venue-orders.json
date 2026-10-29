@@ -1,0 +1,15 @@
+{
+  "id": "executing-admitted-venue-orders",
+  "name": "execute one admitted Polymarket US order",
+  "authority": "emsenn",
+  "work": "executing-admitted-venue-orders",
+  "from": "one ActivityStreams order request from the desk citing a qualified pair, while activation is live",
+  "to": "one bounded Polymarket US API order and the venue's own receipt or refusal, appended to dated records",
+  "cost": "venue fees, API writes, and credential risk",
+  "otherwise": "no order exists; the venue relationship stays read-only",
+  "claim": "leader-account-and-capital-authority",
+  "delegation": false,
+  "skills": [
+    "executing-admitted-venue-orders"
+  ]
+}

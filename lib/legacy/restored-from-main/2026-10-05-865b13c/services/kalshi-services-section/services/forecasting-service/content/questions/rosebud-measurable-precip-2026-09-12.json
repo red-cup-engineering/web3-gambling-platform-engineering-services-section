@@ -1,0 +1,18 @@
+{
+  "id": "rosebud-measurable-precip-2026-09-12",
+  "title": "Will measurable precipitation (>=0.01in) be recorded near Rosebud, SD on 2026-09-12?",
+  "resolutionCriteria": "Resolves YES if NWS (forecast office Aberdeen or Valentine, gridpoint nearest Rosebud SD at approx 43.23N -100.86W) reports measurable precipitation (>=0.01 inch) for 2026-09-12 via api.weather.gov climate data; NO otherwise.",
+  "openAt": "2026-09-05T00:00:00Z",
+  "closeAt": "2026-09-11T00:00:00Z",
+  "resolveAt": "2026-09-13T00:00:00Z",
+  "sourcePlatform": "indian-country.plains-weather",
+  "falsifier": "Wrong if the NWS-reported precipitation total for that date/gridpoint disagrees with the stated probability's implied side.",
+  "resolutionParameters": {
+    "lat": 43.23,
+    "lon": -100.86,
+    "targetDate": "2026-09-12",
+    "metric": "precipitation",
+    "comparison": "gte",
+    "thresholdIn": 0.01
+  }
+}

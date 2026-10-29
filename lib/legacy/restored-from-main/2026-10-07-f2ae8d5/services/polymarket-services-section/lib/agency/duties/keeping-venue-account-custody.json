@@ -1,0 +1,15 @@
+{
+  "id": "keeping-venue-account-custody",
+  "name": "keep Polymarket US account custody",
+  "authority": "emsenn",
+  "work": "keeping-venue-account-custody",
+  "from": "Leader-recorded credentials, funding acts, and venue-issued statements",
+  "to": "a current activation state, credential custody without disclosure, and dated venue-statement records",
+  "cost": "venue API reads and custody diligence",
+  "otherwise": "credentials scatter across settlements and balances are asserted rather than evidenced",
+  "claim": "leader-account-and-capital-authority",
+  "delegation": false,
+  "skills": [
+    "keeping-venue-account-custody"
+  ]
+}

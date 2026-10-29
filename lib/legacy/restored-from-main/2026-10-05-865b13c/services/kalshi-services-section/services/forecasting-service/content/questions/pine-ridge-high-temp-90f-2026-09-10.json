@@ -1,0 +1,18 @@
+{
+  "id": "pine-ridge-high-temp-90f-2026-09-10",
+  "title": "Will NWS report a high of 90F or higher near Pine Ridge, SD on 2026-09-10?",
+  "resolutionCriteria": "Resolves YES if the National Weather Service's official high temperature (forecast office Rapid City SD, gridpoint nearest Pine Ridge at approximately 43.02N -102.56W) for 2026-09-10 is reported as 90 degrees Fahrenheit or higher via api.weather.gov climate/forecast data; NO otherwise.",
+  "openAt": "2026-09-05T00:00:00Z",
+  "closeAt": "2026-09-09T00:00:00Z",
+  "resolveAt": "2026-09-11T00:00:00Z",
+  "sourcePlatform": "indian-country.plains-weather",
+  "falsifier": "Wrong if the NWS-reported high for that date/gridpoint disagrees with the stated probability's implied side by more than the forecast's own stated error model.",
+  "resolutionParameters": {
+    "lat": 43.02,
+    "lon": -102.56,
+    "targetDate": "2026-09-10",
+    "metric": "maxTemperature",
+    "comparison": "gte",
+    "thresholdF": 90
+  }
+}

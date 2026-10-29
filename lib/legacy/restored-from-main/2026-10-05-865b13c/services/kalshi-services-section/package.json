@@ -1,0 +1,36 @@
+{
+  "name": "@red-cup-engineering/kalshi-services-section",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "A sovereign venue-access settlement owning the firm's Kalshi relationship: the account, API credentials, rate tier, and USD/USDC funding rails. It declares the public market-data feed, admits bounded read-only data requests, and executes an admitted order request against Kalshi's own trade API only under Leader-activated credentials and policy.",
+  "scripts": {
+    "check": "node --check src/feed.mjs && node --check src/orders.mjs && node --check src/client.mjs && node --check test/orders.test.mjs && node --check test/client.test.mjs",
+    "test": "node --test test/orders.test.mjs test/client.test.mjs"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@red-cup-engineering/computer-system-engine": "workspace:*",
+    "@red-cup-engineering/javascript-node-services-section": "workspace:*",
+    "@red-cup-engineering/position-sizing-service": "workspace:*",
+    "@red-cup-engineering/web3-gambling-platform-services-section": "workspace:*",
+    "@red-cup-engineering/forecasting": "workspace:*",
+    "@red-cup-engineering/assisted-browser-services-section": "workspace:*"
+  },
+  "exports": {
+    "./derive-set-of-nws-temperature-forecasts": "./scripts/derive-set-of-nws-temperature-forecasts.mjs",
+    "./form-kalshi-order-intent": "./scripts/form-kalshi-order-intent.mjs",
+    "./observe-set-of-kalshi-weather-markets": "./scripts/observe-set-of-kalshi-weather-markets.mjs",
+    "./place-kalshi-order": "./scripts/place-kalshi-order.mjs",
+    "./read-kalshi-market": "./scripts/read-kalshi-market.mjs",
+    "./client": "./src/client.mjs",
+    "./operations": "./src/operations.mjs",
+    "./provisioning": "./src/provisioning.mjs",
+    "./signing": "./src/signing.mjs"
+  },
+  "bin": {
+    "provision-kalshi-api-key": "./scripts/provision-kalshi-api-key.mjs"
+  }
+}

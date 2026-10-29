@@ -1,0 +1,12 @@
+{
+  "node": "forecasting",
+  "offices": [
+    "lib/agency/offices/weather-market-forecaster.json"
+  ],
+  "duties": [
+    "lib/agency/duties/forecasting-weather-markets.json"
+  ],
+  "works": [
+    "lib/agency/works/forecasting-weather-markets.json"
+  ]
+}

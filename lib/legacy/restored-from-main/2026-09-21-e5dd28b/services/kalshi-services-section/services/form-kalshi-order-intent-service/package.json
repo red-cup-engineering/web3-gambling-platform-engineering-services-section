@@ -1,0 +1,30 @@
+{
+  "name": "@red-cup-engineering/form-kalshi-order-intent-service",
+  "version": "0.1.0",
+  "description": "Forms a bounded Kalshi order intent from a forecast, a reference-class calibration record, a current market read, a risk sleeve, and a fee schedule -- or refuses with a named datum when any gating condition fails.",
+  "type": "module",
+  "private": false,
+  "license": "UNLICENSED",
+  "exports": "./scripts/form-kalshi-order-intent.mjs",
+  "bin": {
+    "form-kalshi-order-intent": "scripts/form-kalshi-order-intent.mjs"
+  },
+  "files": [
+    "scripts",
+    "README.md",
+    "package.json"
+  ],
+  "dependencies": {
+    "@red-cup-engineering/javascript-node-services-section": "0.2.0",
+    "@red-cup-engineering/position-sizing-service": "0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "check": "node --check scripts/form-kalshi-order-intent.mjs",
+    "test": "node --test test/*.test.mjs",
+    "pack:dry-run": "npm pack --dry-run --ignore-scripts"
+  },
+  "engines": {
+    "node": ">=24.2.0"
+  }
+}

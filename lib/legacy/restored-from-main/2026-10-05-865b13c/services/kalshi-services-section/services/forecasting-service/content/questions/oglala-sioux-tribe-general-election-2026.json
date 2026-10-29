@@ -1,0 +1,10 @@
+{
+  "id": "oglala-sioux-tribe-general-election-2026",
+  "title": "Will the Oglala Sioux Tribe hold a general election for tribal council seats in 2026?",
+  "resolutionCriteria": "Resolves YES if the Oglala Sioux Tribe Election Board certifies a general election held in calendar year 2026 for president/council seats, per the Board's own announcement or reporting by Indianz.com / Native News Online; NO if no such election is certified as held by 2026-12-31.",
+  "openAt": "2026-09-05T00:00:00Z",
+  "closeAt": "2026-11-01T00:00:00Z",
+  "resolveAt": "2026-12-31T00:00:00Z",
+  "sourcePlatform": "indian-country.tribal-elections",
+  "falsifier": "Wrong if the Election Board's own certification or Indianz.com/Native News Online reporting states the opposite of the recorded probability's implied side."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "scotus-cert-indian-country-ot2026",
+  "title": "Will the U.S. Supreme Court grant certiorari in a case primarily concerning tribal sovereignty or Indian Country jurisdiction during OT2026?",
+  "resolutionCriteria": "Resolves YES if SCOTUSblog's case docket or Turtle Talk (Michigan State University Indian Law blog) reports a grant of certiorari in a case whose primary question presented concerns tribal sovereignty, Indian Country criminal/civil jurisdiction, or federal Indian law, docketed for the October 2026 term, by 2026-12-31; NO otherwise.",
+  "openAt": "2026-09-05T00:00:00Z",
+  "closeAt": "2026-12-01T00:00:00Z",
+  "resolveAt": "2026-12-31T00:00:00Z",
+  "sourcePlatform": "indian-country.court-cases",
+  "falsifier": "Wrong if SCOTUSblog's or Turtle Talk's own reporting on cert grants for OT2026 disagrees with the recorded probability's implied side."
+}

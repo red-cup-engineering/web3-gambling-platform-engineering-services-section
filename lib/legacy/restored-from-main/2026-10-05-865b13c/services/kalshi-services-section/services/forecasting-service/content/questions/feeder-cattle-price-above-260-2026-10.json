@@ -1,0 +1,10 @@
+{
+  "id": "feeder-cattle-price-above-260-2026-10",
+  "title": "Will USDA's National Feeder & Stocker Cattle Summary report a South Dakota medium/large frame #1 steer (500-600 lb) price above $260/cwt in October 2026?",
+  "resolutionCriteria": "Resolves YES if USDA AMS's National Feeder & Stocker Cattle Summary (or the South Dakota-specific weekly report) shows a weighted average price above $260 per hundredweight for medium/large frame #1 steers (500-600 lbs) in any report published during October 2026; NO otherwise.",
+  "openAt": "2026-09-05T00:00:00Z",
+  "closeAt": "2026-10-01T00:00:00Z",
+  "resolveAt": "2026-11-01T00:00:00Z",
+  "sourcePlatform": "indian-country.goods-prices",
+  "falsifier": "Wrong if USDA AMS's own National Feeder & Stocker Cattle Summary for October 2026 disagrees with the recorded probability's implied side."
+}
