@@ -2,7 +2,7 @@
   "name": "@red-cup-engineering/web3-gambling-platform-services-section",
   "version": "0.1.1",
   "type": "module",
-  "description": "Web3 gambling platform services: the venue-independent order-placement-admission mechanism shared by this section's sovereign venue-access settlements (kalshi-services-section, polymarket-services-section).",
+  "description": "Web3 gambling platform services: the venue-independent order-placement-admission mechanism shared by sovereign venue-access settlements: polymarket-services-section here, and kalshi-engineering-services-section under financial-engineering-services-section.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/red-cup-engineering/web3-gambling-platform-engineering-services-section.git"
