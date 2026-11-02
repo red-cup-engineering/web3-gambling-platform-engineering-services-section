@@ -1,4 +1,4 @@
-# web3-gambling-platform-services-section
+# @red-cup-engineering/web3-gambling-platform-engineering-services-section
 
 <!-- 561-group-standards:badges:start -->
 [![Red Cup Engineering](https://img.shields.io/badge/561%20Group-Red%20Cup%20Engineering-c0392b)](https://github.com/red-cup-engineering)
@@ -6,5 +6,7 @@
 [![Indigenous data: CARE](https://img.shields.io/badge/Indigenous%20data-CARE-4b6f44)](https://github.com/red-cup-engineering/.github/blob/main/GOVERNANCE.md)
 [![Tips welcome](https://img.shields.io/badge/tips-welcome-d4a017)](https://github.com/561-group/.github/blob/main/TIPS.md)
 <!-- 561-group-standards:badges:end -->
+
+Web3 gambling platform services: the venue-independent order-placement-admission mechanism shared by sovereign venue-access settlements: polymarket-services-section here, and kalshi-engineering-services-section under financial-engineering-services-section.
 
 Web3 gambling platform services: the venue-independent order-placement-admission mechanism shared by sovereign venue-access settlements: polymarket-services-section here, and kalshi-engineering-services-section under financial-engineering-services-section.
