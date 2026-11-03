@@ -17,7 +17,8 @@
     "package.json",
     "README*",
     "LICENSE*",
-    "scripts"
+    "scripts",
+    "lib/agency/skills"
   ],
   "funding": {
     "type": "individual",
