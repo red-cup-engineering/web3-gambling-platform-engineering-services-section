@@ -7,6 +7,6 @@
 [![Tips welcome](https://img.shields.io/badge/tips-welcome-d4a017)](https://github.com/561-group/.github/blob/main/TIPS.md)
 <!-- 561-group-standards:badges:end -->
 
-Web3 gambling platform services: the venue-independent order-placement-admission mechanism shared by sovereign venue-access settlements: polymarket-services-section here, and kalshi-engineering-services-section under computer-financial-systems-engineering-services-section.
+Web3 gambling platform services: the venue-independent order-placement-admission mechanism shared by sovereign venue-access settlements: polymarket-engineering-services-section here, and kalshi-engineering-services-section under computer-financial-systems-engineering-services-section.
 
-Web3 gambling platform services: the venue-independent order-placement-admission mechanism shared by sovereign venue-access settlements: polymarket-services-section here, and kalshi-engineering-services-section under computer-financial-systems-engineering-services-section.
+Web3 gambling platform services: the venue-independent order-placement-admission mechanism shared by sovereign venue-access settlements: polymarket-engineering-services-section here, and kalshi-engineering-services-section under computer-financial-systems-engineering-services-section.

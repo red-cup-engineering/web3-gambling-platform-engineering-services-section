@@ -1,5 +1,5 @@
 // orders.mjs — the order-placement-admission gate shared by every gambling venue under this
-// section (kalshi-services-section, polymarket-services-section). A venue's own
+// section (kalshi-services-section, polymarket-engineering-services-section). A venue's own
 // content/config/activation.json (orderExecution status, requiredEnvironment names,
 // accountSetup) and its own placer and credential reader are all that vary. A venue places orders
 // once its credentials are in the environment the activation names; until then a request settles
