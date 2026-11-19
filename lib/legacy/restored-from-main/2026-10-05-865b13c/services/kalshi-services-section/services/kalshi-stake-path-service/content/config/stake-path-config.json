@@ -1,0 +1,6 @@
+{
+  "minResolvedForecasts": 30,
+  "maxSleeveFraction": 0.05,
+  "kellyMultiple": 1,
+  "feeRate": 0.01
+}

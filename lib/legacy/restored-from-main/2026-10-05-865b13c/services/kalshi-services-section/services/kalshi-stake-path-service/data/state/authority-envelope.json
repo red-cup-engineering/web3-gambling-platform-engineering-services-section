@@ -1,0 +1,26 @@
+{
+  "type": "KalshiStakeAuthorityEnvelope",
+  "version": 1,
+  "venue": "kalshi",
+  "admittedSeries": [
+    "KXHIGHNY"
+  ],
+  "perOrderCapUsd": "25",
+  "cumulativeCapUsd": "100",
+  "drawdownFloorFraction": 0.2,
+  "sleeve": {
+    "riskCapital": "100",
+    "survivalCapital": "0"
+  },
+  "expiry": "2026-12-31T23:59:59.000Z",
+  "killPath": "halt-stake-envelope.mjs",
+  "signer": {
+    "host": "cold-red-gate"
+  },
+  "principal": {
+    "actorId": "emsenn",
+    "role": "founder"
+  },
+  "armed": true,
+  "armedAt": "2026-09-26T00:00:00.000Z"
+}

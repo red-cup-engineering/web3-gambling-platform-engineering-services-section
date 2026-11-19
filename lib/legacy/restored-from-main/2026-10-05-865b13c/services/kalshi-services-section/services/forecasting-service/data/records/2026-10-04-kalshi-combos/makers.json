@@ -1,0 +1,4744 @@
+{
+ "report": {
+  "generatedAt": "2026-10-04T15:44:58.800Z",
+  "settledLegs": 229,
+  "note": "maker = the resting side of every print; P&L vs settlement; rebate = k3 pool (3 symmetric makers) / leg volume over the collection window only",
+  "makerOnly": {
+   "legs": 229,
+   "games": 67,
+   "volume": 12684933,
+   "perContract": -0.113,
+   "ci95": [
+    -0.1692,
+    -0.0569
+   ]
+  },
+  "makerPlusRebate": {
+   "legs": 229,
+   "games": 67,
+   "volume": 12684933,
+   "perContract": -0.1125,
+   "ci95": [
+    -0.1688,
+    -0.0563
+   ]
+  },
+  "preStart": {
+   "legs": 200,
+   "games": 62,
+   "volume": 4234760,
+   "perContract": -0.2282,
+   "ci95": [
+    -0.36,
+    -0.0963
+   ]
+  },
+  "inPlay": {
+   "legs": 229,
+   "games": 67,
+   "volume": 8450173,
+   "perContract": -0.0553,
+   "ci95": [
+    -0.0884,
+    -0.0222
+   ]
+  },
+  "inPlayPlusRebate": {
+   "legs": 229,
+   "games": 67,
+   "volume": 8450173,
+   "perContract": -0.0546,
+   "ci95": [
+    -0.0877,
+    -0.0215
+   ]
+  },
+  "byVolume": {
+   "0-2000": {
+    "makerOnly": {
+     "legs": 36,
+     "games": 23,
+     "volume": 30233,
+     "perContract": -0.0345,
+     "ci95": [
+      -0.0899,
+      0.0209
+     ]
+    },
+    "makerPlusRebate": {
+     "legs": 36,
+     "games": 23,
+     "volume": 30233,
+     "perContract": -0.0319,
+     "ci95": [
+      -0.0883,
+      0.0245
+     ]
+    }
+   },
+   "2000-10000": {
+    "makerOnly": {
+     "legs": 50,
+     "games": 31,
+     "volume": 271806,
+     "perContract": -0.0182,
+     "ci95": [
+      -0.0761,
+      0.0398
+     ]
+    },
+    "makerPlusRebate": {
+     "legs": 50,
+     "games": 31,
+     "volume": 271806,
+     "perContract": -0.016,
+     "ci95": [
+      -0.0741,
+      0.042
+     ]
+    }
+   },
+   "10000-50000": {
+    "makerOnly": {
+     "legs": 75,
+     "games": 33,
+     "volume": 1969309,
+     "perContract": 0.0109,
+     "ci95": [
+      -0.0321,
+      0.0538
+     ]
+    },
+    "makerPlusRebate": {
+     "legs": 75,
+     "games": 33,
+     "volume": 1969309,
+     "perContract": 0.0117,
+     "ci95": [
+      -0.0314,
+      0.0547
+     ]
+    }
+   },
+   "50000-Infinity": {
+    "makerOnly": {
+     "legs": 68,
+     "games": 29,
+     "volume": 10413585,
+     "perContract": -0.1391,
+     "ci95": [
+      -0.2075,
+      -0.0708
+     ]
+    },
+    "makerPlusRebate": {
+     "legs": 68,
+     "games": 29,
+     "volume": 10413585,
+     "perContract": -0.1388,
+     "ci95": [
+      -0.2072,
+      -0.0703
+     ]
+    }
+   }
+  },
+  "bySport": {
+   "NFL": {
+    "makerOnly": {
+     "legs": 46,
+     "games": 2,
+     "volume": 3410954,
+     "perContract": -0.1304,
+     "ci95": [
+      -0.2839,
+      0.0231
+     ]
+    },
+    "makerPlusRebate": {
+     "legs": 46,
+     "games": 2,
+     "volume": 3410954,
+     "perContract": -0.1296,
+     "ci95": [
+      -0.2841,
+      0.0248
+     ]
+    }
+   },
+   "ATP": {
+    "makerOnly": {
+     "legs": 54,
+     "games": 13,
+     "volume": 2461075,
+     "perContract": -0.0291,
+     "ci95": [
+      -0.0868,
+      0.0287
+     ]
+    },
+    "makerPlusRebate": {
+     "legs": 54,
+     "games": 13,
+     "volume": 2461075,
+     "perContract": -0.0283,
+     "ci95": [
+      -0.0864,
+      0.0298
+     ]
+    }
+   },
+   "WTA": {
+    "makerOnly": {
+     "legs": 59,
+     "games": 17,
+     "volume": 2210602,
+     "perContract": -0.0227,
+     "ci95": [
+      -0.0531,
+      0.0077
+     ]
+    },
+    "makerPlusRebate": {
+     "legs": 59,
+     "games": 17,
+     "volume": 2210602,
+     "perContract": -0.0221,
+     "ci95": [
+      -0.0525,
+      0.0083
+     ]
+    }
+   },
+   "F1RACE": {
+    "makerOnly": {
+     "legs": 4,
+     "games": 1,
+     "volume": 1357041,
+     "perContract": -0.0159,
+     "ci95": [
+      -0.0159,
+      -0.0159
+     ]
+    },
+    "makerPlusRebate": {
+     "legs": 4,
+     "games": 1,
+     "volume": 1357041,
+     "perContract": -0.0158,
+     "ci95": [
+      -0.0158,
+      -0.0158
+     ]
+    }
+   },
+   "UFC": {
+    "makerOnly": {
+     "legs": 7,
+     "games": 6,
+     "volume": 1580452,
+     "perContract": -0.3731,
+     "ci95": [
+      -0.4385,
+      -0.3078
+     ]
+    },
+    "makerPlusRebate": {
+     "legs": 7,
+     "games": 6,
+     "volume": 1580452,
+     "perContract": -0.3731,
+     "ci95": [
+      -0.4385,
+      -0.3077
+     ]
+    }
+   },
+   "MLB": {
+    "makerOnly": {
+     "legs": 25,
+     "games": 7,
+     "volume": 757199,
+     "perContract": -0.1819,
+     "ci95": [
+      -0.2967,
+      -0.0671
+     ]
+    },
+    "makerPlusRebate": {
+     "legs": 25,
+     "games": 7,
+     "volume": 757199,
+     "perContract": -0.1818,
+     "ci95": [
+      -0.2967,
+      -0.0668
+     ]
+    }
+   },
+   "NCAAF": {
+    "makerOnly": {
+     "legs": 13,
+     "games": 10,
+     "volume": 338798,
+     "perContract": -0.0615,
+     "ci95": [
+      -0.1387,
+      0.0156
+     ]
+    },
+    "makerPlusRebate": {
+     "legs": 13,
+     "games": 10,
+     "volume": 338798,
+     "perContract": -0.0614,
+     "ci95": [
+      -0.1386,
+      0.0158
+     ]
+    }
+   },
+   "BOXING": {
+    "makerOnly": {
+     "legs": 4,
+     "games": 4,
+     "volume": 228254,
+     "perContract": -0.0165,
+     "ci95": [
+      -0.0439,
+      0.0109
+     ]
+    },
+    "makerPlusRebate": {
+     "legs": 4,
+     "games": 4,
+     "volume": 228254,
+     "perContract": -0.0164,
+     "ci95": [
+      -0.0439,
+      0.011
+     ]
+    }
+   },
+   "PGAR1LEAD": {
+    "makerOnly": {
+     "legs": 1,
+     "games": 1,
+     "volume": 245322,
+     "perContract": -0.4175,
+     "ci95": [
+      -0.4175,
+      -0.4175
+     ]
+    },
+    "makerPlusRebate": {
+     "legs": 1,
+     "games": 1,
+     "volume": 245322,
+     "perContract": -0.4174,
+     "ci95": [
+      -0.4174,
+      -0.4174
+     ]
+    }
+   },
+   "NHL": {
+    "makerOnly": {
+     "legs": 15,
+     "games": 5,
+     "volume": 59163,
+     "perContract": 0.0603,
+     "ci95": [
+      -0.133,
+      0.2536
+     ]
+    },
+    "makerPlusRebate": {
+     "legs": 15,
+     "games": 5,
+     "volume": 59163,
+     "perContract": 0.0604,
+     "ci95": [
+      -0.1329,
+      0.2537
+     ]
+    }
+   },
+   "NASCARRACE": {
+    "makerOnly": {
+     "legs": 1,
+     "games": 1,
+     "volume": 36073,
+     "perContract": 0.1502,
+     "ci95": [
+      0.1502,
+      0.1502
+     ]
+    },
+    "makerPlusRebate": {
+     "legs": 1,
+     "games": 1,
+     "volume": 36073,
+     "perContract": 0.1502,
+     "ci95": [
+      0.1502,
+      0.1502
+     ]
+    }
+   }
+  }
+ },
+ "legs": [
+  {
+   "ticker": "KXNFLTD-26OCT04INDWAS-INDJTAYLOR28-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 185294.96,
+   "livePnl": -15776.877,
+   "volume": 253021.09,
+   "trades": 1481,
+   "makerPnl": -21328.652,
+   "makerPnlPerContract": -0.0843,
+   "rebate": {
+    "hi": 0.0095,
+    "k3": 0.0068,
+    "lo": 0.0047
+   },
+   "poolK3": 1729.6256
+  },
+  {
+   "ticker": "KXNFL1H-26OCT04INDWAS-IND",
+   "sport": "NFL",
+   "kind": "1H",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 225428.59,
+   "livePnl": -47767.3378,
+   "volume": 259718.35,
+   "trades": 2822,
+   "makerPnl": -58250.8562,
+   "makerPnlPerContract": -0.2243,
+   "rebate": {
+    "hi": 0.0017,
+    "k3": 0.0016,
+    "lo": 0.0016
+   },
+   "poolK3": 424.4479
+  },
+  {
+   "ticker": "KXATPDOUBLES-26OCT03HIJUESARROLI-HIJUES",
+   "sport": "ATP",
+   "kind": "DOUBLES",
+   "game": "ATP-26OCT03HIJUESARROLI",
+   "start": "2026-10-04T05:30:00.000Z",
+   "liveVolume": 72360.28,
+   "livePnl": 21087.7599,
+   "volume": 72410.72,
+   "trades": 1696,
+   "makerPnl": 21106.9271,
+   "makerPnlPerContract": 0.2915,
+   "rebate": {
+    "hi": 0.0029,
+    "k3": 0.0027,
+    "lo": 0.0024
+   },
+   "poolK3": 191.8916
+  },
+  {
+   "ticker": "KXWTADOUBLES-26OCT03MERSHNLUMPAN-MERSHN",
+   "sport": "WTA",
+   "kind": "DOUBLES",
+   "game": "WTA-26OCT03MERSHNLUMPAN",
+   "start": "2026-10-04T07:45:00.000Z",
+   "liveVolume": 8995.45,
+   "livePnl": -447.0754,
+   "volume": 10516.18,
+   "trades": 187,
+   "makerPnl": -820.728,
+   "makerPnlPerContract": -0.078,
+   "rebate": {
+    "hi": 0.0193,
+    "k3": 0.0174,
+    "lo": 0.0154
+   },
+   "poolK3": 183.4432
+  },
+  {
+   "ticker": "KXWTADOUBLES-26OCT03BOUANNHUNMLA-HUNMLA",
+   "sport": "WTA",
+   "kind": "DOUBLES",
+   "game": "WTA-26OCT03BOUANNHUNMLA",
+   "start": "2026-10-04T06:00:00.000Z",
+   "liveVolume": 26664.62,
+   "livePnl": -3654.3791,
+   "volume": 26673.75,
+   "trades": 332,
+   "makerPnl": -3657.6659,
+   "makerPnlPerContract": -0.1371,
+   "rebate": {
+    "hi": 0.0065,
+    "k3": 0.0056,
+    "lo": 0.0045
+   },
+   "poolK3": 148.6468
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT04LEHVAL-1-LEH",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT04LEHVAL",
+   "start": "2026-10-04T09:35:00.000Z",
+   "liveVolume": 1975.68,
+   "livePnl": -289.34,
+   "volume": 2301.68,
+   "trades": 83,
+   "makerPnl": -396.92,
+   "makerPnlPerContract": -0.1724,
+   "rebate": {
+    "hi": 0.0781,
+    "k3": 0.0608,
+    "lo": 0.0431
+   },
+   "poolK3": 139.9803
+  },
+  {
+   "ticker": "KXNFLTD-26OCT04INDWAS-INDJTAYLOR28-2",
+   "sport": "NFL",
+   "kind": "TD",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 105174.02,
+   "livePnl": -33250.2573,
+   "volume": 144776.13,
+   "trades": 1567,
+   "makerPnl": -58070.2865,
+   "makerPnlPerContract": -0.4011,
+   "rebate": {
+    "hi": 0.0013,
+    "k3": 0.0009,
+    "lo": 0.0006
+   },
+   "poolK3": 136.5622
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT04MEDCER-1-MED",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT04MEDCER",
+   "start": "2026-10-04T08:30:00.000Z",
+   "liveVolume": 128050.53,
+   "livePnl": 107.9522,
+   "volume": 128070.9,
+   "trades": 700,
+   "makerPnl": 100.9627,
+   "makerPnlPerContract": 0.0008,
+   "rebate": {
+    "hi": 0.0012,
+    "k3": 0.001,
+    "lo": 0.0009
+   },
+   "poolK3": 133.0421
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT04MEDCER-2-MED",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT04MEDCER",
+   "start": "2026-10-04T08:30:00.000Z",
+   "liveVolume": 26917.15,
+   "livePnl": -5035.8426,
+   "volume": 26988.17,
+   "trades": 236,
+   "makerPnl": -5058.5694,
+   "makerPnlPerContract": -0.1874,
+   "rebate": {
+    "hi": 0.0055,
+    "k3": 0.0047,
+    "lo": 0.0038
+   },
+   "poolK3": 128.1234
+  },
+  {
+   "ticker": "KXWTADOUBLES-26OCT03MCCTJEBARCHW-BARCHW",
+   "sport": "WTA",
+   "kind": "DOUBLES",
+   "game": "WTA-26OCT03MCCTJEBARCHW",
+   "start": "2026-10-04T06:25:00.000Z",
+   "liveVolume": 23625.61,
+   "livePnl": -3614.334,
+   "volume": 23789.12,
+   "trades": 459,
+   "makerPnl": -3729.8954,
+   "makerPnlPerContract": -0.1568,
+   "rebate": {
+    "hi": 0.006,
+    "k3": 0.0053,
+    "lo": 0.0046
+   },
+   "poolK3": 126.9402
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT03DERUB-2-DE",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT03DERUB",
+   "start": "2026-10-04T06:55:00.000Z",
+   "liveVolume": 169767.07,
+   "livePnl": -22515.2558,
+   "volume": 169989.07,
+   "trades": 703,
+   "makerPnl": -22617.3758,
+   "makerPnlPerContract": -0.1331,
+   "rebate": {
+    "hi": 0.0008,
+    "k3": 0.0007,
+    "lo": 0.0005
+   },
+   "poolK3": 118.2233
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT03VACFIL-2-FIL",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT03VACFIL",
+   "start": "2026-10-04T07:00:00.000Z",
+   "liveVolume": 30907.42,
+   "livePnl": -5377.8096,
+   "volume": 31002.44,
+   "trades": 354,
+   "makerPnl": -5403.965,
+   "makerPnlPerContract": -0.1743,
+   "rebate": {
+    "hi": 0.0044,
+    "k3": 0.0038,
+    "lo": 0.0029
+   },
+   "poolK3": 116.8987
+  },
+  {
+   "ticker": "KXATPDOUBLES-26OCT03AREPELBUBSHA-AREPEL",
+   "sport": "ATP",
+   "kind": "DOUBLES",
+   "game": "ATP-26OCT03AREPELBUBSHA",
+   "start": "2026-10-04T08:20:00.000Z",
+   "liveVolume": 9442.66,
+   "livePnl": -295.4646,
+   "volume": 10239.48,
+   "trades": 149,
+   "makerPnl": -536.8933,
+   "makerPnlPerContract": -0.0524,
+   "rebate": {
+    "hi": 0.0117,
+    "k3": 0.0103,
+    "lo": 0.0087
+   },
+   "poolK3": 105.4598
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT03ALCSHA-1-ALC",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT03ALCSHA",
+   "start": "2026-10-04T04:00:00.000Z",
+   "liveVolume": 445378.37,
+   "livePnl": -85784.9691,
+   "volume": 449834.83,
+   "trades": 2850,
+   "makerPnl": -86541.1739,
+   "makerPnlPerContract": -0.1924,
+   "rebate": {
+    "hi": 0.0003,
+    "k3": 0.0002,
+    "lo": 0.0002
+   },
+   "poolK3": 98.7498
+  },
+  {
+   "ticker": "KXWTADOUBLES-26OCT04SONVEKPERSCH-PERSCH",
+   "sport": "WTA",
+   "kind": "DOUBLES",
+   "game": "WTA-26OCT04SONVEKPERSCH",
+   "start": "2026-10-04T05:05:00.000Z",
+   "liveVolume": 5510.03,
+   "livePnl": -439.4586,
+   "volume": 5510.03,
+   "trades": 152,
+   "makerPnl": -439.4586,
+   "makerPnlPerContract": -0.0798,
+   "rebate": {
+    "hi": 0.0168,
+    "k3": 0.0159,
+    "lo": 0.0147
+   },
+   "poolK3": 87.4079
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03MUCSAM-1-MUC",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03MUCSAM",
+   "start": "2026-10-04T14:00:00.000Z",
+   "liveVolume": 79533.27,
+   "livePnl": 28963.8129,
+   "volume": 92106.42,
+   "trades": 712,
+   "makerPnl": 38039.4586,
+   "makerPnlPerContract": 0.413,
+   "rebate": {
+    "hi": 0.0009,
+    "k3": 0.0009,
+    "lo": 0.0009
+   },
+   "poolK3": 82.9313
+  },
+  {
+   "ticker": "KXWTADOUBLES-26OCT03TANYIFDABSTE-DABSTE",
+   "sport": "WTA",
+   "kind": "DOUBLES",
+   "game": "WTA-26OCT03TANYIFDABSTE",
+   "start": "2026-10-04T03:00:00.000Z",
+   "liveVolume": 41293.92,
+   "livePnl": -1840.6399,
+   "volume": 42625.83,
+   "trades": 385,
+   "makerPnl": -2148.6208,
+   "makerPnlPerContract": -0.0504,
+   "rebate": {
+    "hi": 0.0022,
+    "k3": 0.0019,
+    "lo": 0.0016
+   },
+   "poolK3": 82.2092
+  },
+  {
+   "ticker": "KXF1RACE-BAH26-VER",
+   "sport": "F1RACE",
+   "kind": "F1RACE",
+   "game": "F1RACE-BAH26",
+   "start": "2026-10-04T07:00:00.000Z",
+   "liveVolume": 321686.3,
+   "livePnl": -19655.7071,
+   "volume": 553313.37,
+   "trades": 10712,
+   "makerPnl": -112729.405,
+   "makerPnlPerContract": -0.2037,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 74.9734
+  },
+  {
+   "ticker": "KXATPGTOTAL-26OCT04ZVEDJO-23",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26OCT04ZVEDJO",
+   "start": "2026-10-04T11:00:00.000Z",
+   "liveVolume": 49967.46,
+   "livePnl": 2752.5374,
+   "volume": 56867.5,
+   "trades": 678,
+   "makerPnl": 363.8077,
+   "makerPnlPerContract": 0.0064,
+   "rebate": {
+    "hi": 0.0015,
+    "k3": 0.0013,
+    "lo": 0.0011
+   },
+   "poolK3": 74.5421
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT03VACFIL-1-FIL",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT03VACFIL",
+   "start": "2026-10-04T07:00:00.000Z",
+   "liveVolume": 42302.87,
+   "livePnl": 19120.8244,
+   "volume": 42521.23,
+   "trades": 424,
+   "makerPnl": 19277.2936,
+   "makerPnlPerContract": 0.4534,
+   "rebate": {
+    "hi": 0.0023,
+    "k3": 0.0017,
+    "lo": 0.0012
+   },
+   "poolK3": 71.2691
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT04MEDCER-1-CER",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT04MEDCER",
+   "start": "2026-10-04T08:30:00.000Z",
+   "liveVolume": 47491.69,
+   "livePnl": 14903.8937,
+   "volume": 47761.69,
+   "trades": 417,
+   "makerPnl": 15001.0937,
+   "makerPnlPerContract": 0.3141,
+   "rebate": {
+    "hi": 0.0015,
+    "k3": 0.0015,
+    "lo": 0.0015
+   },
+   "poolK3": 69.4466
+  },
+  {
+   "ticker": "KXNFL1H-26OCT04INDWAS-WAS",
+   "sport": "NFL",
+   "kind": "1H",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 81267.06,
+   "livePnl": 11373.989,
+   "volume": 109671.14,
+   "trades": 1511,
+   "makerPnl": 20909.935,
+   "makerPnlPerContract": 0.1907,
+   "rebate": {
+    "hi": 0.0006,
+    "k3": 0.0006,
+    "lo": 0.0005
+   },
+   "poolK3": 61.1155
+  },
+  {
+   "ticker": "KXNFLFIRSTTD-26OCT04INDWAS-INDJTAYLOR28",
+   "sport": "NFL",
+   "kind": "FIRSTTD",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 99416.12,
+   "livePnl": -32468.7975,
+   "volume": 188335.27,
+   "trades": 2071,
+   "makerPnl": -84482.117,
+   "makerPnlPerContract": -0.4486,
+   "rebate": {
+    "hi": 0.0004,
+    "k3": 0.0003,
+    "lo": 0.0002
+   },
+   "poolK3": 56.9045
+  },
+  {
+   "ticker": "KXNFL1Q-26OCT04INDWAS-TIE",
+   "sport": "NFL",
+   "kind": "1Q",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 4823.64,
+   "livePnl": 153.0599,
+   "volume": 12062.08,
+   "trades": 127,
+   "makerPnl": 1720.4513,
+   "makerPnlPerContract": 0.1426,
+   "rebate": {
+    "hi": 0.0046,
+    "k3": 0.0046,
+    "lo": 0.0046
+   },
+   "poolK3": 55.2924
+  },
+  {
+   "ticker": "KXATPGTOTAL-26OCT03HURKHA-21",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26OCT03HURKHA",
+   "start": "2026-10-04T05:00:00.000Z",
+   "liveVolume": 3429.07,
+   "livePnl": -124.0965,
+   "volume": 7919.4,
+   "trades": 58,
+   "makerPnl": -1210.019,
+   "makerPnlPerContract": -0.1528,
+   "rebate": {
+    "hi": 0.0078,
+    "k3": 0.0069,
+    "lo": 0.0061
+   },
+   "poolK3": 54.5336
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT03HURKHA-1-KHA",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT03HURKHA",
+   "start": "2026-10-04T05:00:00.000Z",
+   "liveVolume": 88615.43,
+   "livePnl": 35968.9809,
+   "volume": 91937.36,
+   "trades": 1050,
+   "makerPnl": 37861.6782,
+   "makerPnlPerContract": 0.4118,
+   "rebate": {
+    "hi": 0.0007,
+    "k3": 0.0006,
+    "lo": 0.0005
+   },
+   "poolK3": 54.1756
+  },
+  {
+   "ticker": "KXATPDOUBLES-26OCT03HIJUESARROLI-ARROLI",
+   "sport": "ATP",
+   "kind": "DOUBLES",
+   "game": "ATP-26OCT03HIJUESARROLI",
+   "start": "2026-10-04T05:30:00.000Z",
+   "liveVolume": 77270.66,
+   "livePnl": -24691.3241,
+   "volume": 78566.05,
+   "trades": 1434,
+   "makerPnl": -25157.6645,
+   "makerPnlPerContract": -0.3202,
+   "rebate": {
+    "hi": 0.0008,
+    "k3": 0.0007,
+    "lo": 0.0006
+   },
+   "poolK3": 53.4324
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT04ZVEDJO-1-ZVE",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT04ZVEDJO",
+   "start": "2026-10-04T11:00:00.000Z",
+   "liveVolume": 67967.56,
+   "livePnl": -2872.17,
+   "volume": 69662.05,
+   "trades": 386,
+   "makerPnl": -3376.7069,
+   "makerPnlPerContract": -0.0485,
+   "rebate": {
+    "hi": 0.0012,
+    "k3": 0.0007,
+    "lo": 0.0004
+   },
+   "poolK3": 51.1464
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT03DERUB-1-RUB",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT03DERUB",
+   "start": "2026-10-04T06:55:00.000Z",
+   "liveVolume": 30726.27,
+   "livePnl": -3856.0941,
+   "volume": 32398.11,
+   "trades": 333,
+   "makerPnl": -4716.7563,
+   "makerPnlPerContract": -0.1456,
+   "rebate": {
+    "hi": 0.0017,
+    "k3": 0.0016,
+    "lo": 0.0014
+   },
+   "poolK3": 51.024
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03KUDAND-2-AND",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03KUDAND",
+   "start": "2026-10-04T05:00:00.000Z",
+   "liveVolume": 59815.36,
+   "livePnl": -7342.7649,
+   "volume": 59838.36,
+   "trades": 162,
+   "makerPnl": -7346.8249,
+   "makerPnlPerContract": -0.1228,
+   "rebate": {
+    "hi": 0.0009,
+    "k3": 0.0008,
+    "lo": 0.0007
+   },
+   "poolK3": 49.1892
+  },
+  {
+   "ticker": "KXWTADOUBLES-26OCT03KOZZVOKICMUH-KICMUH",
+   "sport": "WTA",
+   "kind": "DOUBLES",
+   "game": "WTA-26OCT03KOZZVOKICMUH",
+   "start": "2026-10-04T03:00:00.000Z",
+   "liveVolume": 126096.1,
+   "livePnl": -11343.3324,
+   "volume": 126097.52,
+   "trades": 1332,
+   "makerPnl": -11342.9455,
+   "makerPnlPerContract": -0.09,
+   "rebate": {
+    "hi": 0.0004,
+    "k3": 0.0004,
+    "lo": 0.0003
+   },
+   "poolK3": 48.4953
+  },
+  {
+   "ticker": "KXATPGTOTAL-26OCT04MEDCER-22",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26OCT04MEDCER",
+   "start": "2026-10-04T08:30:00.000Z",
+   "liveVolume": 8642.5,
+   "livePnl": 1477.3459,
+   "volume": 10202.73,
+   "trades": 132,
+   "makerPnl": 784.0131,
+   "makerPnlPerContract": 0.0768,
+   "rebate": {
+    "hi": 0.0049,
+    "k3": 0.0047,
+    "lo": 0.0046
+   },
+   "poolK3": 48.3501
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03BARSAB-2-BAR",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03BARSAB",
+   "start": "2026-10-04T03:00:00.000Z",
+   "liveVolume": 87117.8,
+   "livePnl": -32359.9258,
+   "volume": 87536.8,
+   "trades": 1020,
+   "makerPnl": -32686.7458,
+   "makerPnlPerContract": -0.3734,
+   "rebate": {
+    "hi": 0.0005,
+    "k3": 0.0005,
+    "lo": 0.0005
+   },
+   "poolK3": 46.4009
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT03HURKHA-2-HUR",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT03HURKHA",
+   "start": "2026-10-04T05:00:00.000Z",
+   "liveVolume": 20476.52,
+   "livePnl": -5875.2424,
+   "volume": 20688.52,
+   "trades": 315,
+   "makerPnl": -5991.8424,
+   "makerPnlPerContract": -0.2896,
+   "rebate": {
+    "hi": 0.0022,
+    "k3": 0.0022,
+    "lo": 0.0022
+   },
+   "poolK3": 45.4484
+  },
+  {
+   "ticker": "KXATPGTOTAL-26OCT03DERUB-23",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26OCT03DERUB",
+   "start": "2026-10-04T06:55:00.000Z",
+   "liveVolume": 20503.01,
+   "livePnl": -964.2666,
+   "volume": 37505.02,
+   "trades": 649,
+   "makerPnl": -9074.9512,
+   "makerPnlPerContract": -0.242,
+   "rebate": {
+    "hi": 0.0015,
+    "k3": 0.0012,
+    "lo": 0.0009
+   },
+   "poolK3": 43.8564
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT04ZVEDJO-2-DJO",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT04ZVEDJO",
+   "start": "2026-10-04T11:00:00.000Z",
+   "liveVolume": 105979.57,
+   "livePnl": -27904.0635,
+   "volume": 106487.99,
+   "trades": 763,
+   "makerPnl": -28222.8382,
+   "makerPnlPerContract": -0.265,
+   "rebate": {
+    "hi": 0.0003,
+    "k3": 0.0003,
+    "lo": 0.0003
+   },
+   "poolK3": 36.7869
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03BEJOSA-2-OSA",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03BEJOSA",
+   "start": "2026-10-04T11:00:00.000Z",
+   "liveVolume": 80687.25,
+   "livePnl": -8353.9593,
+   "volume": 80687.25,
+   "trades": 506,
+   "makerPnl": -8353.9593,
+   "makerPnlPerContract": -0.1035,
+   "rebate": {
+    "hi": 0.0004,
+    "k3": 0.0004,
+    "lo": 0.0004
+   },
+   "poolK3": 35.7203
+  },
+  {
+   "ticker": "KXWTADOUBLES-26OCT03BOUANNHUNMLA-BOUANN",
+   "sport": "WTA",
+   "kind": "DOUBLES",
+   "game": "WTA-26OCT03BOUANNHUNMLA",
+   "start": "2026-10-04T06:00:00.000Z",
+   "liveVolume": 42050.08,
+   "livePnl": 4251.8944,
+   "volume": 42480.7,
+   "trades": 487,
+   "makerPnl": 4416.426,
+   "makerPnlPerContract": 0.104,
+   "rebate": {
+    "hi": 0.0009,
+    "k3": 0.0008,
+    "lo": 0.0007
+   },
+   "poolK3": 33.6336
+  },
+  {
+   "ticker": "KXATPGTOTAL-26OCT04ZVEDJO-18",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26OCT04ZVEDJO",
+   "start": "2026-10-04T11:00:00.000Z",
+   "liveVolume": 3419.49,
+   "livePnl": 331.0414,
+   "volume": 7188.01,
+   "trades": 73,
+   "makerPnl": 66.2477,
+   "makerPnlPerContract": 0.0092,
+   "rebate": {
+    "hi": 0.0051,
+    "k3": 0.0044,
+    "lo": 0.0037
+   },
+   "poolK3": 31.7623
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03KUDAND-1-KUD",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03KUDAND",
+   "start": "2026-10-04T05:00:00.000Z",
+   "liveVolume": 92203.75,
+   "livePnl": 28847.0966,
+   "volume": 93584.41,
+   "trades": 653,
+   "makerPnl": 29073.5584,
+   "makerPnlPerContract": 0.3107,
+   "rebate": {
+    "hi": 0.0004,
+    "k3": 0.0003,
+    "lo": 0.0003
+   },
+   "poolK3": 31.6901
+  },
+  {
+   "ticker": "KXUFCMOV-26OCT03SMIWHI-SMIKOTKODQ",
+   "sport": "UFC",
+   "kind": "MOV",
+   "game": "UFC-26OCT03SMIWHI",
+   "start": "2026-10-03T21:19:00.000Z",
+   "liveVolume": 43174.3,
+   "livePnl": -1993.8327,
+   "volume": 88060.41,
+   "trades": 1997,
+   "makerPnl": -14686.6781,
+   "makerPnlPerContract": -0.1668,
+   "rebate": {
+    "hi": 0.0003,
+    "k3": 0.0003,
+    "lo": 0.0003
+   },
+   "poolK3": 30.4487
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03BEJOSA-1-OSA",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03BEJOSA",
+   "start": "2026-10-04T11:00:00.000Z",
+   "liveVolume": 161866.31,
+   "livePnl": -40181.7018,
+   "volume": 165144.57,
+   "trades": 1236,
+   "makerPnl": -41196.3927,
+   "makerPnlPerContract": -0.2495,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0002,
+    "lo": 0.0002
+   },
+   "poolK3": 30.1858
+  },
+  {
+   "ticker": "KXWTADOUBLES-26OCT04BOUSTAJOIKLE-BOUSTA",
+   "sport": "WTA",
+   "kind": "DOUBLES",
+   "game": "WTA-26OCT04BOUSTAJOIKLE",
+   "start": "2026-10-04T07:55:00.000Z",
+   "liveVolume": 5105.55,
+   "livePnl": -748.9629,
+   "volume": 5105.65,
+   "trades": 127,
+   "makerPnl": -748.9699,
+   "makerPnlPerContract": -0.1467,
+   "rebate": {
+    "hi": 0.0066,
+    "k3": 0.0056,
+    "lo": 0.0042
+   },
+   "poolK3": 28.3478
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT03DERUB-1-DE",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT03DERUB",
+   "start": "2026-10-04T06:55:00.000Z",
+   "liveVolume": 17729.96,
+   "livePnl": 5372.7022,
+   "volume": 18059.78,
+   "trades": 168,
+   "makerPnl": 5550.805,
+   "makerPnlPerContract": 0.3074,
+   "rebate": {
+    "hi": 0.0027,
+    "k3": 0.0015,
+    "lo": 0.0006
+   },
+   "poolK3": 27.6818
+  },
+  {
+   "ticker": "KXNFLFIRSTTD-26OCT04INDWAS-INDTWARREN84",
+   "sport": "NFL",
+   "kind": "FIRSTTD",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 70064.74,
+   "livePnl": 3913.3893,
+   "volume": 157592.11,
+   "trades": 1357,
+   "makerPnl": 11370.0591,
+   "makerPnlPerContract": 0.0721,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0002,
+    "lo": 0.0001
+   },
+   "poolK3": 27.4864
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT03HURKHA-1-HUR",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT03HURKHA",
+   "start": "2026-10-04T05:00:00.000Z",
+   "liveVolume": 75994.36,
+   "livePnl": -21483.1348,
+   "volume": 76650.2,
+   "trades": 856,
+   "makerPnl": -21848.2852,
+   "makerPnlPerContract": -0.285,
+   "rebate": {
+    "hi": 0.0004,
+    "k3": 0.0003,
+    "lo": 0.0003
+   },
+   "poolK3": 26.6828
+  },
+  {
+   "ticker": "KXNFLFIRSTTDTEAM-26OCT04INDWAS-IND",
+   "sport": "NFL",
+   "kind": "FIRSTTDTEAM",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 6547.94,
+   "livePnl": 65.5237,
+   "volume": 6915.04,
+   "trades": 259,
+   "makerPnl": -11.4591,
+   "makerPnlPerContract": -0.0017,
+   "rebate": {
+    "hi": 0.0063,
+    "k3": 0.0038,
+    "lo": 0.0019
+   },
+   "poolK3": 25.981
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03NOSGOL-1-NOS",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03NOSGOL",
+   "start": "2026-10-04T06:25:00.000Z",
+   "liveVolume": 6531.24,
+   "livePnl": -651.2269,
+   "volume": 8551.24,
+   "trades": 113,
+   "makerPnl": -1034.6369,
+   "makerPnlPerContract": -0.121,
+   "rebate": {
+    "hi": 0.0035,
+    "k3": 0.003,
+    "lo": 0.0025
+   },
+   "poolK3": 25.4503
+  },
+  {
+   "ticker": "KXWTAGTOTAL-26OCT03KUDAND-19",
+   "sport": "WTA",
+   "kind": "GTOTAL",
+   "game": "WTA-26OCT03KUDAND",
+   "start": "2026-10-04T05:00:00.000Z",
+   "liveVolume": 8401.37,
+   "livePnl": 1.4468,
+   "volume": 9168.72,
+   "trades": 130,
+   "makerPnl": 22.7113,
+   "makerPnlPerContract": 0.0025,
+   "rebate": {
+    "hi": 0.0027,
+    "k3": 0.0027,
+    "lo": 0.0027
+   },
+   "poolK3": 24.6026
+  },
+  {
+   "ticker": "KXNFLREC-26OCT04INDWAS-WASSDIGGS3-3",
+   "sport": "NFL",
+   "kind": "REC",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 513.07,
+   "livePnl": -13.6721,
+   "volume": 2927.93,
+   "trades": 57,
+   "makerPnl": -146.9532,
+   "makerPnlPerContract": -0.0502,
+   "rebate": {
+    "hi": 0.0248,
+    "k3": 0.0082,
+    "lo": 0.0032
+   },
+   "poolK3": 23.9871
+  },
+  {
+   "ticker": "KXNFLPASSINT-26OCT04INDWAS-INDDJONES17-1",
+   "sport": "NFL",
+   "kind": "PASSINT",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 3471.56,
+   "livePnl": 75.0895,
+   "volume": 16466.64,
+   "trades": 153,
+   "makerPnl": -6389.1246,
+   "makerPnlPerContract": -0.388,
+   "rebate": {
+    "hi": 0.0023,
+    "k3": 0.0014,
+    "lo": 0.0008
+   },
+   "poolK3": 23.3158
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03ALESHN-1-SHN",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03ALESHN",
+   "start": "2026-10-04T04:50:00.000Z",
+   "liveVolume": 40661.63,
+   "livePnl": -2841.6746,
+   "volume": 40893.38,
+   "trades": 231,
+   "makerPnl": -2925.1421,
+   "makerPnlPerContract": -0.0715,
+   "rebate": {
+    "hi": 0.0006,
+    "k3": 0.0006,
+    "lo": 0.0005
+   },
+   "poolK3": 22.4963
+  },
+  {
+   "ticker": "KXATPGTOTAL-26OCT04LEHVAL-18",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26OCT04LEHVAL",
+   "start": "2026-10-04T09:35:00.000Z",
+   "liveVolume": 3606.23,
+   "livePnl": -504.2953,
+   "volume": 3608.23,
+   "trades": 129,
+   "makerPnl": -502.5953,
+   "makerPnlPerContract": -0.1393,
+   "rebate": {
+    "hi": 0.0081,
+    "k3": 0.0061,
+    "lo": 0.0044
+   },
+   "poolK3": 22.1539
+  },
+  {
+   "ticker": "KXATPGTOTAL-26OCT03VACFIL-23",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26OCT03VACFIL",
+   "start": "2026-10-04T07:00:00.000Z",
+   "liveVolume": 7255.76,
+   "livePnl": -957.089,
+   "volume": 11268.07,
+   "trades": 197,
+   "makerPnl": -2684.4228,
+   "makerPnlPerContract": -0.2382,
+   "rebate": {
+    "hi": 0.0024,
+    "k3": 0.002,
+    "lo": 0.0015
+   },
+   "poolK3": 22.108
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT01PAOSNI-2-SNI",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT01PAOSNI",
+   "start": "2026-10-02T05:45:00.000Z",
+   "liveVolume": 96071.34,
+   "livePnl": -19045.1771,
+   "volume": 96294.96,
+   "trades": 1616,
+   "makerPnl": -19172.6405,
+   "makerPnlPerContract": -0.1991,
+   "rebate": {
+    "hi": 0.0004,
+    "k3": 0.0002,
+    "lo": 0.0001
+   },
+   "poolK3": 21.7785
+  },
+  {
+   "ticker": "KXMLBF5TOTAL-26OCT032030SDMIL-7",
+   "sport": "MLB",
+   "kind": "F5TOTAL",
+   "game": "MLB-26OCT032030SDMIL",
+   "start": "2026-10-04T00:30:00.000Z",
+   "liveVolume": 21336.34,
+   "livePnl": -51.7472,
+   "volume": 21842.14,
+   "trades": 222,
+   "makerPnl": -126.017,
+   "makerPnlPerContract": -0.0058,
+   "rebate": {
+    "hi": 0.0013,
+    "k3": 0.001,
+    "lo": 0.0006
+   },
+   "poolK3": 21.4379
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT03HURKHA-2-KHA",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT03HURKHA",
+   "start": "2026-10-04T05:00:00.000Z",
+   "liveVolume": 37389.16,
+   "livePnl": 5656.3861,
+   "volume": 37639.18,
+   "trades": 323,
+   "makerPnl": 5798.3973,
+   "makerPnlPerContract": 0.1541,
+   "rebate": {
+    "hi": 0.0007,
+    "k3": 0.0006,
+    "lo": 0.0005
+   },
+   "poolK3": 21.373
+  },
+  {
+   "ticker": "KXWTADOUBLES-26OCT03KOZZVOKICMUH-KOZZVO",
+   "sport": "WTA",
+   "kind": "DOUBLES",
+   "game": "WTA-26OCT03KOZZVOKICMUH",
+   "start": "2026-10-04T03:00:00.000Z",
+   "liveVolume": 146051.85,
+   "livePnl": 12090.9222,
+   "volume": 146098.4,
+   "trades": 1122,
+   "makerPnl": 12118.4896,
+   "makerPnlPerContract": 0.0829,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 20.8756
+  },
+  {
+   "ticker": "KXWTAGTOTAL-26OCT03BEJOSA-27",
+   "sport": "WTA",
+   "kind": "GTOTAL",
+   "game": "WTA-26OCT03BEJOSA",
+   "start": "2026-10-04T11:00:00.000Z",
+   "liveVolume": 2973.76,
+   "livePnl": 432.6321,
+   "volume": 2976.93,
+   "trades": 146,
+   "makerPnl": 433.5831,
+   "makerPnlPerContract": 0.1456,
+   "rebate": {
+    "hi": 0.008,
+    "k3": 0.0059,
+    "lo": 0.0035
+   },
+   "poolK3": 17.4906
+  },
+  {
+   "ticker": "KXWTAGTOTAL-26OCT03BEJOSA-17",
+   "sport": "WTA",
+   "kind": "GTOTAL",
+   "game": "WTA-26OCT03BEJOSA",
+   "start": "2026-10-04T11:00:00.000Z",
+   "liveVolume": 490.56,
+   "livePnl": 62.7229,
+   "volume": 491.69,
+   "trades": 21,
+   "makerPnl": 62.576,
+   "makerPnlPerContract": 0.1273,
+   "rebate": {
+    "hi": 0.0413,
+    "k3": 0.0349,
+    "lo": 0.0279
+   },
+   "poolK3": 17.1834
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT04MEDCER-2-CER",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT04MEDCER",
+   "start": "2026-10-04T08:30:00.000Z",
+   "liveVolume": 38294.07,
+   "livePnl": 8494.2768,
+   "volume": 38557.07,
+   "trades": 335,
+   "makerPnl": 8588.9568,
+   "makerPnlPerContract": 0.2228,
+   "rebate": {
+    "hi": 0.0004,
+    "k3": 0.0004,
+    "lo": 0.0004
+   },
+   "poolK3": 15.5047
+  },
+  {
+   "ticker": "KXWTADOUBLES-26OCT03MCCTJEBARCHW-MCCTJE",
+   "sport": "WTA",
+   "kind": "DOUBLES",
+   "game": "WTA-26OCT03MCCTJEBARCHW",
+   "start": "2026-10-04T06:25:00.000Z",
+   "liveVolume": 8096.6,
+   "livePnl": 586.9722,
+   "volume": 8374.55,
+   "trades": 110,
+   "makerPnl": 782.5985,
+   "makerPnlPerContract": 0.0934,
+   "rebate": {
+    "hi": 0.0024,
+    "k3": 0.0018,
+    "lo": 0.0013
+   },
+   "poolK3": 15.4223
+  },
+  {
+   "ticker": "KXNFLREC-26OCT04INDWAS-WASSDIGGS3-2",
+   "sport": "NFL",
+   "kind": "REC",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 123.19,
+   "livePnl": -1.3019,
+   "volume": 250.3,
+   "trades": 28,
+   "makerPnl": -6.475,
+   "makerPnlPerContract": -0.0259,
+   "rebate": {
+    "hi": 0.1089,
+    "k3": 0.0528,
+    "lo": 0.0204
+   },
+   "poolK3": 13.2134
+  },
+  {
+   "ticker": "KXATPGTOTAL-26OCT03DERUB-18",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26OCT03DERUB",
+   "start": "2026-10-04T06:55:00.000Z",
+   "liveVolume": 6531.06,
+   "livePnl": 311.7629,
+   "volume": 6560.57,
+   "trades": 177,
+   "makerPnl": 309.1731,
+   "makerPnlPerContract": 0.0471,
+   "rebate": {
+    "hi": 0.0029,
+    "k3": 0.0018,
+    "lo": 0.0009
+   },
+   "poolK3": 12.1055
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT04ZVEDJO-1-DJO",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT04ZVEDJO",
+   "start": "2026-10-04T11:00:00.000Z",
+   "liveVolume": 56549.72,
+   "livePnl": 4888.1476,
+   "volume": 65562.48,
+   "trades": 441,
+   "makerPnl": 7895.1837,
+   "makerPnlPerContract": 0.1204,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0002,
+    "lo": 0.0001
+   },
+   "poolK3": 11.8148
+  },
+  {
+   "ticker": "KXATPGTOTAL-26OCT03VACFIL-18",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26OCT03VACFIL",
+   "start": "2026-10-04T07:00:00.000Z",
+   "liveVolume": 1107.26,
+   "livePnl": 90.232,
+   "volume": 1109.26,
+   "trades": 35,
+   "makerPnl": 90.012,
+   "makerPnlPerContract": 0.0811,
+   "rebate": {
+    "hi": 0.0148,
+    "k3": 0.0104,
+    "lo": 0.0072
+   },
+   "poolK3": 11.585
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03NOSGOL-2-NOS",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03NOSGOL",
+   "start": "2026-10-04T06:25:00.000Z",
+   "liveVolume": 81929.84,
+   "livePnl": -4989.5543,
+   "volume": 81929.84,
+   "trades": 193,
+   "makerPnl": -4989.5543,
+   "makerPnlPerContract": -0.0609,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 11.4622
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03KUDAND-1-AND",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03KUDAND",
+   "start": "2026-10-04T05:00:00.000Z",
+   "liveVolume": 104513.02,
+   "livePnl": -19141.9303,
+   "volume": 104806.9,
+   "trades": 827,
+   "makerPnl": -19186.1895,
+   "makerPnlPerContract": -0.1831,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 10.7545
+  },
+  {
+   "ticker": "KXATPGTOTAL-26OCT03HURKHA-26",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26OCT03HURKHA",
+   "start": "2026-10-04T05:00:00.000Z",
+   "liveVolume": 12123.18,
+   "livePnl": 4538.7225,
+   "volume": 13001.84,
+   "trades": 216,
+   "makerPnl": 4874.8625,
+   "makerPnlPerContract": 0.3749,
+   "rebate": {
+    "hi": 0.001,
+    "k3": 0.0008,
+    "lo": 0.0006
+   },
+   "poolK3": 10.296
+  },
+  {
+   "ticker": "KXATPGTOTAL-26OCT04LEHVAL-23",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26OCT04LEHVAL",
+   "start": "2026-10-04T09:35:00.000Z",
+   "liveVolume": 1245.2,
+   "livePnl": 222.2075,
+   "volume": 1874.41,
+   "trades": 96,
+   "makerPnl": 387.3096,
+   "makerPnlPerContract": 0.2066,
+   "rebate": {
+    "hi": 0.0066,
+    "k3": 0.0054,
+    "lo": 0.0047
+   },
+   "poolK3": 10.1829
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03SNIPRE-2-SNI",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03SNIPRE",
+   "start": "2026-10-04T07:00:00.000Z",
+   "liveVolume": 19616.04,
+   "livePnl": 776.4072,
+   "volume": 19616.04,
+   "trades": 165,
+   "makerPnl": 776.4072,
+   "makerPnlPerContract": 0.0396,
+   "rebate": {
+    "hi": 0.0007,
+    "k3": 0.0005,
+    "lo": 0.0003
+   },
+   "poolK3": 10.1049
+  },
+  {
+   "ticker": "KXATPGTOTAL-26OCT04MEDCER-17",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26OCT04MEDCER",
+   "start": "2026-10-04T08:30:00.000Z",
+   "liveVolume": 554.49,
+   "livePnl": -1.8794,
+   "volume": 555.5,
+   "trades": 12,
+   "makerPnl": -1.9198,
+   "makerPnlPerContract": -0.0035,
+   "rebate": {
+    "hi": 0.0281,
+    "k3": 0.0178,
+    "lo": 0.0093
+   },
+   "poolK3": 9.9036
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT03VACFIL-1-VAC",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT03VACFIL",
+   "start": "2026-10-04T07:00:00.000Z",
+   "liveVolume": 54112.9,
+   "livePnl": -22850.0966,
+   "volume": 54959.48,
+   "trades": 562,
+   "makerPnl": -23447.9584,
+   "makerPnlPerContract": -0.4266,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0002,
+    "lo": 0.0001
+   },
+   "poolK3": 9.8513
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03ALESHN-2-SHN",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03ALESHN",
+   "start": "2026-10-04T04:50:00.000Z",
+   "liveVolume": 51206.54,
+   "livePnl": 21508.865,
+   "volume": 51206.54,
+   "trades": 329,
+   "makerPnl": 21508.865,
+   "makerPnlPerContract": 0.42,
+   "rebate": {
+    "hi": 0.0003,
+    "k3": 0.0002,
+    "lo": 0.0001
+   },
+   "poolK3": 9.6073
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT03ALCSHA-1-SHA",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT03ALCSHA",
+   "start": "2026-10-04T04:00:00.000Z",
+   "liveVolume": 149969.04,
+   "livePnl": 12395.9875,
+   "volume": 152903.6,
+   "trades": 1367,
+   "makerPnl": 12971.1799,
+   "makerPnlPerContract": 0.0848,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 9.3721
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03KRAYAS-2-KRA",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03KRAYAS",
+   "start": "2026-10-04T03:00:00.000Z",
+   "liveVolume": 38019.14,
+   "livePnl": -9271.8074,
+   "volume": 38028.14,
+   "trades": 514,
+   "makerPnl": -9277.5674,
+   "makerPnlPerContract": -0.244,
+   "rebate": {
+    "hi": 0.0003,
+    "k3": 0.0002,
+    "lo": 0.0002
+   },
+   "poolK3": 8.898
+  },
+  {
+   "ticker": "KXMLBKS-26OCT032030SDMIL-MILJMISIOROWSKI32-6",
+   "sport": "MLB",
+   "kind": "KS",
+   "game": "MLB-26OCT032030SDMIL",
+   "start": "2026-10-04T00:30:00.000Z",
+   "liveVolume": 7932.1,
+   "livePnl": 1759.8652,
+   "volume": 11555.23,
+   "trades": 454,
+   "makerPnl": 1526.025,
+   "makerPnlPerContract": 0.1321,
+   "rebate": {
+    "hi": 0.0008,
+    "k3": 0.0007,
+    "lo": 0.0006
+   },
+   "poolK3": 8.154
+  },
+  {
+   "ticker": "KXWTAGTOTAL-26OCT03BEJOSA-22",
+   "sport": "WTA",
+   "kind": "GTOTAL",
+   "game": "WTA-26OCT03BEJOSA",
+   "start": "2026-10-04T11:00:00.000Z",
+   "liveVolume": 6362.09,
+   "livePnl": 0.5867,
+   "volume": 7422.92,
+   "trades": 185,
+   "makerPnl": 105.0898,
+   "makerPnlPerContract": 0.0142,
+   "rebate": {
+    "hi": 0.0016,
+    "k3": 0.001,
+    "lo": 0.0006
+   },
+   "poolK3": 7.7648
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT03DERUB-2-RUB",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT03DERUB",
+   "start": "2026-10-04T06:55:00.000Z",
+   "liveVolume": 53093.54,
+   "livePnl": 14121.1432,
+   "volume": 53093.54,
+   "trades": 337,
+   "makerPnl": 14121.1432,
+   "makerPnlPerContract": 0.266,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 7.5711
+  },
+  {
+   "ticker": "KXWTAGTOTAL-26OCT03KUDAND-24",
+   "sport": "WTA",
+   "kind": "GTOTAL",
+   "game": "WTA-26OCT03KUDAND",
+   "start": "2026-10-04T05:00:00.000Z",
+   "liveVolume": 2640.09,
+   "livePnl": 1061.1308,
+   "volume": 2640.09,
+   "trades": 73,
+   "makerPnl": 1061.1308,
+   "makerPnlPerContract": 0.4019,
+   "rebate": {
+    "hi": 0.0032,
+    "k3": 0.0028,
+    "lo": 0.0024
+   },
+   "poolK3": 7.4081
+  },
+  {
+   "ticker": "KXNFLFIRSTTD-26OCT04INDWAS-INDDJONES17",
+   "sport": "NFL",
+   "kind": "FIRSTTD",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 36970.01,
+   "livePnl": 1568.3734,
+   "volume": 80118.06,
+   "trades": 369,
+   "makerPnl": 3683.0259,
+   "makerPnlPerContract": 0.046,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 7.3278
+  },
+  {
+   "ticker": "KXNFLREC-26OCT04INDWAS-INDLTREADWELL13-2",
+   "sport": "NFL",
+   "kind": "REC",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 2338.12,
+   "livePnl": -354.8562,
+   "volume": 28611.87,
+   "trades": 135,
+   "makerPnl": -10704.3754,
+   "makerPnlPerContract": -0.3741,
+   "rebate": {
+    "hi": 0.0005,
+    "k3": 0.0002,
+    "lo": 0.0001
+   },
+   "poolK3": 7.1058
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT04ZVEDJO-2-ZVE",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT04ZVEDJO",
+   "start": "2026-10-04T11:00:00.000Z",
+   "liveVolume": 49141.89,
+   "livePnl": 23174.2019,
+   "volume": 49457.28,
+   "trades": 489,
+   "makerPnl": 23196.3949,
+   "makerPnlPerContract": 0.469,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 6.7088
+  },
+  {
+   "ticker": "KXNCAAF1H-26OCT04SJSUHAW-SJSU",
+   "sport": "NCAAF",
+   "kind": "1H",
+   "game": "NCAAF-26OCT04SJSUHAW",
+   "start": "2026-10-04T04:00:00.000Z",
+   "liveVolume": 23083.87,
+   "livePnl": -5979.3631,
+   "volume": 35649.29,
+   "trades": 440,
+   "makerPnl": -12849.8576,
+   "makerPnlPerContract": -0.3605,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0002,
+    "lo": 0.0002
+   },
+   "poolK3": 6.3727
+  },
+  {
+   "ticker": "KXMLBKS-26OCT032030SDMIL-MILJMISIOROWSKI32-5",
+   "sport": "MLB",
+   "kind": "KS",
+   "game": "MLB-26OCT032030SDMIL",
+   "start": "2026-10-04T00:30:00.000Z",
+   "liveVolume": 11199.76,
+   "livePnl": 604.0973,
+   "volume": 19943.64,
+   "trades": 688,
+   "makerPnl": 512.5039,
+   "makerPnlPerContract": 0.0257,
+   "rebate": {
+    "hi": 0.0006,
+    "k3": 0.0003,
+    "lo": 0.0001
+   },
+   "poolK3": 5.9381
+  },
+  {
+   "ticker": "KXMLBKS-26OCT031830NYYTB-NYYGCOLE45-3",
+   "sport": "MLB",
+   "kind": "KS",
+   "game": "MLB-26OCT031830NYYTB",
+   "start": "2026-10-03T22:30:00.000Z",
+   "liveVolume": 1867.07,
+   "livePnl": 122.9851,
+   "volume": 4347.96,
+   "trades": 131,
+   "makerPnl": -78.7781,
+   "makerPnlPerContract": -0.0181,
+   "rebate": {
+    "hi": 0.0029,
+    "k3": 0.0013,
+    "lo": 0.0004
+   },
+   "poolK3": 5.7325
+  },
+  {
+   "ticker": "KXWTAGTOTAL-26OCT03ALESHN-17",
+   "sport": "WTA",
+   "kind": "GTOTAL",
+   "game": "WTA-26OCT03ALESHN",
+   "start": "2026-10-04T04:50:00.000Z",
+   "liveVolume": 1362.51,
+   "livePnl": 51.4404,
+   "volume": 1363.59,
+   "trades": 49,
+   "makerPnl": 51.3456,
+   "makerPnlPerContract": 0.0377,
+   "rebate": {
+    "hi": 0.0061,
+    "k3": 0.0042,
+    "lo": 0.0025
+   },
+   "poolK3": 5.678
+  },
+  {
+   "ticker": "KXNFLFIRSTTDTEAM-26OCT04INDWAS-WAS",
+   "sport": "NFL",
+   "kind": "FIRSTTDTEAM",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 7035.28,
+   "livePnl": 1183.534,
+   "volume": 8473.93,
+   "trades": 284,
+   "makerPnl": 1757.91,
+   "makerPnlPerContract": 0.2074,
+   "rebate": {
+    "hi": 0.0008,
+    "k3": 0.0006,
+    "lo": 0.0004
+   },
+   "poolK3": 5.3218
+  },
+  {
+   "ticker": "KXMLBKS-26OCT031600ATLLAD-LADTSKUBAL29-4",
+   "sport": "MLB",
+   "kind": "KS",
+   "game": "MLB-26OCT031600ATLLAD",
+   "start": "2026-10-03T20:00:00.000Z",
+   "liveVolume": 6373.25,
+   "livePnl": 156.4255,
+   "volume": 9184.99,
+   "trades": 193,
+   "makerPnl": 1.3234,
+   "makerPnlPerContract": 0.0001,
+   "rebate": {
+    "hi": 0.0013,
+    "k3": 0.0006,
+    "lo": 0.0001
+   },
+   "poolK3": 5.3074
+  },
+  {
+   "ticker": "KXBOXING-26OCT03WHITTAC-WHITTA",
+   "sport": "BOXING",
+   "kind": "BOXING",
+   "game": "BOXING-26OCT03WHITTAC",
+   "start": "2026-10-03T18:00:00.000Z",
+   "liveVolume": 79903.61,
+   "livePnl": -608.8949,
+   "volume": 109812.72,
+   "trades": 1559,
+   "makerPnl": -1806.3652,
+   "makerPnlPerContract": -0.0164,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 5.2305
+  },
+  {
+   "ticker": "KXMLBKS-26OCT031300CWSCLE-CLEPMESSICK77-4",
+   "sport": "MLB",
+   "kind": "KS",
+   "game": "MLB-26OCT031300CWSCLE",
+   "start": "2026-10-03T17:00:00.000Z",
+   "liveVolume": 628.08,
+   "livePnl": -5.9541,
+   "volume": 2703.28,
+   "trades": 98,
+   "makerPnl": 74.0149,
+   "makerPnlPerContract": 0.0274,
+   "rebate": {
+    "hi": 0.0045,
+    "k3": 0.0019,
+    "lo": 0.0004
+   },
+   "poolK3": 5.2192
+  },
+  {
+   "ticker": "KXMLBKS-26OCT031300CWSCLE-CWSHSMITH32-5",
+   "sport": "MLB",
+   "kind": "KS",
+   "game": "MLB-26OCT031300CWSCLE",
+   "start": "2026-10-03T17:00:00.000Z",
+   "liveVolume": 5633.25,
+   "livePnl": 1757.65,
+   "volume": 7607.11,
+   "trades": 163,
+   "makerPnl": 1784.0212,
+   "makerPnlPerContract": 0.2345,
+   "rebate": {
+    "hi": 0.0016,
+    "k3": 0.0007,
+    "lo": 0.0002
+   },
+   "poolK3": 5.2192
+  },
+  {
+   "ticker": "KXMLBKS-26OCT031830NYYTB-TBDRASMUSSEN57-4",
+   "sport": "MLB",
+   "kind": "KS",
+   "game": "MLB-26OCT031830NYYTB",
+   "start": "2026-10-03T22:30:00.000Z",
+   "liveVolume": 1402.54,
+   "livePnl": 7.0237,
+   "volume": 4574.21,
+   "trades": 109,
+   "makerPnl": -37.3568,
+   "makerPnlPerContract": -0.0082,
+   "rebate": {
+    "hi": 0.0026,
+    "k3": 0.0011,
+    "lo": 0.0003
+   },
+   "poolK3": 5.2192
+  },
+  {
+   "ticker": "KXATPDOUBLES-26OCT03AREPELBUBSHA-BUBSHA",
+   "sport": "ATP",
+   "kind": "DOUBLES",
+   "game": "ATP-26OCT03AREPELBUBSHA",
+   "start": "2026-10-04T08:20:00.000Z",
+   "liveVolume": 24943,
+   "livePnl": 825.3712,
+   "volume": 25979.84,
+   "trades": 156,
+   "makerPnl": 1178.7003,
+   "makerPnlPerContract": 0.0454,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0002,
+    "lo": 0.0002
+   },
+   "poolK3": 5.0758
+  },
+  {
+   "ticker": "KXNCAAF1H-26OCT03TXSTSDSU-TXST",
+   "sport": "NCAAF",
+   "kind": "1H",
+   "game": "NCAAF-26OCT03TXSTSDSU",
+   "start": "2026-10-04T02:30:00.000Z",
+   "liveVolume": 5563.22,
+   "livePnl": 156.3785,
+   "volume": 6361.18,
+   "trades": 122,
+   "makerPnl": -116.5279,
+   "makerPnlPerContract": -0.0183,
+   "rebate": {
+    "hi": 0.0008,
+    "k3": 0.0007,
+    "lo": 0.0006
+   },
+   "poolK3": 4.4989
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT03MUNJAC-1-MUN",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT03MUNJAC",
+   "start": "2026-10-04T02:00:00.000Z",
+   "liveVolume": 107296.93,
+   "livePnl": -8176.6938,
+   "volume": 114118.95,
+   "trades": 590,
+   "makerPnl": -10792.4826,
+   "makerPnlPerContract": -0.0946,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 4.4769
+  },
+  {
+   "ticker": "KXPGAR1LEAD-BAOUC26-ZBAU",
+   "sport": "PGAR1LEAD",
+   "kind": "PGAR1LEAD",
+   "game": "PGAR1LEAD-BAOUC26",
+   "start": "2026-10-01T13:35:00.000Z",
+   "liveVolume": 240835.77,
+   "livePnl": -97971.0833,
+   "volume": 245321.94,
+   "trades": 817,
+   "makerPnl": -102411.776,
+   "makerPnlPerContract": -0.4175,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 4.3591
+  },
+  {
+   "ticker": "KXNFL1Q-26OCT04INDWAS-WAS",
+   "sport": "NFL",
+   "kind": "1Q",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 31076.07,
+   "livePnl": -1676.1842,
+   "volume": 34598.53,
+   "trades": 494,
+   "makerPnl": -3511.142,
+   "makerPnlPerContract": -0.1015,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 4.1981
+  },
+  {
+   "ticker": "KXNCAAF1H-26OCT03BAYASU-BAY",
+   "sport": "NCAAF",
+   "kind": "1H",
+   "game": "NCAAF-26OCT03BAYASU",
+   "start": "2026-10-04T02:30:00.000Z",
+   "liveVolume": 26603.77,
+   "livePnl": -6755.0074,
+   "volume": 31624.75,
+   "trades": 392,
+   "makerPnl": -9062.8258,
+   "makerPnlPerContract": -0.2866,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 4.1882
+  },
+  {
+   "ticker": "KXNCAAF1H-26OCT04SJSUHAW-TIE",
+   "sport": "NCAAF",
+   "kind": "1H",
+   "game": "NCAAF-26OCT04SJSUHAW",
+   "start": "2026-10-04T04:00:00.000Z",
+   "liveVolume": 14344.66,
+   "livePnl": 1372.2632,
+   "volume": 16670.67,
+   "trades": 267,
+   "makerPnl": 1580.7441,
+   "makerPnlPerContract": 0.0948,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0002,
+    "lo": 0.0002
+   },
+   "poolK3": 3.9692
+  },
+  {
+   "ticker": "KXNCAAF1H-26OCT04SJSUHAW-HAW",
+   "sport": "NCAAF",
+   "kind": "1H",
+   "game": "NCAAF-26OCT04SJSUHAW",
+   "start": "2026-10-04T04:00:00.000Z",
+   "liveVolume": 30622.37,
+   "livePnl": 8871.3156,
+   "volume": 43983.31,
+   "trades": 484,
+   "makerPnl": 15555.2607,
+   "makerPnlPerContract": 0.3537,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 3.9178
+  },
+  {
+   "ticker": "KXATPGTOTAL-26OCT03ALCSHA-20",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26OCT03ALCSHA",
+   "start": "2026-10-04T04:00:00.000Z",
+   "liveVolume": 45097.41,
+   "livePnl": 563.2066,
+   "volume": 57897.94,
+   "trades": 400,
+   "makerPnl": -1375.2526,
+   "makerPnlPerContract": -0.0238,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0
+   },
+   "poolK3": 3.7584
+  },
+  {
+   "ticker": "KXMLBKS-26OCT031600ATLLAD-LADTSKUBAL29-5",
+   "sport": "MLB",
+   "kind": "KS",
+   "game": "MLB-26OCT031600ATLLAD",
+   "start": "2026-10-03T20:00:00.000Z",
+   "liveVolume": 3411.12,
+   "livePnl": 351.2463,
+   "volume": 4484.23,
+   "trades": 203,
+   "makerPnl": 228.7736,
+   "makerPnlPerContract": 0.051,
+   "rebate": {
+    "hi": 0.0008,
+    "k3": 0.0008,
+    "lo": 0.0008
+   },
+   "poolK3": 3.5834
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03SNIPRE-1-SNI",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03SNIPRE",
+   "start": "2026-10-04T07:00:00.000Z",
+   "liveVolume": 33141.39,
+   "livePnl": -2239.7106,
+   "volume": 33236.4,
+   "trades": 143,
+   "makerPnl": -2265.5346,
+   "makerPnlPerContract": -0.0682,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 3.4761
+  },
+  {
+   "ticker": "KXNFLFIRSTTD-26OCT04INDWAS-INDJDOWNS2",
+   "sport": "NFL",
+   "kind": "FIRSTTD",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 76297.73,
+   "livePnl": 3451.5883,
+   "volume": 148989.7,
+   "trades": 987,
+   "makerPnl": 9221.752,
+   "makerPnlPerContract": 0.0619,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 3.4453
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03BARSAB-2-SAB",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03BARSAB",
+   "start": "2026-10-04T03:00:00.000Z",
+   "liveVolume": 117767.62,
+   "livePnl": 14241.8709,
+   "volume": 117788.76,
+   "trades": 824,
+   "makerPnl": 14258.8683,
+   "makerPnlPerContract": 0.1211,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 3.4385
+  },
+  {
+   "ticker": "KXF1RACE-BAH26-HAM",
+   "sport": "F1RACE",
+   "kind": "F1RACE",
+   "game": "F1RACE-BAH26",
+   "start": "2026-10-04T07:00:00.000Z",
+   "liveVolume": 119435.15,
+   "livePnl": 4520.5589,
+   "volume": 276481,
+   "trades": 3467,
+   "makerPnl": 20055.7878,
+   "makerPnlPerContract": 0.0725,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 3.4087
+  },
+  {
+   "ticker": "KXNCAAF1H-26OCT03CINARIZ-ARIZ",
+   "sport": "NCAAF",
+   "kind": "1H",
+   "game": "NCAAF-26OCT03CINARIZ",
+   "start": "2026-10-04T03:00:00.000Z",
+   "liveVolume": 14712.77,
+   "livePnl": -353.5577,
+   "volume": 17597.45,
+   "trades": 223,
+   "makerPnl": -1388.3161,
+   "makerPnlPerContract": -0.0789,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0002,
+    "lo": 0.0001
+   },
+   "poolK3": 3.3762
+  },
+  {
+   "ticker": "KXNFLFIRSTTD-26OCT04INDWAS-WASJCROSKEYMERRITT22",
+   "sport": "NFL",
+   "kind": "FIRSTTD",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 70135.99,
+   "livePnl": -1106.1746,
+   "volume": 175053.41,
+   "trades": 799,
+   "makerPnl": -22606.4511,
+   "makerPnlPerContract": -0.1291,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 3.3729
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03KRAYAS-2-YAS",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03KRAYAS",
+   "start": "2026-10-04T03:00:00.000Z",
+   "liveVolume": 21098.52,
+   "livePnl": 6042.6629,
+   "volume": 21098.52,
+   "trades": 324,
+   "makerPnl": 6042.6629,
+   "makerPnlPerContract": 0.2864,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0002,
+    "lo": 0.0001
+   },
+   "poolK3": 3.2865
+  },
+  {
+   "ticker": "KXWTADOUBLES-26OCT04BOUSTAJOIKLE-JOIKLE",
+   "sport": "WTA",
+   "kind": "DOUBLES",
+   "game": "WTA-26OCT04BOUSTAJOIKLE",
+   "start": "2026-10-04T07:55:00.000Z",
+   "liveVolume": 2029.48,
+   "livePnl": 360.6209,
+   "volume": 2029.58,
+   "trades": 40,
+   "makerPnl": 360.7139,
+   "makerPnlPerContract": 0.1777,
+   "rebate": {
+    "hi": 0.0016,
+    "k3": 0.0015,
+    "lo": 0.0014
+   },
+   "poolK3": 3.0396
+  },
+  {
+   "ticker": "KXNFLFIRSTTD-26OCT04INDWAS-WASJLANE83",
+   "sport": "NFL",
+   "kind": "FIRSTTD",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 877,
+   "livePnl": 16.56,
+   "volume": 17666.87,
+   "trades": 47,
+   "makerPnl": 184.4587,
+   "makerPnlPerContract": 0.0104,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0002,
+    "lo": 0.0002
+   },
+   "poolK3": 3.0142
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT04LEHVAL-2-LEH",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT04LEHVAL",
+   "start": "2026-10-04T09:35:00.000Z",
+   "liveVolume": 29664.29,
+   "livePnl": -1222.5878,
+   "volume": 29773.29,
+   "trades": 96,
+   "makerPnl": -1256.4578,
+   "makerPnlPerContract": -0.0422,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 2.9922
+  },
+  {
+   "ticker": "KXMLBHIT-26OCT032030SDMIL-MILJCHOURIO11-1",
+   "sport": "MLB",
+   "kind": "HIT",
+   "game": "MLB-26OCT032030SDMIL",
+   "start": "2026-10-04T00:30:00.000Z",
+   "liveVolume": 855.25,
+   "livePnl": -211.9301,
+   "volume": 7144.75,
+   "trades": 167,
+   "makerPnl": -2237.2274,
+   "makerPnlPerContract": -0.3131,
+   "rebate": {
+    "hi": 0.0005,
+    "k3": 0.0004,
+    "lo": 0.0002
+   },
+   "poolK3": 2.8206
+  },
+  {
+   "ticker": "KXMLBKS-26OCT031830NYYTB-NYYGCOLE45-4",
+   "sport": "MLB",
+   "kind": "KS",
+   "game": "MLB-26OCT031830NYYTB",
+   "start": "2026-10-03T22:30:00.000Z",
+   "liveVolume": 6856.91,
+   "livePnl": -13.2847,
+   "volume": 14827,
+   "trades": 299,
+   "makerPnl": 1616.987,
+   "makerPnlPerContract": 0.1091,
+   "rebate": {
+    "hi": 0.0003,
+    "k3": 0.0002,
+    "lo": 0.0001
+   },
+   "poolK3": 2.8206
+  },
+  {
+   "ticker": "KXNCAAF1H-26OCT03VANUGA-UGA",
+   "sport": "NCAAF",
+   "kind": "1H",
+   "game": "NCAAF-26OCT03VANUGA",
+   "start": "2026-10-03T16:45:00.000Z",
+   "liveVolume": 35891.44,
+   "livePnl": -1393.455,
+   "volume": 49599.15,
+   "trades": 316,
+   "makerPnl": -2634.5078,
+   "makerPnlPerContract": -0.0531,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0
+   },
+   "poolK3": 2.6713
+  },
+  {
+   "ticker": "KXNCAAF1H-26OCT03NDUNC-ND",
+   "sport": "NCAAF",
+   "kind": "1H",
+   "game": "NCAAF-26OCT03NDUNC",
+   "start": "2026-10-03T16:00:00.000Z",
+   "liveVolume": 17107.84,
+   "livePnl": -1865.801,
+   "volume": 26405.91,
+   "trades": 484,
+   "makerPnl": -2566.6837,
+   "makerPnlPerContract": -0.0972,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 2.6418
+  },
+  {
+   "ticker": "KXNFL1Q-26OCT04INDWAS-IND",
+   "sport": "NFL",
+   "kind": "1Q",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 36675.58,
+   "livePnl": 8477.5792,
+   "volume": 49606.42,
+   "trades": 497,
+   "makerPnl": 14194.0431,
+   "makerPnlPerContract": 0.2861,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0
+   },
+   "poolK3": 2.6045
+  },
+  {
+   "ticker": "KXNFLFIRSTTD-26OCT04INDWAS-WASCOKONKWO85",
+   "sport": "NFL",
+   "kind": "FIRSTTD",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 6204.6,
+   "livePnl": 263.3649,
+   "volume": 37094.22,
+   "trades": 194,
+   "makerPnl": 1492.8031,
+   "makerPnlPerContract": 0.0402,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 2.5588
+  },
+  {
+   "ticker": "KXNFLFIRSTTD-26OCT04INDWAS-WASSDIGGS3",
+   "sport": "NFL",
+   "kind": "FIRSTTD",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 57717.03,
+   "livePnl": 3218.9875,
+   "volume": 129391.82,
+   "trades": 923,
+   "makerPnl": 7486.359,
+   "makerPnlPerContract": 0.0579,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 2.4982
+  },
+  {
+   "ticker": "KXMLBRFI-26OCT031830NYYTB",
+   "sport": "MLB",
+   "kind": "RFI",
+   "game": "MLB-26OCT031830NYYTB",
+   "start": "2026-10-03T22:30:00.000Z",
+   "liveVolume": 236972.55,
+   "livePnl": -33458.3828,
+   "volume": 537501.4,
+   "trades": 4243,
+   "makerPnl": -137684.0487,
+   "makerPnlPerContract": -0.2562,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 2.4634
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03KUDAND-2-KUD",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03KUDAND",
+   "start": "2026-10-04T05:00:00.000Z",
+   "liveVolume": 34990.68,
+   "livePnl": 3994.1203,
+   "volume": 34994.68,
+   "trades": 223,
+   "makerPnl": 3994.0203,
+   "makerPnlPerContract": 0.1141,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 2.3646
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03ALESHN-2-ALE",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03ALESHN",
+   "start": "2026-10-04T04:50:00.000Z",
+   "liveVolume": 143564.59,
+   "livePnl": -20026.3931,
+   "volume": 143564.59,
+   "trades": 535,
+   "makerPnl": -20026.3931,
+   "makerPnlPerContract": -0.1395,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 2.2911
+  },
+  {
+   "ticker": "KXF1RACE-BAH26-ANT",
+   "sport": "F1RACE",
+   "kind": "F1RACE",
+   "game": "F1RACE-BAH26",
+   "start": "2026-10-04T07:00:00.000Z",
+   "liveVolume": 206279.77,
+   "livePnl": 25043.0726,
+   "volume": 432030.51,
+   "trades": 8764,
+   "makerPnl": 67092.0616,
+   "makerPnlPerContract": 0.1553,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 2.2282
+  },
+  {
+   "ticker": "KXATPGTOTAL-26OCT03ALCSHA-15",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26OCT03ALCSHA",
+   "start": "2026-10-04T04:00:00.000Z",
+   "liveVolume": 1387.87,
+   "livePnl": 0.1587,
+   "volume": 1387.87,
+   "trades": 11,
+   "makerPnl": 0.1587,
+   "makerPnlPerContract": 0.0001,
+   "rebate": {
+    "hi": 0.0017,
+    "k3": 0.0016,
+    "lo": 0.0014
+   },
+   "poolK3": 2.1926
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03MUCSAM-1-SAM",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03MUCSAM",
+   "start": "2026-10-04T14:00:00.000Z",
+   "liveVolume": 71292.95,
+   "livePnl": -23321.3662,
+   "volume": 76009.18,
+   "trades": 600,
+   "makerPnl": -26329.7638,
+   "makerPnlPerContract": -0.3464,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 2.1647
+  },
+  {
+   "ticker": "KXNCAAF1Q-26OCT03CINARIZ-CIN",
+   "sport": "NCAAF",
+   "kind": "1Q",
+   "game": "NCAAF-26OCT03CINARIZ",
+   "start": "2026-10-04T03:00:00.000Z",
+   "liveVolume": 1044.1,
+   "livePnl": 46.5619,
+   "volume": 1381.93,
+   "trades": 45,
+   "makerPnl": 154.6675,
+   "makerPnlPerContract": 0.1119,
+   "rebate": {
+    "hi": 0.0018,
+    "k3": 0.0016,
+    "lo": 0.0012
+   },
+   "poolK3": 2.1609
+  },
+  {
+   "ticker": "KXATPGTOTAL-26OCT04ZVEDJO-28",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26OCT04ZVEDJO",
+   "start": "2026-10-04T11:00:00.000Z",
+   "liveVolume": 38883.82,
+   "livePnl": -7068.1134,
+   "volume": 39052.57,
+   "trades": 193,
+   "makerPnl": -7183.7941,
+   "makerPnlPerContract": -0.184,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0
+   },
+   "poolK3": 1.9662
+  },
+  {
+   "ticker": "KXBOXING-26OCT03BAPTISBOWEN-BOWEN",
+   "sport": "BOXING",
+   "kind": "BOXING",
+   "game": "BOXING-26OCT03BAPTISBOWEN",
+   "start": "2026-10-03T18:00:00.000Z",
+   "liveVolume": 43.73,
+   "livePnl": 0.4373,
+   "volume": 10295.52,
+   "trades": 110,
+   "makerPnl": -442.5028,
+   "makerPnlPerContract": -0.043,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0002,
+    "lo": 0.0001
+   },
+   "poolK3": 1.8426
+  },
+  {
+   "ticker": "KXATPGTOTAL-26OCT03DERUB-28",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26OCT03DERUB",
+   "start": "2026-10-04T06:55:00.000Z",
+   "liveVolume": 17675.06,
+   "livePnl": 2271.4513,
+   "volume": 17897.61,
+   "trades": 283,
+   "makerPnl": 2344.963,
+   "makerPnlPerContract": 0.131,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 1.8086
+  },
+  {
+   "ticker": "KXWTAGTOTAL-26OCT03NOSGOL-25",
+   "sport": "WTA",
+   "kind": "GTOTAL",
+   "game": "WTA-26OCT03NOSGOL",
+   "start": "2026-10-04T06:25:00.000Z",
+   "liveVolume": 203.46,
+   "livePnl": 7.3244,
+   "volume": 203.46,
+   "trades": 28,
+   "makerPnl": 7.3244,
+   "makerPnlPerContract": 0.036,
+   "rebate": {
+    "hi": 0.0093,
+    "k3": 0.0088,
+    "lo": 0.0081
+   },
+   "poolK3": 1.7826
+  },
+  {
+   "ticker": "KXWTAGTOTAL-26OCT03SNIPRE-21",
+   "sport": "WTA",
+   "kind": "GTOTAL",
+   "game": "WTA-26OCT03SNIPRE",
+   "start": "2026-10-04T07:00:00.000Z",
+   "liveVolume": 534.19,
+   "livePnl": 37.805,
+   "volume": 1029.63,
+   "trades": 61,
+   "makerPnl": 315.2514,
+   "makerPnlPerContract": 0.3062,
+   "rebate": {
+    "hi": 0.0041,
+    "k3": 0.0017,
+    "lo": 0.0005
+   },
+   "poolK3": 1.7667
+  },
+  {
+   "ticker": "KXNFLFIRSTTD-26OCT04INDWAS-INDLTREADWELL13",
+   "sport": "NFL",
+   "kind": "FIRSTTD",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 41428.18,
+   "livePnl": 1407.5407,
+   "volume": 134631.75,
+   "trades": 285,
+   "makerPnl": 5148.2796,
+   "makerPnlPerContract": 0.0382,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 1.5667
+  },
+  {
+   "ticker": "KXBOXING-26OCT02JONESA-JONES",
+   "sport": "BOXING",
+   "kind": "BOXING",
+   "game": "BOXING-26OCT02JONESA",
+   "start": "2026-10-02T22:00:00.000Z",
+   "liveVolume": 53018.68,
+   "livePnl": -1369.3491,
+   "volume": 102498.3,
+   "trades": 655,
+   "makerPnl": -3495.8868,
+   "makerPnlPerContract": -0.0341,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 1.5626
+  },
+  {
+   "ticker": "KXUFCMOV-26OCT03WINARM-WINKOTKODQ",
+   "sport": "UFC",
+   "kind": "MOV",
+   "game": "UFC-26OCT03WINARM",
+   "start": "2026-10-03T22:10:00.000Z",
+   "liveVolume": 116681.39,
+   "livePnl": -27726.1256,
+   "volume": 296069.03,
+   "trades": 4470,
+   "makerPnl": -113004.4919,
+   "makerPnlPerContract": -0.3817,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 1.4681
+  },
+  {
+   "ticker": "KXNHLGOAL-26OCT03LASJ-SJWSMITH2-1",
+   "sport": "NHL",
+   "kind": "GOAL",
+   "game": "NHL-26OCT03LASJ",
+   "start": "2026-10-04T02:00:00.000Z",
+   "liveVolume": 1200.78,
+   "livePnl": 247.6474,
+   "volume": 3092.7,
+   "trades": 64,
+   "makerPnl": 863.3157,
+   "makerPnlPerContract": 0.2791,
+   "rebate": {
+    "hi": 0.0005,
+    "k3": 0.0005,
+    "lo": 0.0005
+   },
+   "poolK3": 1.4561
+  },
+  {
+   "ticker": "KXNFLFIRSTTD-26OCT04INDWAS-WASAWILLIAMS14",
+   "sport": "NFL",
+   "kind": "FIRSTTD",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 7750.96,
+   "livePnl": 282.1398,
+   "volume": 90905.29,
+   "trades": 245,
+   "makerPnl": 3365.2315,
+   "makerPnlPerContract": 0.037,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 1.3018
+  },
+  {
+   "ticker": "KXWTAGTOTAL-26OCT03NOSGOL-20",
+   "sport": "WTA",
+   "kind": "GTOTAL",
+   "game": "WTA-26OCT03NOSGOL",
+   "start": "2026-10-04T06:25:00.000Z",
+   "liveVolume": 1707.84,
+   "livePnl": 251.274,
+   "volume": 2109.87,
+   "trades": 66,
+   "makerPnl": 444.2484,
+   "makerPnlPerContract": 0.2106,
+   "rebate": {
+    "hi": 0.0011,
+    "k3": 0.0006,
+    "lo": 0.0002
+   },
+   "poolK3": 1.2361
+  },
+  {
+   "ticker": "KXNHLGOAL-26OCT03LASJ-SJMCELEBRINI71-1",
+   "sport": "NHL",
+   "kind": "GOAL",
+   "game": "NHL-26OCT03LASJ",
+   "start": "2026-10-04T02:00:00.000Z",
+   "liveVolume": 14105.75,
+   "livePnl": 5026.9651,
+   "volume": 29094.69,
+   "trades": 455,
+   "makerPnl": 11188.4623,
+   "makerPnlPerContract": 0.3846,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 1.0972
+  },
+  {
+   "ticker": "KXBOXING-26OCT03LBIBIAN-L",
+   "sport": "BOXING",
+   "kind": "BOXING",
+   "game": "BOXING-26OCT03LBIBIAN",
+   "start": "2026-10-03T22:00:00.000Z",
+   "liveVolume": 5025.05,
+   "livePnl": 1634.4686,
+   "volume": 5647.85,
+   "trades": 198,
+   "makerPnl": 1982.3412,
+   "makerPnlPerContract": 0.351,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0002,
+    "lo": 0.0002
+   },
+   "poolK3": 1.0862
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03SNIPRE-1-PRE",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03SNIPRE",
+   "start": "2026-10-04T07:00:00.000Z",
+   "liveVolume": 9585.42,
+   "livePnl": 276.5285,
+   "volume": 11218.41,
+   "trades": 43,
+   "makerPnl": 962.3843,
+   "makerPnlPerContract": 0.0858,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 1.0257
+  },
+  {
+   "ticker": "KXNFLFIRSTTD-26OCT04INDWAS-WASAEKELER30",
+   "sport": "NFL",
+   "kind": "FIRSTTD",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 25257.89,
+   "livePnl": -204.6933,
+   "volume": 60102.42,
+   "trades": 256,
+   "makerPnl": 598.359,
+   "makerPnlPerContract": 0.01,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 1.0179
+  },
+  {
+   "ticker": "KXWTAGTOTAL-26OCT03ALESHN-22",
+   "sport": "WTA",
+   "kind": "GTOTAL",
+   "game": "WTA-26OCT03ALESHN",
+   "start": "2026-10-04T04:50:00.000Z",
+   "liveVolume": 12078.16,
+   "livePnl": -2262.0905,
+   "volume": 12508.64,
+   "trades": 110,
+   "makerPnl": -2472.9839,
+   "makerPnlPerContract": -0.1977,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0
+   },
+   "poolK3": 0.86
+  },
+  {
+   "ticker": "KXUFCMOF-26OCT03SILWAN-DEC",
+   "sport": "UFC",
+   "kind": "MOF",
+   "game": "UFC-26OCT03SILWAN",
+   "start": "2026-10-04T02:20:00.000Z",
+   "liveVolume": 7718.1,
+   "livePnl": -234.8974,
+   "volume": 16376.32,
+   "trades": 521,
+   "makerPnl": -1614.5258,
+   "makerPnlPerContract": -0.0986,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0
+   },
+   "poolK3": 0.82
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03BEJOSA-1-BEJ",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03BEJOSA",
+   "start": "2026-10-04T11:00:00.000Z",
+   "liveVolume": 52997.48,
+   "livePnl": 10032.8699,
+   "volume": 53514.66,
+   "trades": 776,
+   "makerPnl": 10145.862,
+   "makerPnlPerContract": 0.1896,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.7186
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT03VACFIL-2-VAC",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT03VACFIL",
+   "start": "2026-10-04T07:00:00.000Z",
+   "liveVolume": 37052.13,
+   "livePnl": 7539.1337,
+   "volume": 37374.13,
+   "trades": 383,
+   "makerPnl": 7632.5137,
+   "makerPnlPerContract": 0.2042,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.6898
+  },
+  {
+   "ticker": "KXNHLFIRSTGOAL-26OCT03CGYVAN-CGYMCORONATO27",
+   "sport": "NHL",
+   "kind": "FIRSTGOAL",
+   "game": "NHL-26OCT03CGYVAN",
+   "start": "2026-10-04T02:00:00.000Z",
+   "liveVolume": 1745.09,
+   "livePnl": -114.5399,
+   "volume": 1745.09,
+   "trades": 18,
+   "makerPnl": -114.5399,
+   "makerPnlPerContract": -0.0656,
+   "rebate": {
+    "hi": 0.0005,
+    "k3": 0.0004,
+    "lo": 0.0003
+   },
+   "poolK3": 0.6819
+  },
+  {
+   "ticker": "KXNHLFIRSTGOAL-26OCT03LASJ-LAAKEMPE9",
+   "sport": "NHL",
+   "kind": "FIRSTGOAL",
+   "game": "NHL-26OCT03LASJ",
+   "start": "2026-10-04T02:00:00.000Z",
+   "liveVolume": 643,
+   "livePnl": -48.9687,
+   "volume": 914.27,
+   "trades": 17,
+   "makerPnl": -298.5371,
+   "makerPnlPerContract": -0.3265,
+   "rebate": {
+    "hi": 0.0009,
+    "k3": 0.0007,
+    "lo": 0.0006
+   },
+   "poolK3": 0.6819
+  },
+  {
+   "ticker": "KXMLBKS-26OCT031600ATLLAD-LADTSKUBAL29-6",
+   "sport": "MLB",
+   "kind": "KS",
+   "game": "MLB-26OCT031600ATLLAD",
+   "start": "2026-10-03T20:00:00.000Z",
+   "liveVolume": 8806.87,
+   "livePnl": -55.015,
+   "volume": 13859.13,
+   "trades": 419,
+   "makerPnl": -766.5037,
+   "makerPnlPerContract": -0.0553,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.6388
+  },
+  {
+   "ticker": "KXUFCROUNDS-26OCT03GRERIB-3",
+   "sport": "UFC",
+   "kind": "ROUNDS",
+   "game": "UFC-26OCT03GRERIB",
+   "start": "2026-10-04T01:25:00.000Z",
+   "liveVolume": 13275.46,
+   "livePnl": -309.5197,
+   "volume": 39748.86,
+   "trades": 576,
+   "makerPnl": -11392.4432,
+   "makerPnlPerContract": -0.2866,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.6307
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT04LEHVAL-1-VAL",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT04LEHVAL",
+   "start": "2026-10-04T09:35:00.000Z",
+   "liveVolume": 19244.07,
+   "livePnl": 997.6833,
+   "volume": 19771.94,
+   "trades": 68,
+   "makerPnl": 1182.4191,
+   "makerPnlPerContract": 0.0598,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.6214
+  },
+  {
+   "ticker": "KXNHLGOAL-26OCT03CGYVAN-VANMROSSI23-1",
+   "sport": "NHL",
+   "kind": "GOAL",
+   "game": "NHL-26OCT03CGYVAN",
+   "start": "2026-10-04T02:00:00.000Z",
+   "liveVolume": 655.38,
+   "livePnl": 140.973,
+   "volume": 2493.53,
+   "trades": 42,
+   "makerPnl": 355.2851,
+   "makerPnlPerContract": 0.1425,
+   "rebate": {
+    "hi": 0.0003,
+    "k3": 0.0002,
+    "lo": 0.0001
+   },
+   "poolK3": 0.5887
+  },
+  {
+   "ticker": "KXNHLGOAL-26OCT03LASJ-LAAPANARIN10-1",
+   "sport": "NHL",
+   "kind": "GOAL",
+   "game": "NHL-26OCT03LASJ",
+   "start": "2026-10-04T02:00:00.000Z",
+   "liveVolume": 1537.82,
+   "livePnl": -636.3315,
+   "volume": 1919.55,
+   "trades": 51,
+   "makerPnl": -891.7207,
+   "makerPnlPerContract": -0.4645,
+   "rebate": {
+    "hi": 0.0004,
+    "k3": 0.0003,
+    "lo": 0.0002
+   },
+   "poolK3": 0.5887
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT01PITCLE-PITARODGERS8-1",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "game": "NFL-26OCT01PITCLE",
+   "start": "2026-10-02T00:15:00.000Z",
+   "liveVolume": 18208.49,
+   "livePnl": -2353.3284,
+   "volume": 25649.26,
+   "trades": 352,
+   "makerPnl": -3636.1206,
+   "makerPnlPerContract": -0.1418,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.5807
+  },
+  {
+   "ticker": "KXWTAGTOTAL-26OCT03ALESHN-27",
+   "sport": "WTA",
+   "kind": "GTOTAL",
+   "game": "WTA-26OCT03ALESHN",
+   "start": "2026-10-04T04:50:00.000Z",
+   "liveVolume": 1253.66,
+   "livePnl": -300.1026,
+   "volume": 1253.66,
+   "trades": 50,
+   "makerPnl": -300.1026,
+   "makerPnlPerContract": -0.2394,
+   "rebate": {
+    "hi": 0.0008,
+    "k3": 0.0004,
+    "lo": 0.0001
+   },
+   "poolK3": 0.4908
+  },
+  {
+   "ticker": "KXNHLAST-26OCT03LASJ-SJMCELEBRINI71-1",
+   "sport": "NHL",
+   "kind": "AST",
+   "game": "NHL-26OCT03LASJ",
+   "start": "2026-10-04T02:00:00.000Z",
+   "liveVolume": 1055.86,
+   "livePnl": -157.691,
+   "volume": 4180,
+   "trades": 66,
+   "makerPnl": -1585.0021,
+   "makerPnlPerContract": -0.3792,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 0.447
+  },
+  {
+   "ticker": "KXUFCMOV-26OCT03FIGTAL-TALKOTKODQ",
+   "sport": "UFC",
+   "kind": "MOV",
+   "game": "UFC-26OCT03FIGTAL",
+   "start": "2026-10-04T01:53:00.000Z",
+   "liveVolume": 147432.39,
+   "livePnl": -12770.9259,
+   "volume": 635718.1,
+   "trades": 7241,
+   "makerPnl": -270853.6335,
+   "makerPnlPerContract": -0.4261,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.428
+  },
+  {
+   "ticker": "KXNFL1H-26OCT04INDWAS-TIE",
+   "sport": "NFL",
+   "kind": "1H",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 33506.74,
+   "livePnl": 1681.1496,
+   "volume": 110457.6,
+   "trades": 389,
+   "makerPnl": 8084.3773,
+   "makerPnlPerContract": 0.0732,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.427
+  },
+  {
+   "ticker": "KXATPGTOTAL-26OCT04MEDCER-27",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26OCT04MEDCER",
+   "start": "2026-10-04T08:30:00.000Z",
+   "liveVolume": 6678.67,
+   "livePnl": 1607.4756,
+   "volume": 6678.67,
+   "trades": 289,
+   "makerPnl": 1607.4756,
+   "makerPnlPerContract": 0.2407,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0
+   },
+   "poolK3": 0.3975
+  },
+  {
+   "ticker": "KXNHLPTS-26OCT03LASJ-SJMCELEBRINI71-2",
+   "sport": "NHL",
+   "kind": "PTS",
+   "game": "NHL-26OCT03LASJ",
+   "start": "2026-10-04T02:00:00.000Z",
+   "liveVolume": 1243.45,
+   "livePnl": -374.9258,
+   "volume": 5534.27,
+   "trades": 137,
+   "makerPnl": -2894.0723,
+   "makerPnlPerContract": -0.5229,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 0.374
+  },
+  {
+   "ticker": "KXATPGTOTAL-26OCT03HURKHA-31",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26OCT03HURKHA",
+   "start": "2026-10-04T05:00:00.000Z",
+   "liveVolume": 6110.17,
+   "livePnl": 1969.339,
+   "volume": 6110.17,
+   "trades": 143,
+   "makerPnl": 1969.339,
+   "makerPnlPerContract": 0.3223,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0
+   },
+   "poolK3": 0.3341
+  },
+  {
+   "ticker": "KXNFLFIRSTTD-26OCT04INDWAS-WASMMARIOTA8",
+   "sport": "NFL",
+   "kind": "FIRSTTD",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 29223.65,
+   "livePnl": 1228.4486,
+   "volume": 83316.99,
+   "trades": 387,
+   "makerPnl": 3397.4951,
+   "makerPnlPerContract": 0.0408,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.3238
+  },
+  {
+   "ticker": "KXWTAGTOTAL-26OCT03BARSAB-21",
+   "sport": "WTA",
+   "kind": "GTOTAL",
+   "game": "WTA-26OCT03BARSAB",
+   "start": "2026-10-04T03:00:00.000Z",
+   "liveVolume": 5665.67,
+   "livePnl": -417.9384,
+   "volume": 7713,
+   "trades": 176,
+   "makerPnl": -620.299,
+   "makerPnlPerContract": -0.0804,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.3142
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03KRAYAS-1-KRA",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03KRAYAS",
+   "start": "2026-10-04T03:00:00.000Z",
+   "liveVolume": 45706.97,
+   "livePnl": -3388.1973,
+   "volume": 45782.61,
+   "trades": 335,
+   "makerPnl": -3438.0353,
+   "makerPnlPerContract": -0.0751,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.2496
+  },
+  {
+   "ticker": "KXNCAAF1H-26OCT03NAUIDST-NAU",
+   "sport": "NCAAF",
+   "kind": "1H",
+   "game": "NCAAF-26OCT03NAUIDST",
+   "start": "2026-10-04T00:00:00.000Z",
+   "liveVolume": 940.46,
+   "livePnl": -18.6208,
+   "volume": 940.46,
+   "trades": 57,
+   "makerPnl": -18.6208,
+   "makerPnlPerContract": -0.0198,
+   "rebate": {
+    "hi": 0.0003,
+    "k3": 0.0003,
+    "lo": 0.0003
+   },
+   "poolK3": 0.2486
+  },
+  {
+   "ticker": "KXNCAAF1H-26OCT03EWUUCD-UCD",
+   "sport": "NCAAF",
+   "kind": "1H",
+   "game": "NCAAF-26OCT03EWUUCD",
+   "start": "2026-10-04T02:30:00.000Z",
+   "liveVolume": 5809.41,
+   "livePnl": -322.6217,
+   "volume": 5862.77,
+   "trades": 132,
+   "makerPnl": -339.6969,
+   "makerPnlPerContract": -0.0579,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.2471
+  },
+  {
+   "ticker": "KXWTADOUBLES-26OCT04SONVEKPERSCH-SONVEK",
+   "sport": "WTA",
+   "kind": "DOUBLES",
+   "game": "WTA-26OCT04SONVEKPERSCH",
+   "start": "2026-10-04T05:05:00.000Z",
+   "liveVolume": 13837.44,
+   "livePnl": 1753.0148,
+   "volume": 13837.44,
+   "trades": 321,
+   "makerPnl": 1753.0148,
+   "makerPnlPerContract": 0.1267,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.2369
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03BEJOSA-2-BEJ",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03BEJOSA",
+   "start": "2026-10-04T11:00:00.000Z",
+   "liveVolume": 109182.26,
+   "livePnl": 23452.3942,
+   "volume": 109361.28,
+   "trades": 456,
+   "makerPnl": 23508.931,
+   "makerPnlPerContract": 0.215,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.2367
+  },
+  {
+   "ticker": "KXMLBHIT-26OCT031600ATLLAD-LADFFREEMAN5-1",
+   "sport": "MLB",
+   "kind": "HIT",
+   "game": "MLB-26OCT031600ATLLAD",
+   "start": "2026-10-03T20:00:00.000Z",
+   "liveVolume": 12136.28,
+   "livePnl": -2267.0455,
+   "volume": 13504.95,
+   "trades": 298,
+   "makerPnl": -2702.9478,
+   "makerPnlPerContract": -0.2001,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.2138
+  },
+  {
+   "ticker": "KXMLBHIT-26OCT031600ATLLAD-LADMBETTS50-1",
+   "sport": "MLB",
+   "kind": "HIT",
+   "game": "MLB-26OCT031600ATLLAD",
+   "start": "2026-10-03T20:00:00.000Z",
+   "liveVolume": 1918.33,
+   "livePnl": -578.9592,
+   "volume": 4583.94,
+   "trades": 140,
+   "makerPnl": -1404.7989,
+   "makerPnlPerContract": -0.3065,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.2138
+  },
+  {
+   "ticker": "KXMLBHRR-26OCT031600ATLLAD-LADSOHTANI17-1",
+   "sport": "MLB",
+   "kind": "HRR",
+   "game": "MLB-26OCT031600ATLLAD",
+   "start": "2026-10-03T20:00:00.000Z",
+   "liveVolume": 524.73,
+   "livePnl": -35.5679,
+   "volume": 1708.5,
+   "trades": 45,
+   "makerPnl": -313.3186,
+   "makerPnlPerContract": -0.1834,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0001,
+    "lo": 0
+   },
+   "poolK3": 0.2138
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03ALESHN-1-ALE",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03ALESHN",
+   "start": "2026-10-04T04:50:00.000Z",
+   "liveVolume": 9637.39,
+   "livePnl": 1660.2004,
+   "volume": 9967.37,
+   "trades": 167,
+   "makerPnl": 1788.6665,
+   "makerPnlPerContract": 0.1795,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.1917
+  },
+  {
+   "ticker": "KXMLBF5TOTAL-26OCT032030SDMIL-2",
+   "sport": "MLB",
+   "kind": "F5TOTAL",
+   "game": "MLB-26OCT032030SDMIL",
+   "start": "2026-10-04T00:30:00.000Z",
+   "liveVolume": 14276.89,
+   "livePnl": -254.3541,
+   "volume": 14588.8,
+   "trades": 64,
+   "makerPnl": -217.8753,
+   "makerPnlPerContract": -0.0149,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.1632
+  },
+  {
+   "ticker": "KXWTAGTOTAL-26OCT03SNIPRE-16",
+   "sport": "WTA",
+   "kind": "GTOTAL",
+   "game": "WTA-26OCT03SNIPRE",
+   "start": "2026-10-04T07:00:00.000Z",
+   "liveVolume": 1828.59,
+   "livePnl": -558.3335,
+   "volume": 1828.59,
+   "trades": 95,
+   "makerPnl": -558.3335,
+   "makerPnlPerContract": -0.3053,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0
+   },
+   "poolK3": 0.1545
+  },
+  {
+   "ticker": "KXWTASETWINNER-26OCT03SNIPRE-2-PRE",
+   "sport": "WTA",
+   "kind": "SETWINNER",
+   "game": "WTA-26OCT03SNIPRE",
+   "start": "2026-10-04T07:00:00.000Z",
+   "liveVolume": 19017.11,
+   "livePnl": 3407.4001,
+   "volume": 19017.11,
+   "trades": 135,
+   "makerPnl": 3407.4001,
+   "makerPnlPerContract": 0.1792,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.1229
+  },
+  {
+   "ticker": "KXATPGTOTAL-26OCT04LEHVAL-28",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26OCT04LEHVAL",
+   "start": "2026-10-04T09:35:00.000Z",
+   "liveVolume": 393.31,
+   "livePnl": -19.186,
+   "volume": 533.83,
+   "trades": 45,
+   "makerPnl": -53.2946,
+   "makerPnlPerContract": -0.0998,
+   "rebate": {
+    "hi": 0.0003,
+    "k3": 0.0002,
+    "lo": 0.0001
+   },
+   "poolK3": 0.1189
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT01PITCLE-PITPFREIERMUTH88-15",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "game": "NFL-26OCT01PITCLE",
+   "start": "2026-10-02T00:15:00.000Z",
+   "liveVolume": 18583.48,
+   "livePnl": 2096.7584,
+   "volume": 22930.35,
+   "trades": 568,
+   "makerPnl": 1044.1056,
+   "makerPnlPerContract": 0.0455,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.1132
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT01PITCLE-PITARODGERS8-200",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "game": "NFL-26OCT01PITCLE",
+   "start": "2026-10-02T00:15:00.000Z",
+   "liveVolume": 36440.37,
+   "livePnl": -1640.4411,
+   "volume": 88972.78,
+   "trades": 1147,
+   "makerPnl": -17630.2455,
+   "makerPnlPerContract": -0.1982,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.1127
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT01PITCLE-PITRWILSON14-15",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "game": "NFL-26OCT01PITCLE",
+   "start": "2026-10-02T00:15:00.000Z",
+   "liveVolume": 6603.16,
+   "livePnl": -588.6251,
+   "volume": 28944.49,
+   "trades": 462,
+   "makerPnl": -9177.0873,
+   "makerPnlPerContract": -0.3171,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.1127
+  },
+  {
+   "ticker": "KXF1RACE-BAH26-LEC",
+   "sport": "F1RACE",
+   "kind": "F1RACE",
+   "game": "F1RACE-BAH26",
+   "start": "2026-10-04T07:00:00.000Z",
+   "liveVolume": 22356.4,
+   "livePnl": 728.5484,
+   "volume": 95216.38,
+   "trades": 1254,
+   "makerPnl": 4027.5001,
+   "makerPnlPerContract": 0.0423,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0971
+  },
+  {
+   "ticker": "KXNFLTD-26OCT01PITCLE-CLEQJUDKINS10-1",
+   "sport": "NFL",
+   "kind": "TD",
+   "game": "NFL-26OCT01PITCLE",
+   "start": "2026-10-02T00:15:00.000Z",
+   "liveVolume": 170934.74,
+   "livePnl": -52351.5236,
+   "volume": 299093.14,
+   "trades": 2753,
+   "makerPnl": -113184.7936,
+   "makerPnlPerContract": -0.3784,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0916
+  },
+  {
+   "ticker": "KXATPSETWINNER-26OCT04LEHVAL-2-VAL",
+   "sport": "ATP",
+   "kind": "SETWINNER",
+   "game": "ATP-26OCT04LEHVAL",
+   "start": "2026-10-04T09:35:00.000Z",
+   "liveVolume": 14035.59,
+   "livePnl": 1695.5947,
+   "volume": 14324.59,
+   "trades": 65,
+   "makerPnl": 1796.3647,
+   "makerPnlPerContract": 0.1254,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.087
+  },
+  {
+   "ticker": "KXWTAGTOTAL-26OCT03SNIPRE-26",
+   "sport": "WTA",
+   "kind": "GTOTAL",
+   "game": "WTA-26OCT03SNIPRE",
+   "start": "2026-10-04T07:00:00.000Z",
+   "liveVolume": 171.5,
+   "livePnl": -5.83,
+   "volume": 171.5,
+   "trades": 25,
+   "makerPnl": -5.83,
+   "makerPnlPerContract": -0.034,
+   "rebate": {
+    "hi": 0.0007,
+    "k3": 0.0005,
+    "lo": 0.0003
+   },
+   "poolK3": 0.0856
+  },
+  {
+   "ticker": "KXUFCMOV-26OCT03GRERIB-RIBKOTKODQ",
+   "sport": "UFC",
+   "kind": "MOV",
+   "game": "UFC-26OCT03GRERIB",
+   "start": "2026-10-04T01:25:00.000Z",
+   "liveVolume": 77404.5,
+   "livePnl": -7289.075,
+   "volume": 268465.64,
+   "trades": 3423,
+   "makerPnl": -116018.6144,
+   "makerPnlPerContract": -0.4322,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0821
+  },
+  {
+   "ticker": "KXNHLGOAL-26OCT03MTLPIT-MTLCCAUFIELD13-1",
+   "sport": "NHL",
+   "kind": "GOAL",
+   "game": "NHL-26OCT03MTLPIT",
+   "start": "2026-10-03T23:00:00.000Z",
+   "liveVolume": 1216.28,
+   "livePnl": -198.2862,
+   "volume": 5847.85,
+   "trades": 124,
+   "makerPnl": -2978.4626,
+   "makerPnlPerContract": -0.5093,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0794
+  },
+  {
+   "ticker": "KXNHLGOAL-26OCT03LASJ-LAMZUCCARELLO36-1",
+   "sport": "NHL",
+   "kind": "GOAL",
+   "game": "NHL-26OCT03LASJ",
+   "start": "2026-10-04T02:00:00.000Z",
+   "liveVolume": 536.69,
+   "livePnl": 99.1879,
+   "volume": 926.69,
+   "trades": 19,
+   "makerPnl": 179.5685,
+   "makerPnlPerContract": 0.1938,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0001,
+    "lo": 0
+   },
+   "poolK3": 0.0615
+  },
+  {
+   "ticker": "KXNHLGOAL-26OCT03LASJ-SJAWENNBERG21-1",
+   "sport": "NHL",
+   "kind": "GOAL",
+   "game": "NHL-26OCT03LASJ",
+   "start": "2026-10-04T02:00:00.000Z",
+   "liveVolume": 147.38,
+   "livePnl": 17.9434,
+   "volume": 630.66,
+   "trades": 25,
+   "makerPnl": 82.8938,
+   "makerPnlPerContract": 0.1314,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0001,
+    "lo": 0
+   },
+   "poolK3": 0.0615
+  },
+  {
+   "ticker": "KXNHLPTS-26OCT03LASJ-LAALAFERRIERE14-1",
+   "sport": "NHL",
+   "kind": "PTS",
+   "game": "NHL-26OCT03LASJ",
+   "start": "2026-10-04T02:00:00.000Z",
+   "liveVolume": 37.63,
+   "livePnl": 9.1563,
+   "volume": 57.77,
+   "trades": 8,
+   "makerPnl": 13.3367,
+   "makerPnlPerContract": 0.2309,
+   "rebate": {
+    "hi": 0.0025,
+    "k3": 0.0011,
+    "lo": 0.0002
+   },
+   "poolK3": 0.0615
+  },
+  {
+   "ticker": "KXNHLPTS-26OCT03LASJ-SJMMARCHMENT27-1",
+   "sport": "NHL",
+   "kind": "PTS",
+   "game": "NHL-26OCT03LASJ",
+   "start": "2026-10-04T02:00:00.000Z",
+   "liveVolume": 20.96,
+   "livePnl": 2.7552,
+   "volume": 542.96,
+   "trades": 22,
+   "makerPnl": 139.8707,
+   "makerPnlPerContract": 0.2576,
+   "rebate": {
+    "hi": 0.0003,
+    "k3": 0.0001,
+    "lo": 0
+   },
+   "poolK3": 0.0615
+  },
+  {
+   "ticker": "KXNFLFIRSTTDTEAM-26OCT04INDWAS-NONE",
+   "sport": "NFL",
+   "kind": "FIRSTTDTEAM",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 5705.34,
+   "livePnl": 224.2698,
+   "volume": 7700.03,
+   "trades": 87,
+   "makerPnl": 244.2167,
+   "makerPnlPerContract": 0.0317,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0581
+  },
+  {
+   "ticker": "KXWTAGTOTAL-26OCT03KRAYAS-22",
+   "sport": "WTA",
+   "kind": "GTOTAL",
+   "game": "WTA-26OCT03KRAYAS",
+   "start": "2026-10-04T03:00:00.000Z",
+   "liveVolume": 3625.18,
+   "livePnl": -994.2211,
+   "volume": 3986.73,
+   "trades": 111,
+   "makerPnl": -939.8904,
+   "makerPnlPerContract": -0.2358,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0435
+  },
+  {
+   "ticker": "KXUFCMOV-26OCT03PINPUL-PINKOTKODQ",
+   "sport": "UFC",
+   "kind": "MOV",
+   "game": "UFC-26OCT03PINPUL",
+   "start": "2026-10-03T23:10:00.000Z",
+   "liveVolume": 17833.57,
+   "livePnl": 178.3357,
+   "volume": 236013.36,
+   "trades": 3335,
+   "makerPnl": -62142.8383,
+   "makerPnlPerContract": -0.2633,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0422
+  },
+  {
+   "ticker": "KXWTADOUBLES-26OCT03MERSHNLUMPAN-LUMPAN",
+   "sport": "WTA",
+   "kind": "DOUBLES",
+   "game": "WTA-26OCT03MERSHNLUMPAN",
+   "start": "2026-10-04T07:45:00.000Z",
+   "liveVolume": 2978.56,
+   "livePnl": 17.2942,
+   "volume": 3034.2,
+   "trades": 62,
+   "makerPnl": 31.2324,
+   "makerPnlPerContract": 0.0103,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0372
+  },
+  {
+   "ticker": "KXATPGTOTAL-26OCT03VACFIL-28",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26OCT03VACFIL",
+   "start": "2026-10-04T07:00:00.000Z",
+   "liveVolume": 3529.46,
+   "livePnl": -181.8531,
+   "volume": 3529.46,
+   "trades": 104,
+   "makerPnl": -181.8531,
+   "makerPnlPerContract": -0.0515,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0333
+  },
+  {
+   "ticker": "KXNFLREC-26OCT04INDWAS-WASAWILLIAMS14-1",
+   "sport": "NFL",
+   "kind": "REC",
+   "game": "NFL-26OCT04INDWAS",
+   "start": "2026-10-04T13:30:00.000Z",
+   "liveVolume": 286.14,
+   "livePnl": -7.6298,
+   "volume": 286.14,
+   "trades": 15,
+   "makerPnl": -7.6298,
+   "makerPnlPerContract": -0.0267,
+   "rebate": {
+    "hi": 0.0005,
+    "k3": 0.0001,
+    "lo": 0
+   },
+   "poolK3": 0.0329
+  },
+  {
+   "ticker": "KXNCAAF1H-26OCT03BCSMU-SMU",
+   "sport": "NCAAF",
+   "kind": "1H",
+   "game": "NCAAF-26OCT03BCSMU",
+   "start": "2026-10-03T16:00:00.000Z",
+   "liveVolume": 32687.13,
+   "livePnl": -3364.2499,
+   "volume": 35261.49,
+   "trades": 390,
+   "makerPnl": -3599.7929,
+   "makerPnlPerContract": -0.1021,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0295
+  },
+  {
+   "ticker": "KXNCAAF1H-26OCT03MEMCHAR-MEM",
+   "sport": "NCAAF",
+   "kind": "1H",
+   "game": "NCAAF-26OCT03MEMCHAR",
+   "start": "2026-10-03T15:00:00.000Z",
+   "liveVolume": 39134.75,
+   "livePnl": -898.2594,
+   "volume": 67459.15,
+   "trades": 330,
+   "makerPnl": -5565.2792,
+   "makerPnlPerContract": -0.0825,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0278
+  },
+  {
+   "ticker": "KXMLBHRR-26OCT032030SDMIL-MILWCONTRERAS24-2",
+   "sport": "MLB",
+   "kind": "HRR",
+   "game": "MLB-26OCT032030SDMIL",
+   "start": "2026-10-04T00:30:00.000Z",
+   "liveVolume": 1319.37,
+   "livePnl": -626.87,
+   "volume": 3606.56,
+   "trades": 72,
+   "makerPnl": -1790.088,
+   "makerPnlPerContract": -0.4963,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0189
+  },
+  {
+   "ticker": "KXMLBKS-26OCT032030SDMIL-SDRRAY38-6",
+   "sport": "MLB",
+   "kind": "KS",
+   "game": "MLB-26OCT032030SDMIL",
+   "start": "2026-10-04T00:30:00.000Z",
+   "liveVolume": 361.09,
+   "livePnl": 44.0591,
+   "volume": 1038.36,
+   "trades": 42,
+   "makerPnl": 44.1319,
+   "makerPnlPerContract": 0.0425,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0189
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT01PITCLE-CLEQJUDKINS10-30",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "game": "NFL-26OCT01PITCLE",
+   "start": "2026-10-02T00:15:00.000Z",
+   "liveVolume": 15311.37,
+   "livePnl": 1985.6714,
+   "volume": 31488.99,
+   "trades": 463,
+   "makerPnl": 1970.9203,
+   "makerPnlPerContract": 0.0626,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0176
+  },
+  {
+   "ticker": "KXATPGTOTAL-26SEP28DENAV-15",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26SEP28DENAV",
+   "start": "2026-10-01T03:00:00.000Z",
+   "liveVolume": 749,
+   "livePnl": -7.49,
+   "volume": 749,
+   "trades": 6,
+   "makerPnl": -7.49,
+   "makerPnlPerContract": -0.01,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0175
+  },
+  {
+   "ticker": "KXATPGTOTAL-26SEP28ZVENOR-15",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26SEP28ZVENOR",
+   "start": "2026-10-01T08:05:00.000Z",
+   "liveVolume": 212,
+   "livePnl": -2.12,
+   "volume": 289.8,
+   "trades": 9,
+   "makerPnl": -3.1444,
+   "makerPnlPerContract": -0.0109,
+   "rebate": {
+    "hi": 0.0002,
+    "k3": 0.0001,
+    "lo": 0
+   },
+   "poolK3": 0.0175
+  },
+  {
+   "ticker": "KXATPGTOTAL-26SEP29VANCUI-16",
+   "sport": "ATP",
+   "kind": "GTOTAL",
+   "game": "ATP-26SEP29VANCUI",
+   "start": "2026-09-29T05:00:00.000Z",
+   "liveVolume": 202,
+   "livePnl": -2.02,
+   "volume": 202,
+   "trades": 4,
+   "makerPnl": -2.02,
+   "makerPnlPerContract": -0.01,
+   "rebate": {
+    "hi": 0.0004,
+    "k3": 0.0001,
+    "lo": 0
+   },
+   "poolK3": 0.0175
+  },
+  {
+   "ticker": "KXMLBKS-26SEP291400PHIATL-ATLCSALE51-4",
+   "sport": "MLB",
+   "kind": "KS",
+   "game": "MLB-26SEP291400PHIATL",
+   "start": "2026-09-29T18:00:00.000Z",
+   "liveVolume": 115.82,
+   "livePnl": -2.1487,
+   "volume": 4626.8,
+   "trades": 138,
+   "makerPnl": -25.4969,
+   "makerPnlPerContract": -0.0055,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0175
+  },
+  {
+   "ticker": "KXMLBKS-26SEP292000BOSNYY-BOSPTOLLE70-4",
+   "sport": "MLB",
+   "kind": "KS",
+   "game": "MLB-26SEP292000BOSNYY",
+   "start": "2026-09-30T00:00:00.000Z",
+   "liveVolume": 5134.38,
+   "livePnl": -62.748,
+   "volume": 10155.08,
+   "trades": 209,
+   "makerPnl": -480.0033,
+   "makerPnlPerContract": -0.0473,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0175
+  },
+  {
+   "ticker": "KXMLBKS-26SEP292000BOSNYY-NYYCSCHLITTLER31-4",
+   "sport": "MLB",
+   "kind": "KS",
+   "game": "MLB-26SEP292000BOSNYY",
+   "start": "2026-09-30T00:00:00.000Z",
+   "liveVolume": 404.56,
+   "livePnl": 5.8956,
+   "volume": 12852.49,
+   "trades": 205,
+   "makerPnl": -573.0886,
+   "makerPnlPerContract": -0.0446,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0175
+  },
+  {
+   "ticker": "KXMLBKS-26SEP292200CHCSD-SDMKING34-2",
+   "sport": "MLB",
+   "kind": "KS",
+   "game": "MLB-26SEP292200CHCSD",
+   "start": "2026-09-30T02:00:00.000Z",
+   "liveVolume": 2788.22,
+   "livePnl": -96.9382,
+   "volume": 5078.62,
+   "trades": 68,
+   "makerPnl": -250.3562,
+   "makerPnlPerContract": -0.0493,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0175
+  },
+  {
+   "ticker": "KXWTAGTOTAL-26SEP28SASLEP-15",
+   "sport": "WTA",
+   "kind": "GTOTAL",
+   "game": "WTA-26SEP28SASLEP",
+   "start": "2026-09-29T05:10:00.000Z",
+   "liveVolume": 30,
+   "livePnl": -0.3,
+   "volume": 30,
+   "trades": 3,
+   "makerPnl": -0.3,
+   "makerPnlPerContract": -0.01,
+   "rebate": {
+    "hi": 0.0024,
+    "k3": 0.0006,
+    "lo": 0
+   },
+   "poolK3": 0.0175
+  },
+  {
+   "ticker": "KXMLBHRR-26OCT031600ATLLAD-ATLMDUBN14-2",
+   "sport": "MLB",
+   "kind": "HRR",
+   "game": "MLB-26OCT031600ATLLAD",
+   "start": "2026-10-03T20:00:00.000Z",
+   "liveVolume": 0.11,
+   "livePnl": 0.0473,
+   "volume": 195.25,
+   "trades": 6,
+   "makerPnl": 78.6347,
+   "makerPnlPerContract": 0.4027,
+   "rebate": {
+    "hi": 0.0001,
+    "k3": 0.0001,
+    "lo": 0.0001
+   },
+   "poolK3": 0.0163
+  },
+  {
+   "ticker": "KXMLBOUTS-26OCT032030SDMIL-SDRRAY38-12",
+   "sport": "MLB",
+   "kind": "OUTS",
+   "game": "MLB-26OCT032030SDMIL",
+   "start": "2026-10-04T00:30:00.000Z",
+   "liveVolume": 3840.59,
+   "livePnl": 97.9362,
+   "volume": 25684.57,
+   "trades": 354,
+   "makerPnl": 5105.7036,
+   "makerPnlPerContract": 0.1988,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0043
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT01PITCLE-PITARODGERS8-2",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "game": "NFL-26OCT01PITCLE",
+   "start": "2026-10-02T00:15:00.000Z",
+   "liveVolume": 56446.11,
+   "livePnl": -7601.3906,
+   "volume": 130020.66,
+   "trades": 1793,
+   "makerPnl": -47791.3516,
+   "makerPnlPerContract": -0.3676,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0039
+  },
+  {
+   "ticker": "KXNFLPASSTDS-26OCT01PITCLE-CLEDWATSON4-1",
+   "sport": "NFL",
+   "kind": "PASSTDS",
+   "game": "NFL-26OCT01PITCLE",
+   "start": "2026-10-02T00:15:00.000Z",
+   "liveVolume": 42227.8,
+   "livePnl": -9476.3602,
+   "volume": 85829.31,
+   "trades": 962,
+   "makerPnl": -18692.0547,
+   "makerPnlPerContract": -0.2178,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0033
+  },
+  {
+   "ticker": "KXWTAGTOTAL-26OCT03KRAYAS-27",
+   "sport": "WTA",
+   "kind": "GTOTAL",
+   "game": "WTA-26OCT03KRAYAS",
+   "start": "2026-10-04T03:00:00.000Z",
+   "liveVolume": 492.91,
+   "livePnl": 37.6755,
+   "volume": 492.91,
+   "trades": 38,
+   "makerPnl": 37.6755,
+   "makerPnlPerContract": 0.0764,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0024
+  },
+  {
+   "ticker": "KXWTAGTOTAL-26OCT03NOSGOL-15",
+   "sport": "WTA",
+   "kind": "GTOTAL",
+   "game": "WTA-26OCT03NOSGOL",
+   "start": "2026-10-04T06:25:00.000Z",
+   "liveVolume": 1019.21,
+   "livePnl": 31.9099,
+   "volume": 1019.21,
+   "trades": 13,
+   "makerPnl": 31.9099,
+   "makerPnlPerContract": 0.0313,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.002
+  },
+  {
+   "ticker": "KXNHLPTS-26OCT03SEAEDM-EDMCMCDAVID97-1",
+   "sport": "NHL",
+   "kind": "PTS",
+   "game": "NHL-26OCT03SEAEDM",
+   "start": "2026-10-03T23:00:00.000Z",
+   "liveVolume": 54.95,
+   "livePnl": 1.5005,
+   "volume": 109.96,
+   "trades": 20,
+   "makerPnl": -7.6792,
+   "makerPnlPerContract": -0.0698,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0016
+  },
+  {
+   "ticker": "KXNHLPTS-26OCT03STLCOL-COLNMACKINNON29-2",
+   "sport": "NHL",
+   "kind": "PTS",
+   "game": "NHL-26OCT03STLCOL",
+   "start": "2026-10-04T01:00:00.000Z",
+   "liveVolume": 1628.94,
+   "livePnl": -388.066,
+   "volume": 2072.71,
+   "trades": 57,
+   "makerPnl": -485.3717,
+   "makerPnlPerContract": -0.2342,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0016
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT01PITCLE-CLEDWATSON4-200",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "game": "NFL-26OCT01PITCLE",
+   "start": "2026-10-02T00:15:00.000Z",
+   "liveVolume": 53489.17,
+   "livePnl": -11631.4541,
+   "volume": 77938.67,
+   "trades": 1232,
+   "makerPnl": -21792.2174,
+   "makerPnlPerContract": -0.2796,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0015
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT01PITCLE-PITARODGERS8-225",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "game": "NFL-26OCT01PITCLE",
+   "start": "2026-10-02T00:15:00.000Z",
+   "liveVolume": 89554.88,
+   "livePnl": -3443.0617,
+   "volume": 177104.78,
+   "trades": 2845,
+   "makerPnl": -38187.9367,
+   "makerPnlPerContract": -0.2156,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0015
+  },
+  {
+   "ticker": "KXNASCARRACE-FOCH100326-JUAL",
+   "sport": "NASCARRACE",
+   "kind": "NASCARRACE",
+   "game": "NASCARRACE-FOCH100326",
+   "start": "2026-10-03T23:30:00.000Z",
+   "liveVolume": 13088.85,
+   "livePnl": 948.9591,
+   "volume": 36073.43,
+   "trades": 624,
+   "makerPnl": 5417.0447,
+   "makerPnlPerContract": 0.1502,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0007
+  },
+  {
+   "ticker": "KXNFLREC-26OCT01PITCLE-PITJWARREN30-2",
+   "sport": "NFL",
+   "kind": "REC",
+   "game": "NFL-26OCT01PITCLE",
+   "start": "2026-10-02T00:15:00.000Z",
+   "liveVolume": 698.35,
+   "livePnl": 22.272,
+   "volume": 1649.81,
+   "trades": 53,
+   "makerPnl": -123.984,
+   "makerPnlPerContract": -0.0752,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0006
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT01PITCLE-PITARODGERS8-150",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "game": "NFL-26OCT01PITCLE",
+   "start": "2026-10-02T00:15:00.000Z",
+   "liveVolume": 14609.5,
+   "livePnl": -112.3596,
+   "volume": 34197.84,
+   "trades": 495,
+   "makerPnl": -1256.1854,
+   "makerPnlPerContract": -0.0367,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0005
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT01PITCLE-CLEDWATSON4-150",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "game": "NFL-26OCT01PITCLE",
+   "start": "2026-10-02T00:15:00.000Z",
+   "liveVolume": 6788.26,
+   "livePnl": -544.2285,
+   "volume": 21622.31,
+   "trades": 296,
+   "makerPnl": -2344.2726,
+   "makerPnlPerContract": -0.1084,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0005
+  },
+  {
+   "ticker": "KXNFLREC-26OCT01PITCLE-CLEHFANNIN44-2",
+   "sport": "NFL",
+   "kind": "REC",
+   "game": "NFL-26OCT01PITCLE",
+   "start": "2026-10-02T00:15:00.000Z",
+   "liveVolume": 648.6,
+   "livePnl": 43.4551,
+   "volume": 1297.78,
+   "trades": 97,
+   "makerPnl": -4.5731,
+   "makerPnlPerContract": -0.0035,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0005
+  },
+  {
+   "ticker": "KXWTAGTOTAL-26OCT03BARSAB-16",
+   "sport": "WTA",
+   "kind": "GTOTAL",
+   "game": "WTA-26OCT03BARSAB",
+   "start": "2026-10-04T03:00:00.000Z",
+   "liveVolume": 51.46,
+   "livePnl": -0.5246,
+   "volume": 51.46,
+   "trades": 5,
+   "makerPnl": -0.5246,
+   "makerPnlPerContract": -0.0102,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0001
+  },
+  {
+   "ticker": "KXWTAGTOTAL-26OCT03KRAYAS-17",
+   "sport": "WTA",
+   "kind": "GTOTAL",
+   "game": "WTA-26OCT03KRAYAS",
+   "start": "2026-10-04T03:00:00.000Z",
+   "liveVolume": 2188,
+   "livePnl": 311.82,
+   "volume": 2188,
+   "trades": 26,
+   "makerPnl": 311.82,
+   "makerPnlPerContract": 0.1425,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0.0001
+  },
+  {
+   "ticker": "KXNFLREC-26OCT01PITCLE-PITDMETCALF4-2",
+   "sport": "NFL",
+   "kind": "REC",
+   "game": "NFL-26OCT01PITCLE",
+   "start": "2026-10-02T00:15:00.000Z",
+   "liveVolume": 1422.53,
+   "livePnl": 7.0912,
+   "volume": 5393.19,
+   "trades": 58,
+   "makerPnl": 395.2116,
+   "makerPnlPerContract": 0.0733,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0
+  },
+  {
+   "ticker": "KXNFLPASSYDS-26OCT01PITCLE-CLEDWATSON4-125",
+   "sport": "NFL",
+   "kind": "PASSYDS",
+   "game": "NFL-26OCT01PITCLE",
+   "start": "2026-10-02T00:15:00.000Z",
+   "liveVolume": 3555.65,
+   "livePnl": -108.651,
+   "volume": 8931.41,
+   "trades": 202,
+   "makerPnl": -890.921,
+   "makerPnlPerContract": -0.0998,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0
+  },
+  {
+   "ticker": "KXNFLRECYDS-26OCT01PITCLE-CLEHFANNIN44-15",
+   "sport": "NFL",
+   "kind": "RECYDS",
+   "game": "NFL-26OCT01PITCLE",
+   "start": "2026-10-02T00:15:00.000Z",
+   "liveVolume": 3872.46,
+   "livePnl": -97.5689,
+   "volume": 7754.56,
+   "trades": 153,
+   "makerPnl": -569.3023,
+   "makerPnlPerContract": -0.0734,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0
+  },
+  {
+   "ticker": "KXNFLRSHYDS-26OCT01PITCLE-PITJWARREN30-40",
+   "sport": "NFL",
+   "kind": "RSHYDS",
+   "game": "NFL-26OCT01PITCLE",
+   "start": "2026-10-02T00:15:00.000Z",
+   "liveVolume": 2887.93,
+   "livePnl": -64.8725,
+   "volume": 13393.58,
+   "trades": 238,
+   "makerPnl": -194.7835,
+   "makerPnlPerContract": -0.0145,
+   "rebate": {
+    "hi": 0,
+    "k3": 0,
+    "lo": 0
+   },
+   "poolK3": 0
+  }
+ ]
+}

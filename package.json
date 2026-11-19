@@ -1,0 +1,27 @@
+{
+  "name": "@red-cup-engineering/web3-gambling-platform-engineering-services-section",
+  "version": "0.1.3-dev.0",
+  "type": "module",
+  "description": "Web3 gambling platform services: the venue-independent order-placement-admission mechanism shared by sovereign venue-access settlements: polymarket-engineering-services-section here, and kalshi-engineering-services-section under computer-financial-systems-engineering-services-section.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/web3-gambling-platform-engineering-services-section.git"
+  },
+  "license": "MIT",
+  "exports": {
+    "./orders": "./scripts/orders.mjs",
+    "./package.json": "./package.json"
+  },
+  "private": false,
+  "files": [
+    "package.json",
+    "README*",
+    "LICENSE*",
+    "scripts",
+    "lib/agency/skills"
+  ],
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
+}

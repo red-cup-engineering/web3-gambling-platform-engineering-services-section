@@ -1,0 +1,8 @@
+{
+  "id": "forecasting-weather-markets",
+  "name": "forecast and score Kalshi weather markets",
+  "from": "National Weather Service forecasts and Kalshi's open and settled weather markets",
+  "to": "a daily house forecast per market and one calibration row per settled forecast",
+  "cost": "API reads",
+  "otherwise": "the stake path has no calibration record and never finds an edge"
+}

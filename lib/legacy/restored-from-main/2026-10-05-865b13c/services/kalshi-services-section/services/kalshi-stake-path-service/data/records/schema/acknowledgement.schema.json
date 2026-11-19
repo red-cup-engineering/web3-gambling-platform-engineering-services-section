@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://registry.561.group/@red-cup-engineering/kalshi-stake-path-service/data/records/schema/acknowledgement.schema.json",
+  "title": "KalshiStakeAcknowledgement",
+  "description": "The venue's own response to one live-mode order call through @red-cup-engineering/kalshi-services-section's existing src/client.mjs createOrder -- never a second execution path.",
+  "type": "object",
+  "required": ["type", "version", "intentId", "order", "venueResponse", "recordedAt"],
+  "additionalProperties": false,
+  "properties": {
+    "type": { "const": "KalshiStakeAcknowledgement" },
+    "version": { "const": 1 },
+    "intentId": { "type": "string", "minLength": 1 },
+    "order": { "type": "object" },
+    "venueResponse": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": { "type": "string", "enum": ["Accept", "Reject"] },
+        "object": { "type": "object" },
+        "code": { "type": "string" },
+        "detail": { "type": "string" },
+        "venueWrite": { "type": "boolean" }
+      }
+    },
+    "recordedAt": { "type": "string", "format": "date-time" }
+  }
+}
