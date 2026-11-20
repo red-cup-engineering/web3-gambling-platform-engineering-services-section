@@ -14,13 +14,13 @@
 export function createPlaceOrder(activation, { place, credentials } = {}) {
   return async function placeOrder(request, options = {}) {
     if (activation.orderExecution !== 'live') {
-      return rejection('activation-refused', `order execution is ${activation.orderExecution}`);
+      return refusal('activation-refused', `order execution is ${activation.orderExecution}`);
     }
     const missing = activation.requiredEnvironment.filter((name) => !process.env[name]);
-    if (missing.length > 0) return rejection('credentials-absent', `missing environment: ${missing.join(', ')}; account setup: ${(activation.accountSetup ?? []).join('; ')}`);
-    if (typeof place !== 'function' || typeof credentials !== 'function') return rejection('venue-client-unbound', 'no venue placer is bound to this activation');
+    if (missing.length > 0) return refusal('credentials-absent', `missing environment: ${missing.join(', ')}; account setup: ${(activation.accountSetup ?? []).join('; ')}`);
+    if (typeof place !== 'function' || typeof credentials !== 'function') return refusal('venue-client-unbound', 'no venue placer is bound to this activation');
     return place({ ...request, activation: { orderExecution: 'live', credentials: credentials(process.env) } }, options);
   };
 }
 
-const rejection = (code, detail) => ({ type: 'Reject', code, detail, venueWrite: false });
+const refusal = (code, detail) => ({ type: 'Reject', code, detail, venueWrite: false });
