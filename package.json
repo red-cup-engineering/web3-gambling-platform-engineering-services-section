@@ -17,6 +17,6 @@
     "README*",
     "LICENSE*",
     "scripts",
-    "lib/agency/skills"
+    "data/records/agent-records/skills"
   ]
 }
