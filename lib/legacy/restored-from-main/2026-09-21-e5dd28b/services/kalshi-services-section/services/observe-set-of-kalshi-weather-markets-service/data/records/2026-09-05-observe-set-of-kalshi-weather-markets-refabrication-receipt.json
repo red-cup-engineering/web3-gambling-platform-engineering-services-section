@@ -1,0 +1,36 @@
+{
+  "kind": "jsnode.fabrication-receipt",
+  "packageName": "@red-cup-engineering/observe-set-of-kalshi-weather-markets-service",
+  "packageVersion": "0.2.0",
+  "priorVersion": "0.1.0",
+  "changeKind": "additive",
+  "changeSummary": "Adds a `result` field (Kalshi's own settled yes/no verbatim, null before settlement) to KalshiWeatherMarketObservation, discovered as a genuine gap while wiring the score command of forecast-weather-markets-cli.mjs: a settled market's last traded price does not reliably converge to 0/1, so scoring needs Kalshi's own result field rather than a price-based proxy.",
+  "sourceDigest": "sha256:8e193442b0c56c2a849e567f51909b08da931dcdb164797d888d24c3a5b1692a",
+  "specificationDigest": "sha256:b81826d777bbb55e2045b2496ba120f5508954a43586d1b80d6d9a95ea215148",
+  "fabricatedIntoScratchDestination": "lot-k-refab/observe-set-of-kalshi-weather-markets-service (scratchpad, per the DESTINATION_EXISTS refabrication procedure)",
+  "copiedOver": ["package.json", "README.md", "scripts/", "test/"],
+  "workOrder": "content/text/documents/specifications/observe-set-of-kalshi-weather-markets-work-order.md",
+  "assays": [
+    {"name": "syntax", "status": "passed"},
+    {"name": "the-rule", "status": "passed", "scripts": 1, "lines": 124},
+    {"name": "tests", "status": "passed", "paths": ["test/observe-set-of-kalshi-weather-markets-faces.test.mjs", "test/observe-set-of-kalshi-weather-markets.test.mjs"]},
+    {"name": "pack", "status": "passed", "filename": "red-cup-engineering-observe-set-of-kalshi-weather-markets-service-0.2.0.tgz", "digest": "sha256:0a35a38bb2cdf1214ef4583f01dc2ba8181d9442ca80a33d0f244572dc9f892a"},
+    {"name": "clean-installation", "status": "passed", "javascriptFiles": 1, "reachableJavascriptFiles": 1},
+    {"name": "import-face", "status": "passed", "examples": 2},
+    {"name": "command-face", "status": "passed", "examples": 2},
+    {"name": "help", "status": "passed"}
+  ],
+  "registryPublication": {
+    "registry": "https://registry.561.group",
+    "tarballDiffClassification": "first-publish",
+    "journalReceiptId": "ni:///sha-256;Hj8NvnXWpJ0Jx-GIL575jqXNzE_r5JTJf9yzbpx2h2c"
+  },
+  "freshInstallVerification": {
+    "command": "npm test",
+    "registryUsed": "https://registry.561.group",
+    "testsRun": 10,
+    "testsPassed": 10,
+    "testsFailed": 0
+  },
+  "recordedAt": "2026-09-05T00:00:00Z"
+}

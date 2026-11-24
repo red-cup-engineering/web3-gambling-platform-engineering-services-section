@@ -1,0 +1,1595 @@
+{
+ "report": {
+  "generatedAt": "2026-10-04T04:58:16.838Z",
+  "margin": 0.01,
+  "nRfqs": 27759,
+  "nPriced": 27511,
+  "nTradesRaw": 7840,
+  "nTradesMatched": 5640,
+  "nSettledMatched": 91,
+  "fitClasses": 107,
+  "rfqCostQuantiles": {
+   "0.1": 2,
+   "0.25": 10,
+   "0.5": 10,
+   "0.75": 22,
+   "0.9": 102,
+   "0.99": 1000
+  },
+  "rfqLegCountMedian": 6,
+  "rfqCrossEvent": {
+   "independent": 20083,
+   "correlated": 7428
+  },
+  "makerCollateral": {
+   "median": 83.82981,
+   "p90": 1096.06896,
+   "fitIn": {
+    "25": 0.2854609929078014,
+    "100": 0.5301418439716312,
+    "300": 0.7363475177304964
+   }
+  },
+  "takerCost": {
+   "median": 9.340650000000002,
+   "p90": 95.60792
+  },
+  "bySensitivity": {
+   "0": {
+    "wouldWin": 1154,
+    "wouldWinFrac": 0.20460992907801417,
+    "modelEvPerContract": 0.03813432738812203,
+    "modelEvPerCollateral": 0.05145684067886664,
+    "allTradesModelEvPerCollateral": 0.004350064537815095,
+    "settledWin": 55,
+    "realisedEvPerCollateral": -0.042721970016545145
+   },
+   "1": {
+    "wouldWin": 1126,
+    "wouldWinFrac": 0.199645390070922,
+    "modelEvPerContract": 0.03754424476812112,
+    "modelEvPerCollateral": 0.05173697914229241,
+    "allTradesModelEvPerCollateral": 0.004206809416289062,
+    "settledWin": 55,
+    "realisedEvPerCollateral": -0.042721970016545145
+   },
+   "2": {
+    "wouldWin": 1083,
+    "wouldWinFrac": 0.1920212765957447,
+    "modelEvPerContract": 0.0376975744332128,
+    "modelEvPerCollateral": 0.05434037239639146,
+    "allTradesModelEvPerCollateral": 0.0040277243984989265,
+    "settledWin": 55,
+    "realisedEvPerCollateral": -0.042721970016545145
+   },
+   "0.5": {
+    "wouldWin": 1144,
+    "wouldWinFrac": 0.2028368794326241,
+    "modelEvPerContract": 0.037692608094180215,
+    "modelEvPerCollateral": 0.05192959246213521,
+    "allTradesModelEvPerCollateral": 0.004279591108750932,
+    "settledWin": 55,
+    "realisedEvPerCollateral": -0.042721970016545145
+   },
+   "1.5": {
+    "wouldWin": 1110,
+    "wouldWinFrac": 0.19680851063829788,
+    "modelEvPerContract": 0.037443107133516125,
+    "modelEvPerCollateral": 0.053635093752316745,
+    "allTradesModelEvPerCollateral": 0.004120120805669216,
+    "settledWin": 55,
+    "realisedEvPerCollateral": -0.042721970016545145
+   }
+  },
+  "realisedAllTrades": {
+   "n": 91,
+   "clusters": 39,
+   "collateral": 5503.949341999999,
+   "pnl": 17.64065800000003,
+   "evPerCollateral": 0.003205090909065281,
+   "ci95": [
+    -0.08825130050963848,
+    0.09466148232776903
+   ]
+  },
+  "realisedWouldWinFit": {
+   "n": 55,
+   "clusters": 24,
+   "collateral": 1827.0449599999997,
+   "pnl": -78.05496,
+   "evPerCollateral": -0.04272197001654519,
+   "ci95": [
+    -0.32912631178841867,
+    0.24368237175532828
+   ]
+  },
+  "realisedWouldWinIndependent": {
+   "n": 55,
+   "clusters": 24,
+   "collateral": 1827.0449599999997,
+   "pnl": -78.05496,
+   "evPerCollateral": -0.04272197001654519,
+   "ci95": [
+    -0.32912631178841867,
+    0.24368237175532828
+   ]
+  },
+  "byCorrelated": {
+   "correlated": 1062,
+   "independent": 4578
+  },
+  "takerSideYesFrac": 0.8891843971631206,
+  "medianTakerPrice": 0.08,
+  "calibration": {
+   "nSettledRfqs": 399,
+   "meanFair": 0.2822238872101278,
+   "meanOutcome": 0.3233082706766917,
+   "brierFitted": 0.1030367220549699,
+   "brierIndependent": 0.10303672205494076
+  }
+ },
+ "sample": [
+  {
+   "ticker": "KXMVECROSSCATEGORY-S2026B53D72ACD3A-9EBD4B57B22",
+   "t": 1791087591592,
+   "y": 0.27,
+   "c": 17.61,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.2531807402406716,
+    "1": 0.2531807402406716,
+    "2": 0.2531807402406716,
+    "0.5": 0.2531807402406716,
+    "1.5": 0.2531807402406716
+   },
+   "nLegs": 6,
+   "rfqCost": null,
+   "rfqContracts": 500.72,
+   "correlated": false,
+   "makerCollateral": 12.8553,
+   "takerCost": 4.754700000000001,
+   "sports": "NCAAF",
+   "verdicts": [
+    "glued",
+    "glued",
+    "glued",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S2026F830A5F8201-64CF1D15845",
+   "t": 1791087591581,
+   "y": 0.572,
+   "c": 12.3,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.5431606119402985,
+    "1": 0.5431606119402985,
+    "2": 0.5431606119402985,
+    "0.5": 0.5431606119402985,
+    "1.5": 0.5431606119402985
+   },
+   "nLegs": 4,
+   "rfqCost": 10,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 5.264400000000001,
+   "takerCost": 7.0356,
+   "sports": "NCAAF",
+   "verdicts": [
+    "glued",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20262399CF1024B-A6E23ECB078",
+   "t": 1791087590572,
+   "y": 0.089,
+   "c": 66.1,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.08235941706378383,
+    "1": 0.08235941706378383,
+    "2": 0.08235941706378383,
+    "0.5": 0.08235941706378383,
+    "1.5": 0.08235941706378383
+   },
+   "nLegs": 8,
+   "rfqCost": 150,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 60.217099999999995,
+   "takerCost": 5.882899999999999,
+   "sports": "ATP+WTA",
+   "verdicts": [
+    "dutch-book",
+    "glued",
+    "glued",
+    "glued",
+    "tension",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S2026BC41FBC31AE-4DD2890A619",
+   "t": 1791087590566,
+   "y": 0.016,
+   "c": 697.67,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.012640330666045889,
+    "1": 0.012640330666046083,
+    "2": 0.012640330666046083,
+    "0.5": 0.012640330666046083,
+    "1.5": 0.012640330666046083
+   },
+   "nLegs": 7,
+   "rfqCost": 12,
+   "rfqContracts": 0,
+   "correlated": true,
+   "makerCollateral": 686.5072799999999,
+   "takerCost": 11.16272,
+   "sports": "INTLFRIENDLY",
+   "verdicts": [
+    "dutch-book",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20260AD146E3C38-023C207B0EE",
+   "t": 1791087590560,
+   "y": 0.172,
+   "c": 0.06,
+   "takerYes": false,
+   "win": null,
+   "fair": {
+    "0": 0.177325,
+    "1": 0.177325,
+    "2": 0.177325,
+    "0.5": 0.177325,
+    "1.5": 0.177325
+   },
+   "nLegs": 2,
+   "rfqCost": null,
+   "rfqContracts": 199.29,
+   "correlated": false,
+   "makerCollateral": 0.01032,
+   "takerCost": 0.04968,
+   "sports": "NCAAF",
+   "verdicts": [
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20262399CF1024B-A6E23ECB078",
+   "t": 1791087590560,
+   "y": 0.089,
+   "c": 105.59,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.08235941706378383,
+    "1": 0.08235941706378383,
+    "2": 0.08235941706378383,
+    "0.5": 0.08235941706378383,
+    "1.5": 0.08235941706378383
+   },
+   "nLegs": 8,
+   "rfqCost": 150,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 96.19249,
+   "takerCost": 9.39751,
+   "sports": "ATP+WTA",
+   "verdicts": [
+    "dutch-book",
+    "glued",
+    "glued",
+    "glued",
+    "tension",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20262399CF1024B-A6E23ECB078",
+   "t": 1791087589551,
+   "y": 0.088,
+   "c": 106.72,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.08235941706378383,
+    "1": 0.08235941706378383,
+    "2": 0.08235941706378383,
+    "0.5": 0.08235941706378383,
+    "1.5": 0.08235941706378383
+   },
+   "nLegs": 8,
+   "rfqCost": 150,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 97.32864000000001,
+   "takerCost": 9.391359999999999,
+   "sports": "ATP+WTA",
+   "verdicts": [
+    "dutch-book",
+    "glued",
+    "glued",
+    "glued",
+    "tension",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S202632FB401F18D-9B046730F61",
+   "t": 1791087588559,
+   "y": 0.407,
+   "c": 1179.52,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.36607762499999996,
+    "1": 0.36607762499999996,
+    "2": 0.36607762499999996,
+    "0.5": 0.36607762499999996,
+    "1.5": 0.36607762499999996
+   },
+   "nLegs": 3,
+   "rfqCost": 500,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 699.4553599999999,
+   "takerCost": 480.06463999999994,
+   "sports": "NCAAF",
+   "verdicts": [
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20264C263E6F093-48F99276243",
+   "t": 1791087588556,
+   "y": 0.111,
+   "c": 127.11,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.09495414143214613,
+    "1": 0.09938165769743826,
+    "2": 0.10397819885581419,
+    "0.5": 0.09715185892040631,
+    "1.5": 0.10165307290054955
+   },
+   "nLegs": 8,
+   "rfqCost": 15,
+   "rfqContracts": 0,
+   "correlated": true,
+   "makerCollateral": 113.00079,
+   "takerCost": 14.109210000000001,
+   "sports": "NFL",
+   "verdicts": []
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20268D553A9CEEB-4A1E4E5F585",
+   "t": 1791087588550,
+   "y": 0.017,
+   "c": 0.54,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.015699316352938458,
+    "1": 0.015699316352938458,
+    "2": 0.015699316352938458,
+    "0.5": 0.015699316352938458,
+    "1.5": 0.015699316352938458
+   },
+   "nLegs": 8,
+   "rfqCost": 1,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 0.5308200000000001,
+   "takerCost": 0.00918,
+   "sports": "ATP",
+   "verdicts": [
+    "tension",
+    "tension",
+    "tension",
+    "glued",
+    "glued",
+    "glued",
+    "tension",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20268D553A9CEEB-4A1E4E5F585",
+   "t": 1791087588543,
+   "y": 0.017,
+   "c": 54.94,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.015699316352938458,
+    "1": 0.015699316352938458,
+    "2": 0.015699316352938458,
+    "0.5": 0.015699316352938458,
+    "1.5": 0.015699316352938458
+   },
+   "nLegs": 8,
+   "rfqCost": 1,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 54.00602,
+   "takerCost": 0.93398,
+   "sports": "ATP",
+   "verdicts": [
+    "tension",
+    "tension",
+    "tension",
+    "glued",
+    "glued",
+    "glued",
+    "tension",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20262399CF1024B-A6E23ECB078",
+   "t": 1791087587592,
+   "y": 0.089,
+   "c": 253.43,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.08235941706378383,
+    "1": 0.08235941706378383,
+    "2": 0.08235941706378383,
+    "0.5": 0.08235941706378383,
+    "1.5": 0.08235941706378383
+   },
+   "nLegs": 8,
+   "rfqCost": 150,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 230.87473000000003,
+   "takerCost": 22.55527,
+   "sports": "ATP+WTA",
+   "verdicts": [
+    "dutch-book",
+    "glued",
+    "glued",
+    "glued",
+    "tension",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S202685F7C1A5FD4-C4DF9EFB8DB",
+   "t": 1791087587584,
+   "y": 0.05,
+   "c": 93.63,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.04695726638896875,
+    "1": 0.04695726638896875,
+    "2": 0.04695726638896875,
+    "0.5": 0.04695726638896875,
+    "1.5": 0.04695726638896875
+   },
+   "nLegs": 6,
+   "rfqCost": 10,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 88.9485,
+   "takerCost": 4.6815,
+   "sports": "NCAAF",
+   "verdicts": []
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20262399CF1024B-A6E23ECB078",
+   "t": 1791087587562,
+   "y": 0.088,
+   "c": 1.06,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.08235941706378383,
+    "1": 0.08235941706378383,
+    "2": 0.08235941706378383,
+    "0.5": 0.08235941706378383,
+    "1.5": 0.08235941706378383
+   },
+   "nLegs": 8,
+   "rfqCost": 150,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 0.9667200000000001,
+   "takerCost": 0.09328,
+   "sports": "ATP+WTA",
+   "verdicts": [
+    "dutch-book",
+    "glued",
+    "glued",
+    "glued",
+    "tension",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S2026B5BA900458B-DA32066563E",
+   "t": 1791087586569,
+   "y": 0.052,
+   "c": 17,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.058725000000000006,
+    "1": 0.058725000000000006,
+    "2": 0.058725000000000006,
+    "0.5": 0.058725000000000006,
+    "1.5": 0.058725000000000006
+   },
+   "nLegs": 2,
+   "rfqCost": 1.25,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 16.116,
+   "takerCost": 0.884,
+   "sports": "NCAAF",
+   "verdicts": [
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S202613455BEC831-9F476671AC9",
+   "t": 1791087586558,
+   "y": 0.289,
+   "c": 1647.98,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.28885,
+    "1": 0.28885,
+    "2": 0.28885,
+    "0.5": 0.28885,
+    "1.5": 0.28885
+   },
+   "nLegs": 2,
+   "rfqCost": 5,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 1171.71378,
+   "takerCost": 476.26622,
+   "sports": "NCAAF",
+   "verdicts": []
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S2026F830A5F8201-64CF1D15845",
+   "t": 1791087585547,
+   "y": 0.57,
+   "c": 17.02,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.5431606119402985,
+    "1": 0.5431606119402985,
+    "2": 0.5431606119402985,
+    "0.5": 0.5431606119402985,
+    "1.5": 0.5431606119402985
+   },
+   "nLegs": 4,
+   "rfqCost": 1.34,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 7.318600000000001,
+   "takerCost": 9.7014,
+   "sports": "NCAAF",
+   "verdicts": [
+    "glued",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S2026FD22A0ED416-2E4F639CCE2",
+   "t": 1791087585537,
+   "y": 0.037,
+   "c": 50.63,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.033894231797753346,
+    "1": 0.033894231797753346,
+    "2": 0.033894231797753346,
+    "0.5": 0.033894231797753346,
+    "1.5": 0.033894231797753346
+   },
+   "nLegs": 10,
+   "rfqCost": 1,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 48.75669,
+   "takerCost": 1.87331,
+   "sports": "ATP+WTA",
+   "verdicts": [
+    "glued",
+    "tension",
+    "dutch-book",
+    "glued",
+    "glued",
+    "tension",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S202622B6EF23BCA-EA271D09457",
+   "t": 1791087584544,
+   "y": 0.0051,
+   "c": 18.18,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.004368287058043456,
+    "1": 0.004368287058043456,
+    "2": 0.004368287058043456,
+    "0.5": 0.004368287058043456,
+    "1.5": 0.004368287058043456
+   },
+   "nLegs": 11,
+   "rfqCost": 0.1,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 18.087282,
+   "takerCost": 0.09271800000000001,
+   "sports": "ATP+NBA+WTA",
+   "verdicts": [
+    "tension",
+    "glued",
+    "tension",
+    "glued",
+    "tension",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S2026B53D72ACD3A-9EBD4B57B22",
+   "t": 1791087584536,
+   "y": 0.264,
+   "c": 72.02,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.2531807402406716,
+    "1": 0.2531807402406716,
+    "2": 0.2531807402406716,
+    "0.5": 0.2531807402406716,
+    "1.5": 0.2531807402406716
+   },
+   "nLegs": 6,
+   "rfqCost": null,
+   "rfqContracts": 10.79,
+   "correlated": false,
+   "makerCollateral": 53.006719999999994,
+   "takerCost": 19.013279999999998,
+   "sports": "NCAAF",
+   "verdicts": [
+    "glued",
+    "glued",
+    "glued",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20260AD146E3C38-023C207B0EE",
+   "t": 1791087582548,
+   "y": 0.178,
+   "c": 10.62,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.177325,
+    "1": 0.177325,
+    "2": 0.177325,
+    "0.5": 0.177325,
+    "1.5": 0.177325
+   },
+   "nLegs": 2,
+   "rfqCost": 10,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 8.72964,
+   "takerCost": 1.8903599999999998,
+   "sports": "NCAAF",
+   "verdicts": [
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20262399CF1024B-A6E23ECB078",
+   "t": 1791087582546,
+   "y": 0.088,
+   "c": 74.7,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.08235941706378383,
+    "1": 0.08235941706378383,
+    "2": 0.08235941706378383,
+    "0.5": 0.08235941706378383,
+    "1.5": 0.08235941706378383
+   },
+   "nLegs": 8,
+   "rfqCost": 15,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 68.1264,
+   "takerCost": 6.5736,
+   "sports": "ATP+WTA",
+   "verdicts": [
+    "dutch-book",
+    "glued",
+    "glued",
+    "glued",
+    "tension",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S202608466FBAB7F-4DD2A36A442",
+   "t": 1791087581579,
+   "y": 0.015,
+   "c": 621.11,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.006303932578125001,
+    "1": 0.0074658816098687525,
+    "2": 0.008722443993398254,
+    "0.5": 0.006873166721557392,
+    "1.5": 0.008082246214253299
+   },
+   "nLegs": 5,
+   "rfqCost": 10,
+   "rfqContracts": 0,
+   "correlated": true,
+   "makerCollateral": 611.79335,
+   "takerCost": 9.31665,
+   "sports": "NFL",
+   "verdicts": []
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY0-S2026C505FC8A9A5-2062A7F47AA",
+   "t": 1791087580538,
+   "y": 0.076,
+   "c": 555.55,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.07576153719900351,
+    "1": 0.07576153719900351,
+    "2": 0.07576153719900351,
+    "0.5": 0.07576153719900351,
+    "1.5": 0.07576153719900351
+   },
+   "nLegs": 7,
+   "rfqCost": 10,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 513.3282,
+   "takerCost": 42.221799999999995,
+   "sports": "NFL",
+   "verdicts": [
+    "glued",
+    "glued",
+    "tension",
+    "glued",
+    "glued",
+    "tension",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S2026295109C534A-3F1C08BFB1E",
+   "t": 1791087579544,
+   "y": 0.055,
+   "c": 3694.37,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.05229718190761275,
+    "1": 0.05229718190761275,
+    "2": 0.05229718190761275,
+    "0.5": 0.05229718190761275,
+    "1.5": 0.05229718190761275
+   },
+   "nLegs": 8,
+   "rfqCost": 216.86,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 3491.1796499999996,
+   "takerCost": 203.19035,
+   "sports": "MLB+NFL+NHL+WTA",
+   "verdicts": [
+    "glued",
+    "glued",
+    "tension",
+    "glued",
+    "tension",
+    "glued",
+    "glued",
+    "tension"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20262399CF1024B-A6E23ECB078",
+   "t": 1791087579544,
+   "y": 0.088,
+   "c": 21.34,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.08235941706378383,
+    "1": 0.08235941706378383,
+    "2": 0.08235941706378383,
+    "0.5": 0.08235941706378383,
+    "1.5": 0.08235941706378383
+   },
+   "nLegs": 8,
+   "rfqCost": 15,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 19.46208,
+   "takerCost": 1.8779199999999998,
+   "sports": "ATP+WTA",
+   "verdicts": [
+    "dutch-book",
+    "glued",
+    "glued",
+    "glued",
+    "tension",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20262399CF1024B-A6E23ECB078",
+   "t": 1791087579541,
+   "y": 0.086,
+   "c": 14.19,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.08235941706378383,
+    "1": 0.08235941706378383,
+    "2": 0.08235941706378383,
+    "0.5": 0.08235941706378383,
+    "1.5": 0.08235941706378383
+   },
+   "nLegs": 8,
+   "rfqCost": 15,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 12.96966,
+   "takerCost": 1.2203399999999998,
+   "sports": "ATP+WTA",
+   "verdicts": [
+    "dutch-book",
+    "glued",
+    "glued",
+    "glued",
+    "tension",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S2026B9078434664-BF8C6AD46E5",
+   "t": 1791087578549,
+   "y": 0.012,
+   "c": 232.55,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.010265305072985044,
+    "1": 0.010265305072985044,
+    "2": 0.010265305072985044,
+    "0.5": 0.010265305072985044,
+    "1.5": 0.010265305072985044
+   },
+   "nLegs": 13,
+   "rfqCost": 3,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 229.7594,
+   "takerCost": 2.7906000000000004,
+   "sports": "INTLFRIENDLY+LALIGA2+UEFANL+URYPDGAME+USL",
+   "verdicts": [
+    "dutch-book",
+    "glued",
+    "glued",
+    "glued",
+    "tension",
+    "glued",
+    "glued",
+    "glued",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20265A105721E31-A186EF6E853",
+   "t": 1791087578536,
+   "y": 0.219,
+   "c": 68.22,
+   "takerYes": false,
+   "win": null,
+   "fair": {
+    "0": 0.2291785698529412,
+    "1": 0.2291785698529412,
+    "2": 0.2291785698529412,
+    "0.5": 0.2291785698529412,
+    "1.5": 0.2291785698529412
+   },
+   "nLegs": 4,
+   "rfqCost": 100,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 14.94018,
+   "takerCost": 53.27982,
+   "sports": "ATP+NCAAF+WTA",
+   "verdicts": [
+    "dutch-book",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S2026EA12FD42843-CDD365D5D72",
+   "t": 1791087577556,
+   "y": 0.203,
+   "c": 23.32,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.18562500000000004,
+    "1": 0.18562500000000115,
+    "2": 0.18562500000000115,
+    "0.5": 0.18562500000000115,
+    "1.5": 0.18562500000000115
+   },
+   "nLegs": 2,
+   "rfqCost": 5,
+   "rfqContracts": 0,
+   "correlated": true,
+   "makerCollateral": 18.586039999999997,
+   "takerCost": 4.733960000000001,
+   "sports": "NFL",
+   "verdicts": []
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S2026B53D72ACD3A-9EBD4B57B22",
+   "t": 1791087577551,
+   "y": 0.261,
+   "c": 54.62,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.2531807402406716,
+    "1": 0.2531807402406716,
+    "2": 0.2531807402406716,
+    "0.5": 0.2531807402406716,
+    "1.5": 0.2531807402406716
+   },
+   "nLegs": 6,
+   "rfqCost": null,
+   "rfqContracts": 10.79,
+   "correlated": false,
+   "makerCollateral": 40.36418,
+   "takerCost": 14.25582,
+   "sports": "NCAAF",
+   "verdicts": [
+    "glued",
+    "glued",
+    "glued",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20268D553A9CEEB-4A1E4E5F585",
+   "t": 1791087577545,
+   "y": 0.017,
+   "c": 550,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.015699316352938458,
+    "1": 0.015699316352938458,
+    "2": 0.015699316352938458,
+    "0.5": 0.015699316352938458,
+    "1.5": 0.015699316352938458
+   },
+   "nLegs": 8,
+   "rfqCost": 10,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 540.65,
+   "takerCost": 9.350000000000001,
+   "sports": "ATP",
+   "verdicts": [
+    "tension",
+    "tension",
+    "tension",
+    "glued",
+    "glued",
+    "glued",
+    "tension",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20262399CF1024B-A6E23ECB078",
+   "t": 1791087576561,
+   "y": 0.088,
+   "c": 106.72,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.08235941706378383,
+    "1": 0.08235941706378383,
+    "2": 0.08235941706378383,
+    "0.5": 0.08235941706378383,
+    "1.5": 0.08235941706378383
+   },
+   "nLegs": 8,
+   "rfqCost": 15,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 97.32864000000001,
+   "takerCost": 9.391359999999999,
+   "sports": "ATP+WTA",
+   "verdicts": [
+    "dutch-book",
+    "glued",
+    "glued",
+    "glued",
+    "tension",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20260AD146E3C38-023C207B0EE",
+   "t": 1791087576560,
+   "y": 0.178,
+   "c": 5.31,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.177325,
+    "1": 0.177325,
+    "2": 0.177325,
+    "0.5": 0.177325,
+    "1.5": 0.177325
+   },
+   "nLegs": 2,
+   "rfqCost": 10,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 4.36482,
+   "takerCost": 0.9451799999999999,
+   "sports": "NCAAF",
+   "verdicts": [
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20262399CF1024B-A6E23ECB078",
+   "t": 1791087575584,
+   "y": 0.088,
+   "c": 74.7,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.08235941706378383,
+    "1": 0.08235941706378383,
+    "2": 0.08235941706378383,
+    "0.5": 0.08235941706378383,
+    "1.5": 0.08235941706378383
+   },
+   "nLegs": 8,
+   "rfqCost": 15,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 68.1264,
+   "takerCost": 6.5736,
+   "sports": "ATP+WTA",
+   "verdicts": [
+    "dutch-book",
+    "glued",
+    "glued",
+    "glued",
+    "tension",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S2026F107019D3AD-B7BFC29B05A",
+   "t": 1791087575581,
+   "y": 0.066,
+   "c": 222.15,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.06306672002673523,
+    "1": 0.06306672002673523,
+    "2": 0.06306672002673523,
+    "0.5": 0.06306672002673523,
+    "1.5": 0.06306672002673523
+   },
+   "nLegs": 9,
+   "rfqCost": 15.64,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 207.4881,
+   "takerCost": 14.661900000000001,
+   "sports": "ATP+ITFWMATCH+WTA",
+   "verdicts": [
+    "tension",
+    "glued",
+    "glued",
+    "glued",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20269336639C460-BFA99F88181",
+   "t": 1791087575547,
+   "y": 0.394,
+   "c": 18.18,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.3880962601954497,
+    "1": 0.3880962601954497,
+    "2": 0.3880962601954497,
+    "0.5": 0.3880962601954497,
+    "1.5": 0.3880962601954497
+   },
+   "nLegs": 2,
+   "rfqCost": 7.47,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 11.01708,
+   "takerCost": 7.162920000000001,
+   "sports": "INTLFRIENDLY",
+   "verdicts": [
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20268D553A9CEEB-4A1E4E5F585",
+   "t": 1791087574556,
+   "y": 0.017,
+   "c": 10.98,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.015699316352938458,
+    "1": 0.015699316352938458,
+    "2": 0.015699316352938458,
+    "0.5": 0.015699316352938458,
+    "1.5": 0.015699316352938458
+   },
+   "nLegs": 8,
+   "rfqCost": 10,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 10.79334,
+   "takerCost": 0.18666000000000002,
+   "sports": "ATP",
+   "verdicts": [
+    "tension",
+    "tension",
+    "tension",
+    "glued",
+    "glued",
+    "glued",
+    "tension",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S2026B53D72ACD3A-9EBD4B57B22",
+   "t": 1791087574553,
+   "y": 0.264,
+   "c": 72.02,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.2531807402406716,
+    "1": 0.2531807402406716,
+    "2": 0.2531807402406716,
+    "0.5": 0.2531807402406716,
+    "1.5": 0.2531807402406716
+   },
+   "nLegs": 6,
+   "rfqCost": null,
+   "rfqContracts": 10.79,
+   "correlated": false,
+   "makerCollateral": 53.006719999999994,
+   "takerCost": 19.013279999999998,
+   "sports": "NCAAF",
+   "verdicts": [
+    "glued",
+    "glued",
+    "glued",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20262399CF1024B-A6E23ECB078",
+   "t": 1791087574543,
+   "y": 0.088,
+   "c": 191.46,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.08235941706378383,
+    "1": 0.08235941706378383,
+    "2": 0.08235941706378383,
+    "0.5": 0.08235941706378383,
+    "1.5": 0.08235941706378383
+   },
+   "nLegs": 8,
+   "rfqCost": 15,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 174.61152,
+   "takerCost": 16.84848,
+   "sports": "ATP+WTA",
+   "verdicts": [
+    "dutch-book",
+    "glued",
+    "glued",
+    "glued",
+    "tension",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S2026B53D72ACD3A-9EBD4B57B22",
+   "t": 1791087573562,
+   "y": 0.265,
+   "c": 35.88,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.2531807402406716,
+    "1": 0.2531807402406716,
+    "2": 0.2531807402406716,
+    "0.5": 0.2531807402406716,
+    "1.5": 0.2531807402406716
+   },
+   "nLegs": 6,
+   "rfqCost": null,
+   "rfqContracts": 10.79,
+   "correlated": false,
+   "makerCollateral": 26.3718,
+   "takerCost": 9.5082,
+   "sports": "NCAAF",
+   "verdicts": [
+    "glued",
+    "glued",
+    "glued",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20260AD146E3C38-023C207B0EE",
+   "t": 1791087573537,
+   "y": 0.172,
+   "c": 95.96,
+   "takerYes": false,
+   "win": null,
+   "fair": {
+    "0": 0.177325,
+    "1": 0.177325,
+    "2": 0.177325,
+    "0.5": 0.177325,
+    "1.5": 0.177325
+   },
+   "nLegs": 2,
+   "rfqCost": 10,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 16.505119999999998,
+   "takerCost": 79.45488,
+   "sports": "NCAAF",
+   "verdicts": [
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY0-S202660446471ABD-8B3C54BE3E4",
+   "t": 1791087573537,
+   "y": 0.146,
+   "c": 64.59,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.14572500000000002,
+    "1": 0.14572500000000002,
+    "2": 0.14572500000000002,
+    "0.5": 0.14572500000000002,
+    "1.5": 0.14572500000000002
+   },
+   "nLegs": 2,
+   "rfqCost": 10,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 55.15986,
+   "takerCost": 9.43014,
+   "sports": "NFL",
+   "verdicts": [
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20268D553A9CEEB-4A1E4E5F585",
+   "t": 1791087608571,
+   "y": 0.017,
+   "c": 549.45,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.015699316352938458,
+    "1": 0.015699316352938458,
+    "2": 0.015699316352938458,
+    "0.5": 0.015699316352938458,
+    "1.5": 0.015699316352938458
+   },
+   "nLegs": 8,
+   "rfqCost": 1,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 540.1093500000001,
+   "takerCost": 9.340650000000002,
+   "sports": "ATP",
+   "verdicts": [
+    "tension",
+    "tension",
+    "tension",
+    "glued",
+    "glued",
+    "glued",
+    "tension",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20268D553A9CEEB-4A1E4E5F585",
+   "t": 1791087608552,
+   "y": 0.017,
+   "c": 10.98,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.015699316352938458,
+    "1": 0.015699316352938458,
+    "2": 0.015699316352938458,
+    "0.5": 0.015699316352938458,
+    "1.5": 0.015699316352938458
+   },
+   "nLegs": 8,
+   "rfqCost": 1,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 10.79334,
+   "takerCost": 0.18666000000000002,
+   "sports": "ATP",
+   "verdicts": [
+    "tension",
+    "tension",
+    "tension",
+    "glued",
+    "glued",
+    "glued",
+    "tension",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20262C2FEA6002F-6080C95E655",
+   "t": 1791087608551,
+   "y": 0.044,
+   "c": 319.14,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.02726040116013476,
+    "1": 0.03321100283227557,
+    "2": 0.03954107207150447,
+    "0.5": 0.030187518930434077,
+    "1.5": 0.03632928286877208
+   },
+   "nLegs": 10,
+   "rfqCost": 10,
+   "rfqContracts": 0,
+   "correlated": true,
+   "makerCollateral": 305.09783999999996,
+   "takerCost": 14.042159999999999,
+   "sports": "NFL",
+   "verdicts": []
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S202678B16614852-EFF3E4871DF",
+   "t": 1791087607581,
+   "y": 0.001,
+   "c": 5000,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.00033409986435664607,
+    "1": 0.0003595327913075755,
+    "2": 0.00038586851087087337,
+    "0.5": 0.00034670613104830964,
+    "1.5": 0.0003725850672400624
+   },
+   "nLegs": 11,
+   "rfqCost": 10,
+   "rfqContracts": 0,
+   "correlated": true,
+   "makerCollateral": 4995,
+   "takerCost": 5,
+   "sports": "NFL",
+   "verdicts": []
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20262399CF1024B-A6E23ECB078",
+   "t": 1791087607558,
+   "y": 0.086,
+   "c": 43.01,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.08235941706378383,
+    "1": 0.08235941706378383,
+    "2": 0.08235941706378383,
+    "0.5": 0.08235941706378383,
+    "1.5": 0.08235941706378383
+   },
+   "nLegs": 8,
+   "rfqCost": 35,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 39.31114,
+   "takerCost": 3.6988599999999994,
+   "sports": "ATP+WTA",
+   "verdicts": [
+    "dutch-book",
+    "glued",
+    "glued",
+    "glued",
+    "tension",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20262399CF1024B-A6E23ECB078",
+   "t": 1791087607556,
+   "y": 0.086,
+   "c": 545.85,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.08235941706378383,
+    "1": 0.08235941706378383,
+    "2": 0.08235941706378383,
+    "0.5": 0.08235941706378383,
+    "1.5": 0.08235941706378383
+   },
+   "nLegs": 8,
+   "rfqCost": 35,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 498.90690000000006,
+   "takerCost": 46.9431,
+   "sports": "ATP+WTA",
+   "verdicts": [
+    "dutch-book",
+    "glued",
+    "glued",
+    "glued",
+    "tension",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  },
+  {
+   "ticker": "KXMVECROSSCATEGORY-S20260D20805FF72-97B5EA3025F",
+   "t": 1791087607536,
+   "y": 0.17,
+   "c": 66.57,
+   "takerYes": true,
+   "win": null,
+   "fair": {
+    "0": 0.17005663722903508,
+    "1": 0.17005663722903508,
+    "2": 0.17005663722903508,
+    "0.5": 0.17005663722903508,
+    "1.5": 0.17005663722903508
+   },
+   "nLegs": 10,
+   "rfqCost": 100,
+   "rfqContracts": 0,
+   "correlated": false,
+   "makerCollateral": 55.25309999999999,
+   "takerCost": 11.3169,
+   "sports": "ATP+NCAAF+NHL+WTA",
+   "verdicts": [
+    "glued",
+    "glued",
+    "glued",
+    "dutch-book",
+    "glued",
+    "glued",
+    "glued",
+    "glued"
+   ]
+  }
+ ]
+}

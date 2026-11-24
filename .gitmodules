@@ -1,0 +1,4 @@
+[submodule "services/polymarket-engineering-services-section"]
+	path = services/polymarket-engineering-services-section
+	url = https://github.com/red-cup-engineering/polymarket-engineering-services-section.git
+	branch = main

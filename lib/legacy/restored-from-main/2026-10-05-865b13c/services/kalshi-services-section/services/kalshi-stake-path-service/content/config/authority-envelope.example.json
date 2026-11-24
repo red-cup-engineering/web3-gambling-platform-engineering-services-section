@@ -1,0 +1,26 @@
+{
+  "type": "KalshiStakeAuthorityEnvelope",
+  "version": 1,
+  "venue": "kalshi",
+  "admittedSeries": ["KXHIGHNY", "KXHIGHCHI", "KXHIGHTHOU", "KXDENHIGH"],
+  "perOrderCapUsd": "25",
+  "cumulativeCapUsd": "250",
+  "drawdownFloorFraction": 0.2,
+  "sleeve": {
+    "riskCapital": "250",
+    "survivalCapital": "0"
+  },
+  "expiry": "2027-01-01T00:00:00.000Z",
+  "killPath": "halt-stake-envelope.mjs, run on the cold-red-gate systemd timer alongside the other Kalshi weather-market loops; unarms this file, never asks",
+  "signer": {
+    "host": "cold-red-gate"
+  },
+  "principal": {
+    "actorId": "emsenn",
+    "role": "founder"
+  },
+  "armed": false,
+  "armedAt": null,
+  "haltedAt": null,
+  "haltReason": null
+}
